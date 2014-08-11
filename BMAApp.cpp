@@ -2,7 +2,7 @@
  * Name:      BMAApp.cpp
  * Purpose:   Code for Application Class
  * Author:     ()
- * Created:   2014-08-11
+ * Created:   2014-08-19
  * Copyright:  ()
  * License:
  **************************************************************/
@@ -17,14 +17,28 @@
 
 #include "BMAApp.h"
 #include "BMAMain.h"
+#include "wx/textfile.h"
+#include "wx/file.h"
+#include "wx/string.h"
+#include "wx/stdpaths.h"
+#include "wx/msgdlg.h"
 
 IMPLEMENT_APP(BMAApp);
 
+void CreateBaseFile (void)
+{
+    wxString filename= "test.txt";
+    wxTextFile data_base;
+    data_base.Create(filename);
+    data_base.Open(filename)  ;
+    data_base.Write();
+}
+
 bool BMAApp::OnInit()
 {
-
-    BMADialog* dlg = new BMADialog(0L);
-//    dlg->SetIcon(wxICON(aaaa)); // To Set App Icon
-    dlg -> Show();
+    BMAFrame* frame = new BMAFrame(0L);
+    frame->SetIcon(wxICON(aaaa)); // To Set App Icon
+    frame->Show();
+    CreateBaseFile();
     return true;
 }

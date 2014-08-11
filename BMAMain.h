@@ -2,7 +2,7 @@
  * Name:      BMAMain.h
  * Purpose:   Defines Application Frame
  * Author:     ()
- * Created:   2014-08-11
+ * Created:   2014-08-19
  * Copyright:  ()
  * License:
  **************************************************************/
@@ -15,16 +15,19 @@
 #include "BMAApp.h"
 
 
+#include "GUIFrame.h"
+#include "wx/ribbon/buttonbar.h"
 
-#include "GUIDialog.h"
-
-class BMADialog : public GUIDialog
+class BMAFrame: public GUIFrame
 {
 public:
-    BMADialog(wxDialog *dlg);
-    ~BMADialog();
+    BMAFrame(wxFrame *frame);
+    ~BMAFrame();
 private:
-    virtual void OnClose(wxCloseEvent& event);
-    virtual void OnQuit( wxRibbonButtonBarEvent& event ) ;
+    virtual void OnAddItem(wxRibbonButtonBarEvent& event);
+    virtual void test( wxRibbonButtonBarEvent& event );
+    virtual void OnQuit(wxRibbonButtonBarEvent& event);
+
 };
+
 #endif // BMAMAIN_H

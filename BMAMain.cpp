@@ -2,7 +2,7 @@
  * Name:      BMAMain.cpp
  * Purpose:   Code for Application Frame
  * Author:     ()
- * Created:   2014-08-11
+ * Created:   2014-08-19
  * Copyright:  ()
  * License:
  **************************************************************/
@@ -16,6 +16,7 @@
 #endif //__BORLANDC__
 
 #include "BMAMain.h"
+#include "wx/msgdlg.h"
 
 //helper functions
 enum wxbuildinfoformat
@@ -47,24 +48,32 @@ wxString wxbuildinfo(wxbuildinfoformat format)
     return wxbuild;
 }
 
+BMAFrame::BMAFrame(wxFrame *frame)
+    : GUIFrame(frame)
+{
+#if wxUSE_STATUSBAR
+    statusBar->SetStatusText(_("Hello Code::Blocks user!"), 0);
+    statusBar->SetStatusText(wxbuildinfo(short_f), 1);
+#endif
+}
 
-
-BMADialog::BMADialog(wxDialog *dlg)
-    : GUIDialog(dlg)
+BMAFrame::~BMAFrame()
 {
 }
 
-BMADialog::~BMADialog()
+
+void BMAFrame::OnAddItem(wxRibbonButtonBarEvent& event)
 {
+    wxMessageBox("test");
 }
 
-void BMADialog::OnClose(wxCloseEvent &event)
+
+void BMAFrame::OnQuit(wxRibbonButtonBarEvent& event)
 {
-    Destroy();
+Destroy();
 }
 
-void BMADialog::OnQuit( wxRibbonButtonBarEvent& event )
+void BMAFrame::test( wxRibbonButtonBarEvent& event )
 {
-    Destroy();
-}
 
+}

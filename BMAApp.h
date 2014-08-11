@@ -2,7 +2,7 @@
  * Name:      BMAApp.h
  * Purpose:   Defines Application Class
  * Author:     ()
- * Created:   2014-08-11
+ * Created:   2014-08-19
  * Copyright:  ()
  * License:
  **************************************************************/
