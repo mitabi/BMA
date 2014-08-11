@@ -1,10 +1,15 @@
 # depslib dependency file v1.0
-1407784002 source:d:\cpp\projekty\wxwidgets\bma\bmaapp.cpp
+1408466838 source:d:\cpp\projekty\wxwidgets\bma\bmaapp.cpp
 	"wx_pch.h"
 	"BMAApp.h"
 	"BMAMain.h"
+	"wx/textfile.h"
+	"wx/file.h"
+	"wx/string.h"
+	"wx/stdpaths.h"
+	"wx/msgdlg.h"
 
-1407784575 d:\cpp\projekty\wxwidgets\bma\bmaapp.h
+1408456967 d:\cpp\projekty\wxwidgets\bma\bmaapp.h
 	<wx/app.h>
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\app.h
@@ -77,7 +82,7 @@
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\compiler.h
 
-1402782958 d:\cpp\wxwidgets-3.0.1\lib\gcc_dll\mswu\wx\setup.h
+1402782958 d:\cpp\wxwidgets-3.0.1\lib\gcc_dll\mswud\wx\setup.h
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\wince\libraries.h
 
@@ -1690,30 +1695,32 @@
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\theme.h
 	"wx/string.h"
 
-1407785865 d:\cpp\projekty\wxwidgets\bma\bmamain.h
+1408478902 d:\cpp\projekty\wxwidgets\bma\bmamain.h
 	"BMAApp.h"
-	"GUIDialog.h"
+	"GUIFrame.h"
+	"wx/ribbon/buttonbar.h"
 
-1407785982 d:\cpp\projekty\wxwidgets\bma\guidialog.h
+1408480987 d:\cpp\projekty\wxwidgets\bma\guiframe.h
 	<wx/artprov.h>
 	<wx/xrc/xmlres.h>
 	<wx/string.h>
 	<wx/bitmap.h>
 	<wx/image.h>
 	<wx/icon.h>
-	<wx/ribbon/panel.h>
 	<wx/gdicmn.h>
 	<wx/font.h>
 	<wx/colour.h>
 	<wx/settings.h>
 	<wx/ribbon/buttonbar.h>
+	<wx/ribbon/panel.h>
 	<wx/ribbon/page.h>
 	<wx/ribbon/control.h>
 	<wx/ribbon/art.h>
 	<wx/ribbon/bar.h>
 	<wx/dataview.h>
 	<wx/sizer.h>
-	<wx/dialog.h>
+	<wx/statusbr.h>
+	<wx/frame.h>
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\artprov.h
 	"wx/string.h"
@@ -1771,14 +1778,105 @@
 	"wx/imaglist.h"
 	"wx/window.h"
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ribbon\panel.h
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\menu.h
+	"wx/defs.h"
+	"wx/list.h"
+	"wx/window.h"
+	"wx/menuitem.h"
+	"wx/univ/menu.h"
+	"wx/msw/menu.h"
+	"wx/motif/menu.h"
+	"wx/gtk/menu.h"
+	"wx/gtk1/menu.h"
+	"wx/osx/menu.h"
+	"wx/cocoa/menu.h"
+	"wx/os2/menu.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\menuitem.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/univ/menuitem.h"
+	"wx/msw/menuitem.h"
+	"wx/motif/menuitem.h"
+	"wx/gtk/menuitem.h"
+	"wx/gtk1/menuitem.h"
+	"wx/osx/menuitem.h"
+	"wx/cocoa/menuitem.h"
+	"wx/os2/menuitem.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\menuitem.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\menuitem.h
+	"wx/ownerdrw.h"
+	"wx/bitmap.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ownerdrw.h
+	"wx/defs.h"
+	"wx/font.h"
+	"wx/colour.h"
+	"wx/msw/ownerdrw.h"
+	"wx/os2/ownerdrw.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ownerdrw.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\ownerdrw.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\menuitem.h
+	"wx/bitmap.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\menuitem.h
+	"wx/bitmap.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\menuitem.h
+	"wx/bitmap.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\menuitem.h
 	"wx/defs.h"
 	"wx/bitmap.h"
-	"wx/ribbon/control.h"
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ribbon\control.h
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\menuitem.h
+	"wx/hashmap.h"
+	"wx/bitmap.h"
+	"wx/cocoa/ObjcRef.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\menuitem.h
 	"wx/defs.h"
-	"wx/control.h"
+	"wx/os2/private.h"
+	"wx/ownerdrw.h"
+	"wx/bitmap.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\menu.h
+	"wx/accel.h"
+	"wx/dynarray.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\menu.h
+	"wx/accel.h"
+	"wx/dynarray.h"
+	"wx/arrstr.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\menu.h
+	"wx/colour.h"
+	"wx/font.h"
+	"wx/arrstr.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\menu.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\menu.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\menu.h
+	"wx/arrstr.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\menu.h
+	"wx/cocoa/NSMenu.h"
+	"wx/accel.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\nsmenu.h
+	"wx/hashmap.h"
+	"wx/cocoa/ObjcAssociate.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\menu.h
+	"wx/accel.h"
+	"wx/list.h"
 	"wx/dynarray.h"
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ribbon\buttonbar.h
@@ -1801,318 +1899,42 @@
 	"wx/ribbon/control.h"
 	"wx/ribbon/page.h"
 
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ribbon\control.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/dynarray.h"
+
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ribbon\page.h
 	"wx/defs.h"
 	"wx/ribbon/control.h"
 	"wx/ribbon/panel.h"
 	"wx/bitmap.h"
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\dataview.h
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ribbon\panel.h
 	"wx/defs.h"
-	"wx/textctrl.h"
-	"wx/headercol.h"
-	"wx/variant.h"
-	"wx/dnd.h"
-	"wx/dynarray.h"
-	"wx/icon.h"
-	"wx/itemid.h"
-	"wx/weakref.h"
-	"wx/vector.h"
-	"wx/dataobj.h"
-	"wx/withimages.h"
-	"wx/dvrenderers.h"
-	"wx/generic/dataview.h"
-	"wx/gtk/dataview.h"
-	"wx/osx/dataview.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\textctrl.h
-	"wx/defs.h"
-	"wx/control.h"
-	"wx/textentry.h"
-	"wx/dynarray.h"
-	"wx/gdicmn.h"
-	"wx/ioswrap.h"
-	"wx/x11/textctrl.h"
-	"wx/univ/textctrl.h"
-	"wx/msw/wince/textctrlce.h"
-	"wx/msw/textctrl.h"
-	"wx/motif/textctrl.h"
-	"wx/gtk/textctrl.h"
-	"wx/gtk1/textctrl.h"
-	"wx/osx/textctrl.h"
-	"wx/cocoa/textctrl.h"
-	"wx/os2/textctrl.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\textentry.h
-	"wx/filefn.h"
-	"wx/gdicmn.h"
-	"wx/gtk/textentry.h"
-	"wx/osx/textentry.h"
-	"wx/msw/textentry.h"
-	"wx/motif/textentry.h"
-	"wx/os2/textentry.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\textentry.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\textentry.h
-	"wx/control.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\textentry.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\textentry.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\textentry.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ioswrap.h
-	"wx/beforestd.h"
-	<iostream.h>
-	<iostream>
-	"wx/afterstd.h"
-	"wx/msw/winundef.h"
-
-1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\x11\textctrl.h
-	"wx/univ/textctrl.h"
-	"wx/scrolwin.h"
-	"wx/arrstr.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\textctrl.h
-	"wx/scrolwin.h"
-	"wx/univ/inphand.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\scrolwin.h
-	"wx/panel.h"
-	"wx/gtk/scrolwin.h"
-	"wx/gtk1/scrolwin.h"
-	"wx/generic/scrolwin.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\panel.h
-	"wx/window.h"
-	"wx/containr.h"
-	"wx/univ/panel.h"
-	"wx/msw/panel.h"
-	"wx/generic/panelg.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\containr.h
-	"wx/defs.h"
-	"wx/event.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\panel.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\panel.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\panelg.h
 	"wx/bitmap.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\scrolwin.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\scrolwin.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\scrolwin.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\wince\textctrlce.h
-	"wx/dynarray.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\textctrl.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\textctrl.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\textctrl.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\textctrl.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\textctrl.h
-	"wx/control.h"
-	"wx/textctrl.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\textctrl.h
-	"wx/cocoa/NSTextField.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\nstextfield.h
-	"wx/hashmap.h"
-	"wx/cocoa/ObjcAssociate.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\textctrl.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\headercol.h
-	"wx/bitmap.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\dnd.h
-	"wx/defs.h"
-	"wx/dataobj.h"
-	"wx/cursor.h"
-	"wx/msw/ole/dropsrc.h"
-	"wx/msw/ole/droptgt.h"
-	"wx/motif/dnd.h"
-	"wx/x11/dnd.h"
-	"wx/gtk/dnd.h"
-	"wx/gtk1/dnd.h"
-	"wx/osx/dnd.h"
-	"wx/os2/dnd.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\dataobj.h
-	"wx/defs.h"
-	"wx/string.h"
-	"wx/bitmap.h"
-	"wx/list.h"
-	"wx/arrstr.h"
-	"wx/msw/ole/dataform.h"
-	"wx/motif/dataform.h"
-	"wx/gtk/dataform.h"
-	"wx/gtk1/dataform.h"
-	"wx/x11/dataform.h"
-	"wx/osx/dataform.h"
-	"wx/cocoa/dataform.h"
-	"wx/os2/dataform.h"
-	"wx/msw/ole/dataobj.h"
-	"wx/motif/dataobj.h"
-	"wx/x11/dataobj.h"
-	"wx/gtk/dataobj.h"
-	"wx/gtk1/dataobj.h"
-	"wx/osx/dataobj.h"
-	"wx/cocoa/dataobj.h"
-	"wx/os2/dataobj.h"
-	"wx/msw/ole/dataobj2.h"
-	"wx/gtk/dataobj2.h"
-	"wx/gtk1/dataobj2.h"
-	"wx/x11/dataobj2.h"
-	"wx/motif/dataobj2.h"
-	"wx/osx/dataobj2.h"
-	"wx/cocoa/dataobj2.h"
-	"wx/os2/dataobj2.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ole\dataform.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\dataform.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dataform.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\dataform.h
-
-1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\x11\dataform.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dataform.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\dataform.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\dataform.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ole\dataobj.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\dataobj.h
-
-1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\x11\dataobj.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dataobj.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\dataobj.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dataobj.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\dataobj.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\dataobj.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ole\dataobj2.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dataobj2.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\dataobj2.h
-
-1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\x11\dataobj2.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\dataobj2.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dataobj2.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\dataobj2.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\dataobj2.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ole\dropsrc.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ole\droptgt.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\dnd.h
-	"wx/defs.h"
-	"wx/object.h"
-	"wx/string.h"
-	"wx/dataobj.h"
-	"wx/cursor.h"
-
-1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\x11\dnd.h
-	"wx/defs.h"
-	"wx/object.h"
-	"wx/string.h"
-	"wx/dataobj.h"
-	"wx/cursor.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dnd.h
-	"wx/icon.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\dnd.h
-	"wx/object.h"
-	"wx/string.h"
-	"wx/dataobj.h"
-	"wx/cursor.h"
-	"wx/icon.h"
-	"wx/gdicmn.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dnd.h
-	"wx/defs.h"
-	"wx/object.h"
-	"wx/string.h"
-	"wx/string.h"
-	"wx/dataobj.h"
-	"wx/cursor.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\dnd.h
-	<os2.h>
-	<pmstddlg.h>
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\itemid.h
-
-1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\withimages.h
-	"wx/defs.h"
-	"wx/icon.h"
-	"wx/imaglist.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\dvrenderers.h
-	"wx/gtk/dvrenderer.h"
-	"wx/osx/dvrenderer.h"
-	"wx/generic/dvrenderer.h"
-	"wx/generic/dvrenderers.h"
-	"wx/gtk/dvrenderers.h"
-	"wx/osx/dvrenderers.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dvrenderer.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dvrenderer.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\dvrenderer.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\dvrenderers.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dvrenderers.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dvrenderers.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\dataview.h
-	"wx/defs.h"
-	"wx/object.h"
-	"wx/list.h"
-	"wx/control.h"
-	"wx/scrolwin.h"
-	"wx/icon.h"
-	"wx/vector.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dataview.h
-	"wx/list.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dataview.h
+	"wx/ribbon/control.h"
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\sizer.h
 	"wx/defs.h"
 	"wx/window.h"
+
+1408480335 source:d:\cpp\projekty\wxwidgets\bma\bmamain.cpp
+	"wx_pch.h"
+	"BMAMain.h"
+	"wx/msgdlg.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msgdlg.h
+	"wx/defs.h"
+	"wx/dialog.h"
+	"wx/stockitem.h"
+	"wx/generic/msgdlgg.h"
+	"wx/cocoa/msgdlg.h"
+	"wx/msw/msgdlg.h"
+	"wx/motif/msgdlg.h"
+	"wx/gtk/msgdlg.h"
+	"wx/osx/msgdlg.h"
+	"wx/os2/msgdlg.h"
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\dialog.h
 	"wx/toplevel.h"
@@ -2126,6 +1948,10 @@
 	"wx/osx/dialog.h"
 	"wx/cocoa/dialog.h"
 	"wx/os2/dialog.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\containr.h
+	"wx/defs.h"
+	"wx/event.h"
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\sharedptr.h
 	"wx/defs.h"
@@ -2142,6 +1968,20 @@
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\dialog.h
 	"wx/panel.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\panel.h
+	"wx/window.h"
+	"wx/containr.h"
+	"wx/univ/panel.h"
+	"wx/msw/panel.h"
+	"wx/generic/panelg.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\panel.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\panel.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\panelg.h
+	"wx/bitmap.h"
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\dialog.h
 
@@ -2164,14 +2004,52 @@
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\dialog.h
 	"wx/panel.h"
 
-1407785930 source:d:\cpp\projekty\wxwidgets\bma\bmamain.cpp
-	"wx_pch.h"
-	"BMAMain.h"
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\stockitem.h
+	"wx/defs.h"
+	"wx/chartype.h"
+	"wx/string.h"
+	"wx/accel.h"
 
-1407785452 source:d:\cpp\projekty\wxwidgets\bma\guidialog.cpp
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\msgdlgg.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\msgdlg.h
+	"wx/msgdlg.h"
+	"wx/generic/msgdlgg.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\msgdlg.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\msgdlg.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\msgdlg.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\msgdlg.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\msgdlg.h
+
+1385320476 source:d:\cpp\projekty\wxwidgets\bma\resource.rc
+	"wx/msw/wx.rc"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\wx.rc
+	<windows.h>
+	"wx/msw/wince/wince.rc"
+	"wx/msw/rcdefs.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\wince\wince.rc
+	<commctrl.h>
+	"wx/msw/wince/resources.h"
+	"wx/msw/wince/smartphone.rc"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\wince\resources.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\wince\smartphone.rc
+	<aygshell.h>
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\rcdefs.h
+
+1408480286 source:d:\cpp\projekty\wxwidgets\bma\guiframe.cpp
 	"wx/wxprec.h"
 	<wx/wx.h>
-	"GUIDialog.h"
+	"GUIFrame.h"
 
 1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\wxprec.h
 	"wx/defs.h"
@@ -2308,140 +2186,84 @@
 	"wx/defs.h"
 	"wx/dc.h"
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\menuitem.h
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\dataobj.h
 	"wx/defs.h"
-	"wx/object.h"
-	"wx/univ/menuitem.h"
-	"wx/msw/menuitem.h"
-	"wx/motif/menuitem.h"
-	"wx/gtk/menuitem.h"
-	"wx/gtk1/menuitem.h"
-	"wx/osx/menuitem.h"
-	"wx/cocoa/menuitem.h"
-	"wx/os2/menuitem.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\menuitem.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\menuitem.h
-	"wx/ownerdrw.h"
-	"wx/bitmap.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ownerdrw.h
-	"wx/defs.h"
-	"wx/font.h"
-	"wx/colour.h"
-	"wx/msw/ownerdrw.h"
-	"wx/os2/ownerdrw.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ownerdrw.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\ownerdrw.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\menuitem.h
-	"wx/bitmap.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\menuitem.h
-	"wx/bitmap.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\menuitem.h
-	"wx/bitmap.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\menuitem.h
-	"wx/defs.h"
-	"wx/bitmap.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\menuitem.h
-	"wx/hashmap.h"
-	"wx/bitmap.h"
-	"wx/cocoa/ObjcRef.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\menuitem.h
-	"wx/defs.h"
-	"wx/os2/private.h"
-	"wx/ownerdrw.h"
-	"wx/bitmap.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\menu.h
-	"wx/defs.h"
-	"wx/list.h"
-	"wx/window.h"
-	"wx/menuitem.h"
-	"wx/univ/menu.h"
-	"wx/msw/menu.h"
-	"wx/motif/menu.h"
-	"wx/gtk/menu.h"
-	"wx/gtk1/menu.h"
-	"wx/osx/menu.h"
-	"wx/cocoa/menu.h"
-	"wx/os2/menu.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\menu.h
-	"wx/accel.h"
-	"wx/dynarray.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\menu.h
-	"wx/accel.h"
-	"wx/dynarray.h"
-	"wx/arrstr.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\menu.h
-	"wx/colour.h"
-	"wx/font.h"
-	"wx/arrstr.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\menu.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\menu.h
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\menu.h
-	"wx/arrstr.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\menu.h
-	"wx/cocoa/NSMenu.h"
-	"wx/accel.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\nsmenu.h
-	"wx/hashmap.h"
-	"wx/cocoa/ObjcAssociate.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\menu.h
-	"wx/accel.h"
-	"wx/list.h"
-	"wx/dynarray.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msgdlg.h
-	"wx/defs.h"
-	"wx/dialog.h"
-	"wx/stockitem.h"
-	"wx/generic/msgdlgg.h"
-	"wx/cocoa/msgdlg.h"
-	"wx/msw/msgdlg.h"
-	"wx/motif/msgdlg.h"
-	"wx/gtk/msgdlg.h"
-	"wx/osx/msgdlg.h"
-	"wx/os2/msgdlg.h"
-
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\stockitem.h
-	"wx/defs.h"
-	"wx/chartype.h"
 	"wx/string.h"
-	"wx/accel.h"
+	"wx/bitmap.h"
+	"wx/list.h"
+	"wx/arrstr.h"
+	"wx/msw/ole/dataform.h"
+	"wx/motif/dataform.h"
+	"wx/gtk/dataform.h"
+	"wx/gtk1/dataform.h"
+	"wx/x11/dataform.h"
+	"wx/osx/dataform.h"
+	"wx/cocoa/dataform.h"
+	"wx/os2/dataform.h"
+	"wx/msw/ole/dataobj.h"
+	"wx/motif/dataobj.h"
+	"wx/x11/dataobj.h"
+	"wx/gtk/dataobj.h"
+	"wx/gtk1/dataobj.h"
+	"wx/osx/dataobj.h"
+	"wx/cocoa/dataobj.h"
+	"wx/os2/dataobj.h"
+	"wx/msw/ole/dataobj2.h"
+	"wx/gtk/dataobj2.h"
+	"wx/gtk1/dataobj2.h"
+	"wx/x11/dataobj2.h"
+	"wx/motif/dataobj2.h"
+	"wx/osx/dataobj2.h"
+	"wx/cocoa/dataobj2.h"
+	"wx/os2/dataobj2.h"
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\msgdlgg.h
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ole\dataform.h
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\msgdlg.h
-	"wx/msgdlg.h"
-	"wx/generic/msgdlgg.h"
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\dataform.h
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\msgdlg.h
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dataform.h
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\msgdlg.h
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\dataform.h
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\msgdlg.h
+1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\x11\dataform.h
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\msgdlg.h
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dataform.h
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\msgdlg.h
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\dataform.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\dataform.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ole\dataobj.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\dataobj.h
+
+1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\x11\dataobj.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dataobj.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\dataobj.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dataobj.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\dataobj.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\dataobj.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ole\dataobj2.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dataobj2.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\dataobj2.h
+
+1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\x11\dataobj2.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\dataobj2.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dataobj2.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\dataobj2.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\dataobj2.h
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ctrlsub.h
 	"wx/defs.h"
@@ -2560,6 +2382,18 @@
 	"wx/dynarray.h"
 	"wx/arrstr.h"
 
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\scrolwin.h
+	"wx/panel.h"
+	"wx/gtk/scrolwin.h"
+	"wx/gtk1/scrolwin.h"
+	"wx/generic/scrolwin.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\scrolwin.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\scrolwin.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\scrolwin.h
+
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\listbox.h
 	"wx/dynarray.h"
 
@@ -2637,6 +2471,84 @@
 	"wx/osx/combobox.h"
 	"wx/cocoa/combobox.h"
 	"wx/os2/combobox.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\textctrl.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/textentry.h"
+	"wx/dynarray.h"
+	"wx/gdicmn.h"
+	"wx/ioswrap.h"
+	"wx/x11/textctrl.h"
+	"wx/univ/textctrl.h"
+	"wx/msw/wince/textctrlce.h"
+	"wx/msw/textctrl.h"
+	"wx/motif/textctrl.h"
+	"wx/gtk/textctrl.h"
+	"wx/gtk1/textctrl.h"
+	"wx/osx/textctrl.h"
+	"wx/cocoa/textctrl.h"
+	"wx/os2/textctrl.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\textentry.h
+	"wx/filefn.h"
+	"wx/gdicmn.h"
+	"wx/gtk/textentry.h"
+	"wx/osx/textentry.h"
+	"wx/msw/textentry.h"
+	"wx/motif/textentry.h"
+	"wx/os2/textentry.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\textentry.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\textentry.h
+	"wx/control.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\textentry.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\textentry.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\textentry.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ioswrap.h
+	"wx/beforestd.h"
+	<iostream.h>
+	<iostream>
+	"wx/afterstd.h"
+	"wx/msw/winundef.h"
+
+1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\x11\textctrl.h
+	"wx/univ/textctrl.h"
+	"wx/scrolwin.h"
+	"wx/arrstr.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\textctrl.h
+	"wx/scrolwin.h"
+	"wx/univ/inphand.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\wince\textctrlce.h
+	"wx/dynarray.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\textctrl.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\textctrl.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\textctrl.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\textctrl.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\textctrl.h
+	"wx/control.h"
+	"wx/textctrl.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\textctrl.h
+	"wx/cocoa/NSTextField.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\nstextfield.h
+	"wx/hashmap.h"
+	"wx/cocoa/ObjcAssociate.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\textctrl.h
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\combobox.h
 	"wx/combo.h"
@@ -3177,23 +3089,156 @@
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\cocoa\mdi.h
 	"wx/frame.h"
 
-1385320476 source:d:\cpp\projekty\wxwidgets\bma\resource.rc
-	"wx/msw/wx.rc"
+1402782958 d:\cpp\wxwidgets-3.0.1\lib\gcc_dll\mswu\wx\setup.h
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\wx.rc
-	<windows.h>
-	"wx/msw/wince/wince.rc"
-	"wx/msw/rcdefs.h"
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\dataview.h
+	"wx/defs.h"
+	"wx/textctrl.h"
+	"wx/headercol.h"
+	"wx/variant.h"
+	"wx/dnd.h"
+	"wx/dynarray.h"
+	"wx/icon.h"
+	"wx/itemid.h"
+	"wx/weakref.h"
+	"wx/vector.h"
+	"wx/dataobj.h"
+	"wx/withimages.h"
+	"wx/dvrenderers.h"
+	"wx/generic/dataview.h"
+	"wx/gtk/dataview.h"
+	"wx/osx/dataview.h"
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\wince\wince.rc
-	<commctrl.h>
-	"wx/msw/wince/resources.h"
-	"wx/msw/wince/smartphone.rc"
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\headercol.h
+	"wx/bitmap.h"
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\wince\resources.h
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\dnd.h
+	"wx/defs.h"
+	"wx/dataobj.h"
+	"wx/cursor.h"
+	"wx/msw/ole/dropsrc.h"
+	"wx/msw/ole/droptgt.h"
+	"wx/motif/dnd.h"
+	"wx/x11/dnd.h"
+	"wx/gtk/dnd.h"
+	"wx/gtk1/dnd.h"
+	"wx/osx/dnd.h"
+	"wx/os2/dnd.h"
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\wince\smartphone.rc
-	<aygshell.h>
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ole\dropsrc.h
 
-1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\rcdefs.h
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\ole\droptgt.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\motif\dnd.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/string.h"
+	"wx/dataobj.h"
+	"wx/cursor.h"
+
+1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\x11\dnd.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/string.h"
+	"wx/dataobj.h"
+	"wx/cursor.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dnd.h
+	"wx/icon.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk1\dnd.h
+	"wx/object.h"
+	"wx/string.h"
+	"wx/dataobj.h"
+	"wx/cursor.h"
+	"wx/icon.h"
+	"wx/gdicmn.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dnd.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/string.h"
+	"wx/string.h"
+	"wx/dataobj.h"
+	"wx/cursor.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\dnd.h
+	<os2.h>
+	<pmstddlg.h>
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\itemid.h
+
+1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\withimages.h
+	"wx/defs.h"
+	"wx/icon.h"
+	"wx/imaglist.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\dvrenderers.h
+	"wx/gtk/dvrenderer.h"
+	"wx/osx/dvrenderer.h"
+	"wx/generic/dvrenderer.h"
+	"wx/generic/dvrenderers.h"
+	"wx/gtk/dvrenderers.h"
+	"wx/osx/dvrenderers.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dvrenderer.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dvrenderer.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\dvrenderer.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\dvrenderers.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dvrenderers.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dvrenderers.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\dataview.h
+	"wx/defs.h"
+	"wx/object.h"
+	"wx/list.h"
+	"wx/control.h"
+	"wx/scrolwin.h"
+	"wx/icon.h"
+	"wx/vector.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\gtk\dataview.h
+	"wx/list.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\dataview.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\textfile.h
+	"wx/defs.h"
+	"wx/textbuf.h"
+	"wx/file.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\textbuf.h
+	"wx/defs.h"
+	"wx/arrstr.h"
+	"wx/convauto.h"
+	"wx/string.h"
+	"wx/dynarray.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\stdpaths.h
+	"wx/defs.h"
+	"wx/string.h"
+	"wx/filefn.h"
+	"wx/msw/stdpaths.h"
+	"wx/osx/core/stdpaths.h"
+	"wx/os2/stdpaths.h"
+	"wx/unix/stdpaths.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\stdpaths.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\core\stdpaths.h
+	"wx/unix/stdpaths.h"
+
+1402782959 d:\cpp\wxwidgets-3.0.1\include\wx\unix\stdpaths.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\os2\stdpaths.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\ribbon\toolbar.h
+	"wx/defs.h"
+	"wx/ribbon/control.h"
+	"wx/ribbon/art.h"
 
