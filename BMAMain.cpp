@@ -17,6 +17,7 @@
 
 #include "BMAMain.h"
 #include "wx/msgdlg.h"
+#include "sqlite.h"
 
 //helper functions
 enum wxbuildinfoformat
@@ -64,7 +65,15 @@ BMAFrame::~BMAFrame()
 
 void BMAFrame::OnAddItem(wxRibbonButtonBarEvent& event)
 {
-    wxMessageBox("test");
+    wxSQLite3Database* db = initDB();
+
+    wxSQLite3Transaction t(db);
+//    !db->GetAutoCommit();
+//	t.IsActive();
+    db->ExecuteUpdate(wxT("INSERT INTO Data (date,weight) VALUES ('rewr',10.1)"));
+    t.Commit();
+//    db->GetAutoCommit();
+//	!t.IsActive();
 }
 
 

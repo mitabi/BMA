@@ -10,11 +10,7 @@
 #ifndef BMAMAIN_H
 #define BMAMAIN_H
 
-
-
 #include "BMAApp.h"
-
-
 #include "GUIFrame.h"
 #include "wx/ribbon/buttonbar.h"
 

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1408466838 source:d:\cpp\projekty\wxwidgets\bma\bmaapp.cpp
+1408699950 source:d:\cpp\projekty\wxwidgets\bma\bmaapp.cpp
 	"wx_pch.h"
 	"BMAApp.h"
 	"BMAMain.h"
@@ -8,6 +8,7 @@
 	"wx/string.h"
 	"wx/stdpaths.h"
 	"wx/msgdlg.h"
+	"wx/wxsqlite3.h"
 
 1408456967 d:\cpp\projekty\wxwidgets\bma\bmaapp.h
 	<wx/app.h>
@@ -1695,12 +1696,12 @@
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\theme.h
 	"wx/string.h"
 
-1408478902 d:\cpp\projekty\wxwidgets\bma\bmamain.h
+1408697976 d:\cpp\projekty\wxwidgets\bma\bmamain.h
 	"BMAApp.h"
 	"GUIFrame.h"
 	"wx/ribbon/buttonbar.h"
 
-1408516018 d:\cpp\projekty\wxwidgets\bma\guiframe.h
+1408697349 d:\cpp\projekty\wxwidgets\bma\guiframe.h
 	<wx/artprov.h>
 	<wx/xrc/xmlres.h>
 	<wx/string.h>
@@ -1919,10 +1920,11 @@
 	"wx/defs.h"
 	"wx/window.h"
 
-1408480335 source:d:\cpp\projekty\wxwidgets\bma\bmamain.cpp
+1408700793 source:d:\cpp\projekty\wxwidgets\bma\bmamain.cpp
 	"wx_pch.h"
 	"BMAMain.h"
 	"wx/msgdlg.h"
+	"sqlite.h"
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msgdlg.h
 	"wx/defs.h"
@@ -2046,7 +2048,7 @@
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\rcdefs.h
 
-1408515406 source:d:\cpp\projekty\wxwidgets\bma\guiframe.cpp
+1408697348 source:d:\cpp\projekty\wxwidgets\bma\guiframe.cpp
 	"wx/wxprec.h"
 	<wx/wx.h>
 	"GUIFrame.h"
@@ -3241,4 +3243,22 @@
 	"wx/defs.h"
 	"wx/ribbon/control.h"
 	"wx/ribbon/art.h"
+
+1402738198 d:\cpp\wxsqlite3-3.1.1\include\wx\wxsqlite3.h
+	<wx/arrstr.h>
+	<wx/datetime.h>
+	<wx/buffer.h>
+	<wx/hashmap.h>
+	<wx/regex.h>
+	<wx/string.h>
+	"wx/wxsqlite3def.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\regex.h
+	"wx/defs.h"
+	"wx/string.h"
+
+1402738792 d:\cpp\wxsqlite3-3.1.1\include\wx\wxsqlite3def.h
+
+1408700462 d:\cpp\projekty\wxwidgets\bma\sqlite.h
+	"wx/wxsqlite3.h"
 

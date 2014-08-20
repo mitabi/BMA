@@ -24,6 +24,8 @@
 #include "wx/msgdlg.h"
 #include "wx/wxsqlite3.h"
 
+#include "sqlite.h"
+
 IMPLEMENT_APP(BMAApp);
 
 
