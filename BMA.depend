@@ -1700,7 +1700,7 @@
 	"GUIFrame.h"
 	"wx/ribbon/buttonbar.h"
 
-1408514961 d:\cpp\projekty\wxwidgets\bma\guiframe.h
+1408516018 d:\cpp\projekty\wxwidgets\bma\guiframe.h
 	<wx/artprov.h>
 	<wx/xrc/xmlres.h>
 	<wx/string.h>
@@ -2046,7 +2046,7 @@
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\rcdefs.h
 
-1408513757 source:d:\cpp\projekty\wxwidgets\bma\guiframe.cpp
+1408515406 source:d:\cpp\projekty\wxwidgets\bma\guiframe.cpp
 	"wx/wxprec.h"
 	<wx/wx.h>
 	"GUIFrame.h"

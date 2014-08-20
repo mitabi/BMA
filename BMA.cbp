@@ -70,6 +70,7 @@
 		<Unit filename="resource.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
+		<Unit filename="text2985.png" />
 		<Extensions>
 			<code_completion />
 			<envvars />

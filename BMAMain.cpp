@@ -29,21 +29,21 @@ wxString wxbuildinfo(wxbuildinfoformat format)
     wxString wxbuild(wxVERSION_STRING);
 
     if (format == long_f )
-    {
+        {
 #if defined(__WXMSW__)
-        wxbuild << _T("-Windows");
+            wxbuild << _T("-Windows");
 #elif defined(__WXMAC__)
-        wxbuild << _T("-Mac");
+            wxbuild << _T("-Mac");
 #elif defined(__UNIX__)
-        wxbuild << _T("-Linux");
+            wxbuild << _T("-Linux");
 #endif
 
 #if wxUSE_UNICODE
-        wxbuild << _T("-Unicode build");
+            wxbuild << _T("-Unicode build");
 #else
-        wxbuild << _T("-ANSI build");
+            wxbuild << _T("-ANSI build");
 #endif // wxUSE_UNICODE
-    }
+        }
 
     return wxbuild;
 }
@@ -70,7 +70,7 @@ void BMAFrame::OnAddItem(wxRibbonButtonBarEvent& event)
 
 void BMAFrame::OnQuit(wxRibbonButtonBarEvent& event)
 {
-Destroy();
+    Destroy();
 }
 
 void BMAFrame::test( wxRibbonButtonBarEvent& event )

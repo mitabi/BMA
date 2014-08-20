@@ -39,32 +39,41 @@
 ///////////////////////////////////////////////////////////////////////////////
 /// Class GUIFrame
 ///////////////////////////////////////////////////////////////////////////////
-class GUIFrame : public wxFrame 
+class GUIFrame : public wxFrame
 {
-	private:
-	
-	protected:
-		wxRibbonBar* m_ribbonBar1;
-		wxRibbonPage* m_ribbonPage1;
-		wxRibbonPanel* mRibbon_PanelDefault;
-		wxRibbonButtonBar* mRibbon_ButtonBarTools;
-		wxDataViewListCtrl* m_TableData;
-		wxDataViewColumn* m_ColumnDate;
-		wxDataViewColumn* m_ColumnWeight;
-		wxStatusBar* statusBar;
-		
-		// Virtual event handlers, overide them in your derived class
-		virtual void OnClose( wxCloseEvent& event ) { event.Skip(); }
-		virtual void OnAddItem( wxRibbonButtonBarEvent& event ) { event.Skip(); }
-		virtual void OnQuit( wxRibbonButtonBarEvent& event ) { event.Skip(); }
-		
-	
-	public:
-		
-		GUIFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("BMA"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 481,466 ), long style = wxDEFAULT_FRAME_STYLE );
-		
-		~GUIFrame();
-	
+private:
+
+protected:
+    wxRibbonBar* m_ribbonBar1;
+    wxRibbonPage* m_ribbonPage1;
+    wxRibbonPanel* mRibbon_PanelDefault;
+    wxRibbonButtonBar* mRibbon_ButtonBarTools;
+    wxDataViewListCtrl* m_TableData;
+    wxDataViewColumn* m_ColumnDate;
+    wxDataViewColumn* m_ColumnWeight;
+    wxStatusBar* statusBar;
+
+    // Virtual event handlers, overide them in your derived class
+    virtual void OnClose( wxCloseEvent& event )
+    {
+        event.Skip();
+    }
+    virtual void OnAddItem( wxRibbonButtonBarEvent& event )
+    {
+        event.Skip();
+    }
+    virtual void OnQuit( wxRibbonButtonBarEvent& event )
+    {
+        event.Skip();
+    }
+
+
+public:
+
+    GUIFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("BMA"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 481,466 ), long style = wxCAPTION|wxDEFAULT_FRAME_STYLE );
+
+    ~GUIFrame();
+
 };
 
 #endif //__GUIFRAME_H__
