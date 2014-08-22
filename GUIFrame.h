@@ -28,6 +28,12 @@
 #include <wx/sizer.h>
 #include <wx/statusbr.h>
 #include <wx/frame.h>
+#include <wx/stattext.h>
+#include <wx/slider.h>
+#include <wx/textctrl.h>
+#include <wx/datectrl.h>
+#include <wx/dateevt.h>
+#include <wx/button.h>
 
 ///////////////////////////////////////////////////////////////////////////
 
@@ -64,6 +70,35 @@ class GUIFrame : public wxFrame
 		GUIFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("BMA"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 481,466 ), long style = wxCAPTION|wxDEFAULT_FRAME_STYLE );
 		
 		~GUIFrame();
+	
+};
+
+///////////////////////////////////////////////////////////////////////////////
+/// Class AddItemFrame
+///////////////////////////////////////////////////////////////////////////////
+class AddItemFrame : public wxFrame 
+{
+	private:
+	
+	protected:
+		wxStaticText* lblWeight;
+		wxSlider* m_slider2;
+		wxTextCtrl* weightValue;
+		wxStaticText* m_staticText5;
+		wxStaticText* lblDate;
+		wxDatePickerCtrl* DateItem;
+		wxButton* ButtonAddItem;
+		wxButton* m_button3;
+		
+		// Virtual event handlers, overide them in your derived class
+		virtual void OnAddItem( wxCommandEvent& event ) { event.Skip(); }
+		
+	
+	public:
+		
+		AddItemFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("test"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 509,134 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );
+		
+		~AddItemFrame();
 	
 };
 

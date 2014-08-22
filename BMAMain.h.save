@@ -26,13 +26,16 @@ private:
 
 };
 
-class AddFrame: public AddItemFrame
+class BMAFrame: public GUIFrame
 {
 public:
-    AddFrame(wxFrame *aframe);
-    ~AddFrame();
+    BMAFrame(wxFrame *frame);
+    ~BMAFrame();
 private:
-    virtual void OnAddItem( wxCommandEvent& event );
+    virtual void OnAddItem(wxRibbonButtonBarEvent& event);
+    virtual void test( wxRibbonButtonBarEvent& event );
+    virtual void OnQuit(wxRibbonButtonBarEvent& event);
+
 };
 
 #endif // BMAMAIN_H

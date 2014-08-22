@@ -51,7 +51,7 @@ GUIFrame::GUIFrame( wxWindow* parent, wxWindowID id, const wxString& title, cons
 	this->Layout();
 	statusBar = this->CreateStatusBar( 2, wxST_SIZEGRIP, wxID_ANY );
 	statusBar->SetForegroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_WINDOW ) );
-	statusBar->SetBackgroundColour( wxColour( 213, 223, 236 ) );
+	statusBar->SetBackgroundColour( wxColour( 193, 208, 227 ) );
 	
 	
 	// Connect Events
@@ -66,5 +66,79 @@ GUIFrame::~GUIFrame()
 	this->Disconnect( wxEVT_CLOSE_WINDOW, wxCloseEventHandler( GUIFrame::OnClose ) );
 	this->Disconnect( rb_additem, wxEVT_COMMAND_RIBBONBUTTON_CLICKED, wxRibbonButtonBarEventHandler( GUIFrame::OnAddItem ) );
 	this->Disconnect( rb_close, wxEVT_COMMAND_RIBBONBUTTON_CLICKED, wxRibbonButtonBarEventHandler( GUIFrame::OnQuit ) );
+	
+}
+
+AddItemFrame::AddItemFrame( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxFrame( parent, id, title, pos, size, style )
+{
+	this->SetSizeHints( wxDefaultSize, wxDefaultSize );
+	this->SetBackgroundColour( wxColour( 193, 208, 227 ) );
+	
+	wxBoxSizer* bSizer4;
+	bSizer4 = new wxBoxSizer( wxVERTICAL );
+	
+	wxFlexGridSizer* fgSizer3;
+	fgSizer3 = new wxFlexGridSizer( 2, 4, 0, 0 );
+	fgSizer3->SetFlexibleDirection( wxBOTH );
+	fgSizer3->SetNonFlexibleGrowMode( wxFLEX_GROWMODE_SPECIFIED );
+	
+	lblWeight = new wxStaticText( this, wxID_ANY, wxT("Waga"), wxDefaultPosition, wxDefaultSize, 0 );
+	lblWeight->Wrap( -1 );
+	fgSizer3->Add( lblWeight, 0, wxALL, 5 );
+	
+	m_slider2 = new wxSlider( this, wxID_ANY, 50, 0, 100, wxDefaultPosition, wxDefaultSize, wxSL_HORIZONTAL );
+	m_slider2->SetMinSize( wxSize( 300,-1 ) );
+	
+	fgSizer3->Add( m_slider2, 0, wxALL, 5 );
+	
+	weightValue = new wxTextCtrl( this, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize, 0 );
+	fgSizer3->Add( weightValue, 0, wxALL|wxEXPAND, 5 );
+	
+	m_staticText5 = new wxStaticText( this, wxID_ANY, wxT("kg"), wxDefaultPosition, wxDefaultSize, 0 );
+	m_staticText5->Wrap( -1 );
+	fgSizer3->Add( m_staticText5, 0, wxALL|wxEXPAND, 5 );
+	
+	lblDate = new wxStaticText( this, wxID_ANY, wxT("Data"), wxDefaultPosition, wxDefaultSize, 0 );
+	lblDate->Wrap( -1 );
+	fgSizer3->Add( lblDate, 0, wxALL, 5 );
+	
+	
+	fgSizer3->Add( 0, 0, 1, wxEXPAND, 5 );
+	
+	DateItem = new wxDatePickerCtrl( this, wxID_ANY, wxDefaultDateTime, wxDefaultPosition, wxDefaultSize, wxDP_DEFAULT );
+	fgSizer3->Add( DateItem, 0, wxALL|wxEXPAND, 5 );
+	
+	
+	fgSizer3->Add( 0, 0, 1, wxEXPAND, 5 );
+	
+	
+	bSizer4->Add( fgSizer3, 0, wxEXPAND, 5 );
+	
+	wxBoxSizer* bSizer5;
+	bSizer5 = new wxBoxSizer( wxHORIZONTAL );
+	
+	ButtonAddItem = new wxButton( this, wxID_ANY, wxT("Dodaj"), wxDefaultPosition, wxDefaultSize, 0 );
+	bSizer5->Add( ButtonAddItem, 1, wxALIGN_CENTER_VERTICAL|wxEXPAND|wxALL, 5 );
+	
+	m_button3 = new wxButton( this, wxID_ANY, wxT("MyButton"), wxDefaultPosition, wxDefaultSize, 0 );
+	bSizer5->Add( m_button3, 1, wxALL|wxALIGN_CENTER_VERTICAL|wxEXPAND, 5 );
+	
+	
+	bSizer4->Add( bSizer5, 0, wxEXPAND, 5 );
+	
+	
+	this->SetSizer( bSizer4 );
+	this->Layout();
+	
+	this->Centre( wxBOTH );
+	
+	// Connect Events
+	ButtonAddItem->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( AddItemFrame::OnAddItem ), NULL, this );
+}
+
+AddItemFrame::~AddItemFrame()
+{
+	// Disconnect Events
+	ButtonAddItem->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( AddItemFrame::OnAddItem ), NULL, this );
 	
 }

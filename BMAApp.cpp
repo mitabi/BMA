@@ -26,10 +26,9 @@
 
 IMPLEMENT_APP(BMAApp);
 
-
-
 bool BMAApp::OnInit()
 {
+
     BMAFrame* frame = new BMAFrame(0L);
     frame->SetIcon(wxICON(aaaa)); // To Set App Icon
     frame->Show();

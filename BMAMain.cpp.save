@@ -88,9 +88,9 @@ void AddFrame::OnAddItem(wxCommandEvent& event )
     wxSQLite3Transaction t(db);
     wxDateTime weightDate = DateItem->GetValue();
     wxString strdate = weightDate.Format(wxT("%d-%m-%y"), wxDateTime::CET );
-    wxString strvalue = weightValue->GetValue();
+    wxString strvalue = weigh
 
-    db->ExecuteUpdate(wxT("INSERT INTO Data (date,weight) VALUES ('")+ strdate + wxT("',")+ strvalue +wxT(")"));
+    db->ExecuteUpdate(wxT("INSERT INTO Data (date,weight) VALUES ('")+ strdate + wxT("',")+ strvalue+wxT(")");
     t.Commit();
 }
 

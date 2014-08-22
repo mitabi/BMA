@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1408699950 source:d:\cpp\projekty\wxwidgets\bma\bmaapp.cpp
+1408723041 source:d:\cpp\projekty\wxwidgets\bma\bmaapp.cpp
 	"wx_pch.h"
 	"BMAApp.h"
 	"BMAMain.h"
@@ -1696,12 +1696,12 @@
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\theme.h
 	"wx/string.h"
 
-1408697976 d:\cpp\projekty\wxwidgets\bma\bmamain.h
+1408724033 d:\cpp\projekty\wxwidgets\bma\bmamain.h
 	"BMAApp.h"
 	"GUIFrame.h"
 	"wx/ribbon/buttonbar.h"
 
-1408697349 d:\cpp\projekty\wxwidgets\bma\guiframe.h
+1408726333 d:\cpp\projekty\wxwidgets\bma\guiframe.h
 	<wx/artprov.h>
 	<wx/xrc/xmlres.h>
 	<wx/string.h>
@@ -1722,6 +1722,12 @@
 	<wx/sizer.h>
 	<wx/statusbr.h>
 	<wx/frame.h>
+	<wx/stattext.h>
+	<wx/slider.h>
+	<wx/textctrl.h>
+	<wx/datectrl.h>
+	<wx/dateevt.h>
+	<wx/button.h>
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\artprov.h
 	"wx/string.h"
@@ -1920,7 +1926,7 @@
 	"wx/defs.h"
 	"wx/window.h"
 
-1408700793 source:d:\cpp\projekty\wxwidgets\bma\bmamain.cpp
+1408724260 source:d:\cpp\projekty\wxwidgets\bma\bmamain.cpp
 	"wx_pch.h"
 	"BMAMain.h"
 	"wx/msgdlg.h"
@@ -2048,7 +2054,7 @@
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\rcdefs.h
 
-1408697348 source:d:\cpp\projekty\wxwidgets\bma\guiframe.cpp
+1408726333 source:d:\cpp\projekty\wxwidgets\bma\guiframe.cpp
 	"wx/wxprec.h"
 	<wx/wx.h>
 	"GUIFrame.h"
@@ -3259,6 +3265,41 @@
 
 1402738792 d:\cpp\wxsqlite3-3.1.1\include\wx\wxsqlite3def.h
 
-1408700462 d:\cpp\projekty\wxwidgets\bma\sqlite.h
+1408702755 d:\cpp\projekty\wxwidgets\bma\sqlite.h
 	"wx/wxsqlite3.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\datectrl.h
+	"wx/defs.h"
+	"wx/datetimectrl.h"
+	"wx/msw/datectrl.h"
+	"wx/osx/datectrl.h"
+	"wx/generic/datectrl.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\datetimectrl.h
+	"wx/defs.h"
+	"wx/control.h"
+	"wx/datetime.h"
+	"wx/msw/datetimectrl.h"
+	"wx/osx/datetimectrl.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\datetimectrl.h
+	"wx/intl.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\datetimectrl.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\datectrl.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\osx\datectrl.h
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\datectrl.h
+	"wx/compositewin.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\compositewin.h
+	"wx/window.h"
+	"wx/containr.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\dateevt.h
+	"wx/event.h"
+	"wx/datetime.h"
+	"wx/window.h"
 
