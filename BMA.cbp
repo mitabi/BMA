@@ -78,6 +78,7 @@
 		<Unit filename="resource.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
+		<Unit filename="sqlite.h" />
 		<Unit filename="text2985.png" />
 		<Extensions>
 			<code_completion />

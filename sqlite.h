@@ -3,6 +3,8 @@
 
 #include "wx/wxsqlite3.h"
 
+/**< Inicjalizacja bazy danych */
+
 wxSQLite3Database* initDB()
 
 {
