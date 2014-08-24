@@ -19,7 +19,7 @@
 class BMAFrame: public GUIFrame
 {
 public:
-   void RefreshList(void);
+    void RefreshList(void);
     BMAFrame(wxFrame *frame);
     ~BMAFrame();
 

@@ -10,7 +10,7 @@
 	"wx/msgdlg.h"
 	"wx/wxsqlite3.h"
 
-1408886517 d:\cpp\projekty\wxwidgets\bma\bmaapp.h
+1408950119 d:\cpp\projekty\wxwidgets\bma\bmaapp.h
 	<wx/app.h>
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\app.h
@@ -1696,12 +1696,12 @@
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\theme.h
 	"wx/string.h"
 
-1408886537 d:\cpp\projekty\wxwidgets\bma\bmamain.h
+1408950119 d:\cpp\projekty\wxwidgets\bma\bmamain.h
 	"BMAApp.h"
 	"GUIFrame.h"
 	"wx/ribbon/buttonbar.h"
 
-1408884554 d:\cpp\projekty\wxwidgets\bma\guiframe.h
+1408950362 d:\cpp\projekty\wxwidgets\bma\guiframe.h
 	<wx/artprov.h>
 	<wx/xrc/xmlres.h>
 	<wx/statusbr.h>
@@ -1719,9 +1719,11 @@
 	<wx/ribbon/control.h>
 	<wx/ribbon/art.h>
 	<wx/ribbon/bar.h>
+	<wx/sizer.h>
+	<wx/panel.h>
 	<wx/dataview.h>
 	<wx/textctrl.h>
-	<wx/sizer.h>
+	<wx/splitter.h>
 	<wx/frame.h>
 	<wx/stattext.h>
 	<wx/slider.h>
@@ -1926,7 +1928,7 @@
 	"wx/defs.h"
 	"wx/window.h"
 
-1408880814 source:d:\cpp\projekty\wxwidgets\bma\bmamain.cpp
+1408950119 source:d:\cpp\projekty\wxwidgets\bma\bmamain.cpp
 	"wx_pch.h"
 	"BMAMain.h"
 	"wx/msgdlg.h"
@@ -3266,7 +3268,7 @@
 
 1402738792 d:\cpp\wxsqlite3-3.1.1\include\wx\wxsqlite3def.h
 
-1408702755 d:\cpp\projekty\wxwidgets\bma\sqlite.h
+1408950119 d:\cpp\projekty\wxwidgets\bma\sqlite.h
 	"wx/wxsqlite3.h"
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\datectrl.h
@@ -3303,4 +3305,12 @@
 	"wx/event.h"
 	"wx/datetime.h"
 	"wx/window.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\splitter.h
+	"wx/event.h"
+	"wx/generic/splitter.h"
+
+1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\generic\splitter.h
+	"wx/window.h"
+	"wx/containr.h"
 

@@ -89,7 +89,8 @@ void AddFrame::OnAddItem(wxCommandEvent& event )
     wxString strdate = weightDate.Format(wxT("%Y-%m-%d"), wxDateTime::CET );
     wxString strvalue = weightValue->GetValue();
 
-    db->ExecuteUpdate(wxT("INSERT INTO Data (date,weight) VALUES ('")+ strdate + wxT("',")+ strvalue +wxT(")"));
+    db->ExecuteUpdate(wxT("INSERT INTO Data (date,weight) VALUES ('")+ strdate
+                      + wxT("',")+ strvalue +wxT(")"));
     t.Commit();
     Destroy();
 
@@ -102,7 +103,7 @@ void BMAFrame::OnQuit(wxRibbonButtonBarEvent& event)
 
 void BMAFrame::OnRefresh(wxRibbonButtonBarEvent& event)
 {
-   RefreshList();
+    RefreshList();
 }
 
 void BMAFrame::RefreshList(void)
