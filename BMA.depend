@@ -10,7 +10,7 @@
 	"wx/msgdlg.h"
 	"wx/wxsqlite3.h"
 
-1408456967 d:\cpp\projekty\wxwidgets\bma\bmaapp.h
+1408886517 d:\cpp\projekty\wxwidgets\bma\bmaapp.h
 	<wx/app.h>
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\app.h
@@ -1696,22 +1696,23 @@
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\univ\theme.h
 	"wx/string.h"
 
-1408724033 d:\cpp\projekty\wxwidgets\bma\bmamain.h
+1408886537 d:\cpp\projekty\wxwidgets\bma\bmamain.h
 	"BMAApp.h"
 	"GUIFrame.h"
 	"wx/ribbon/buttonbar.h"
 
-1408726333 d:\cpp\projekty\wxwidgets\bma\guiframe.h
+1408884554 d:\cpp\projekty\wxwidgets\bma\guiframe.h
 	<wx/artprov.h>
 	<wx/xrc/xmlres.h>
-	<wx/string.h>
-	<wx/bitmap.h>
-	<wx/image.h>
-	<wx/icon.h>
+	<wx/statusbr.h>
 	<wx/gdicmn.h>
 	<wx/font.h>
 	<wx/colour.h>
 	<wx/settings.h>
+	<wx/string.h>
+	<wx/bitmap.h>
+	<wx/image.h>
+	<wx/icon.h>
 	<wx/ribbon/buttonbar.h>
 	<wx/ribbon/panel.h>
 	<wx/ribbon/page.h>
@@ -1719,12 +1720,11 @@
 	<wx/ribbon/art.h>
 	<wx/ribbon/bar.h>
 	<wx/dataview.h>
+	<wx/textctrl.h>
 	<wx/sizer.h>
-	<wx/statusbr.h>
 	<wx/frame.h>
 	<wx/stattext.h>
 	<wx/slider.h>
-	<wx/textctrl.h>
 	<wx/datectrl.h>
 	<wx/dateevt.h>
 	<wx/button.h>
@@ -1926,11 +1926,12 @@
 	"wx/defs.h"
 	"wx/window.h"
 
-1408724260 source:d:\cpp\projekty\wxwidgets\bma\bmamain.cpp
+1408880814 source:d:\cpp\projekty\wxwidgets\bma\bmamain.cpp
 	"wx_pch.h"
 	"BMAMain.h"
 	"wx/msgdlg.h"
 	"sqlite.h"
+	"wx/debug.h"
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msgdlg.h
 	"wx/defs.h"
@@ -2054,7 +2055,7 @@
 
 1402782958 d:\cpp\wxwidgets-3.0.1\include\wx\msw\rcdefs.h
 
-1408726333 source:d:\cpp\projekty\wxwidgets\bma\guiframe.cpp
+1408884554 source:d:\cpp\projekty\wxwidgets\bma\guiframe.cpp
 	"wx/wxprec.h"
 	<wx/wx.h>
 	"GUIFrame.h"

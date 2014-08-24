@@ -16,6 +16,7 @@ class BMAApp : public wxApp
 {
 public:
     virtual bool OnInit();
+
 };
 
 #endif // BMAAPP_H

@@ -14,28 +14,31 @@
 #include "GUIFrame.h"
 #include "wx/ribbon/buttonbar.h"
 
+
+
 class BMAFrame: public GUIFrame
 {
 public:
+   v RefreshList(void);
     BMAFrame(wxFrame *frame);
     ~BMAFrame();
+
 private:
     virtual void OnAddItem(wxRibbonButtonBarEvent& event);
     virtual void test( wxRibbonButtonBarEvent& event );
     virtual void OnQuit(wxRibbonButtonBarEvent& event);
+    virtual void OnRefresh( wxRibbonButtonBarEvent& event );
+
 
 };
 
-class BMAFrame: public GUIFrame
+class AddFrame: public AddItemFrame
 {
 public:
-    BMAFrame(wxFrame *frame);
-    ~BMAFrame();
+    AddFrame(wxFrame *aframe);
+    ~AddFrame();
 private:
-    virtual void OnAddItem(wxRibbonButtonBarEvent& event);
-    virtual void test( wxRibbonButtonBarEvent& event );
-    virtual void OnQuit(wxRibbonButtonBarEvent& event);
-
+    virtual void OnAddItem( wxCommandEvent& event );
 };
 
 #endif // BMAMAIN_H

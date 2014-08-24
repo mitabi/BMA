@@ -10,14 +10,15 @@
 
 #include <wx/artprov.h>
 #include <wx/xrc/xmlres.h>
-#include <wx/string.h>
-#include <wx/bitmap.h>
-#include <wx/image.h>
-#include <wx/icon.h>
+#include <wx/statusbr.h>
 #include <wx/gdicmn.h>
 #include <wx/font.h>
 #include <wx/colour.h>
 #include <wx/settings.h>
+#include <wx/string.h>
+#include <wx/bitmap.h>
+#include <wx/image.h>
+#include <wx/icon.h>
 #include <wx/ribbon/buttonbar.h>
 #include <wx/ribbon/panel.h>
 #include <wx/ribbon/page.h>
@@ -25,12 +26,11 @@
 #include <wx/ribbon/art.h>
 #include <wx/ribbon/bar.h>
 #include <wx/dataview.h>
+#include <wx/textctrl.h>
 #include <wx/sizer.h>
-#include <wx/statusbr.h>
 #include <wx/frame.h>
 #include <wx/stattext.h>
 #include <wx/slider.h>
-#include <wx/textctrl.h>
 #include <wx/datectrl.h>
 #include <wx/dateevt.h>
 #include <wx/button.h>
@@ -38,7 +38,7 @@
 ///////////////////////////////////////////////////////////////////////////
 
 #define rb_additem 1000
-#define ww 1001
+#define rb_refresh 1001
 #define www 1002
 #define rb_close 1003
 
@@ -50,18 +50,21 @@ class GUIFrame : public wxFrame
 	private:
 	
 	protected:
+		wxStatusBar* statusBar;
 		wxRibbonBar* m_ribbonBar1;
 		wxRibbonPage* m_ribbonPage1;
 		wxRibbonPanel* mRibbon_PanelDefault;
 		wxRibbonButtonBar* mRibbon_ButtonBarTools;
+		wxRibbonPage* m_ribbonPage2;
 		wxDataViewListCtrl* m_TableData;
 		wxDataViewColumn* m_ColumnDate;
 		wxDataViewColumn* m_ColumnWeight;
-		wxStatusBar* statusBar;
+		wxTextCtrl* m_textCtrl2;
 		
 		// Virtual event handlers, overide them in your derived class
 		virtual void OnClose( wxCloseEvent& event ) { event.Skip(); }
 		virtual void OnAddItem( wxRibbonButtonBarEvent& event ) { event.Skip(); }
+		virtual void OnRefresh( wxRibbonButtonBarEvent& event ) { event.Skip(); }
 		virtual void OnQuit( wxRibbonButtonBarEvent& event ) { event.Skip(); }
 		
 	
@@ -92,11 +95,12 @@ class AddItemFrame : public wxFrame
 		
 		// Virtual event handlers, overide them in your derived class
 		virtual void OnAddItem( wxCommandEvent& event ) { event.Skip(); }
+		virtual void RefreshList( wxCommandEvent& event ) { event.Skip(); }
 		
 	
 	public:
 		
-		AddItemFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("test"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 509,134 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );
+		AddItemFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("Dodaj wynik pomiaru"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 509,134 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );
 		
 		~AddItemFrame();
 	

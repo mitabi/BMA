@@ -18,6 +18,7 @@
 #include "BMAMain.h"
 #include "wx/msgdlg.h"
 #include "sqlite.h"
+#include "wx/debug.h"
 
 //helper functions
 enum wxbuildinfoformat
@@ -71,15 +72,13 @@ AddFrame::~AddFrame()
 {
 }
 
-
-
-
 void BMAFrame::OnAddItem(wxRibbonButtonBarEvent& event)
 {
 
     AddFrame *aframe = new AddFrame(0L);
     aframe->SetIcon(wxICON(aaaa)); // To Set App Icon
     aframe -> Show();
+    RefreshList();
 }
 
 void AddFrame::OnAddItem(wxCommandEvent& event )
@@ -87,16 +86,47 @@ void AddFrame::OnAddItem(wxCommandEvent& event )
     wxSQLite3Database* db = initDB();
     wxSQLite3Transaction t(db);
     wxDateTime weightDate = DateItem->GetValue();
-    wxString strdate = weightDate.Format(wxT("%d-%m-%y"), wxDateTime::CET );
+    wxString strdate = weightDate.Format(wxT("%Y-%m-%d"), wxDateTime::CET );
     wxString strvalue = weightValue->GetValue();
 
     db->ExecuteUpdate(wxT("INSERT INTO Data (date,weight) VALUES ('")+ strdate + wxT("',")+ strvalue +wxT(")"));
     t.Commit();
+    Destroy();
+
 }
 
 void BMAFrame::OnQuit(wxRibbonButtonBarEvent& event)
 {
     Destroy();
+}
+
+void BMAFrame::OnRefresh(wxRibbonButtonBarEvent& event)
+{
+   RefreshList();
+}
+
+void BMAFrame::RefreshList(void)
+{
+    wxSQLite3Database* db = initDB();
+    wxSQLite3ResultSet setdate = db->ExecuteQuery(wxT("SELECT date, weight FROM Data"));
+
+    int count = 0;
+    wxVector<wxVariant> data;
+
+    m_TableData->DeleteAllItems() ;
+    while (setdate.NextRow())
+        {
+            wxString s1 = setdate.GetAsString(0);
+            wxString s2 = setdate.GetAsString(1);
+            count++;
+
+            data.push_back(s1);
+            data.push_back(s2);
+
+            m_TableData->AppendItem( data );
+            data.clear();
+        }
+    setdate.Finalize();
 }
 
 void BMAFrame::test( wxRibbonButtonBarEvent& event )
