@@ -1,0 +1,192 @@
+warning: The selected output language "polish" has not been updated
+since release 1.8.2.  As a result some sentences may appear in English.
+
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_app_8h__dep__incl.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_app_8h__dep__incl.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_app_8cpp__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_app_8cpp__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_app_8h__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_app_8h__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_app_8h__dep__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_app_8h__dep__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_app_8cpp__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_app_8cpp__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_app_8h__incl.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_app_8h__incl.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_app_8cpp__incl.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_app_8cpp__incl.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_app_8h__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_app_8h__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_app_8h__dep__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_app_8h__dep__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_main_8cpp__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_main_8cpp__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_main_8h__incl.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_main_8h__incl.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_main_8cpp__incl.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_main_8cpp__incl.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_main_8cpp__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_main_8cpp__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_main_8h__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_main_8h__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_main_8h__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_main_8h__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_main_8h__dep__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_b_m_a_main_8h__dep__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_main_8h__dep__incl.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_b_m_a_main_8h__dep__incl.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_g_u_i_frame_8cpp__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_g_u_i_frame_8cpp__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_main_8h__dep__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_main_8h__dep__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_g_u_i_frame_8cpp__incl.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_g_u_i_frame_8cpp__incl.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_g_u_i_frame_8h__incl.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_g_u_i_frame_8h__incl.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_g_u_i_frame_8cpp__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_g_u_i_frame_8cpp__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_g_u_i_frame_8h__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_g_u_i_frame_8h__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_g_u_i_frame_8h__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_g_u_i_frame_8h__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_g_u_i_frame_8h__dep__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_g_u_i_frame_8h__dep__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_g_u_i_frame_8h__dep__incl.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/_g_u_i_frame_8h__dep__incl.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/sqlite_8h__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/sqlite_8h__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/sqlite_8h__dep__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/sqlite_8h__dep__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/sqlite_8h__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/sqlite_8h__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_g_u_i_frame_8h__dep__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/_g_u_i_frame_8h__dep__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/sqlite_8h__dep__incl.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/sqlite_8h__dep__incl.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/sqlite_8h__incl.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/sqlite_8h__incl.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_frame__inherit__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_frame__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/sqlite_8h__dep__incl.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/sqlite_8h__dep__incl.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_frame__coll__graph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_frame__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_frame__inherit__graph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_frame__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_frame__inherit__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_frame__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_frame__coll__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_frame__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_frame__coll__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_frame__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_frame_aa389d695347d4b576e0f962a58b6038c_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_frame_aa389d695347d4b576e0f962a58b6038c_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_frame_aa389d695347d4b576e0f962a58b6038c_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_frame_aa389d695347d4b576e0f962a58b6038c_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_item_frame__inherit__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_item_frame__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_frame_aa389d695347d4b576e0f962a58b6038c_cgraph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_frame_aa389d695347d4b576e0f962a58b6038c_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame__inherit__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_item_frame__inherit__graph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_item_frame__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame__coll__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_item_frame_ad1a92909cf7b8c9300e9ac1f69d0813f_cgraph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_item_frame_ad1a92909cf7b8c9300e9ac1f69d0813f_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_item_frame_ad1a92909cf7b8c9300e9ac1f69d0813f_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_item_frame_ad1a92909cf7b8c9300e9ac1f69d0813f_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame_a86096e43c925d13299894b24972bc569_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame_a86096e43c925d13299894b24972bc569_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_item_frame_a86096e43c925d13299894b24972bc569_cgraph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_item_frame_a86096e43c925d13299894b24972bc569_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_item_frame_a86096e43c925d13299894b24972bc569_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_item_frame_a86096e43c925d13299894b24972bc569_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_item_frame__coll__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_add_item_frame__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_item_frame__coll__graph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_add_item_frame__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame_ad1a92909cf7b8c9300e9ac1f69d0813f_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame_ad1a92909cf7b8c9300e9ac1f69d0813f_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_app__inherit__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_app__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_app__inherit__graph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_app__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame__inherit__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame__inherit__graph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame__inherit__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_app__coll__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_app__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame__coll__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_app__coll__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_app__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_app__inherit__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_app__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_app__coll__graph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_app__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame__coll__graph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame_a3234b4f776104caca6749069617a9636_cgraph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame_a3234b4f776104caca6749069617a9636_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame_ac21189c22d2e7588e6d18f33636369ba_cgraph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame_ac21189c22d2e7588e6d18f33636369ba_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_ac21189c22d2e7588e6d18f33636369ba_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_ac21189c22d2e7588e6d18f33636369ba_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame__coll__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_aeadc0046b152d112f57466ad7bbb27f5_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_aeadc0046b152d112f57466ad7bbb27f5_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame_ac21189c22d2e7588e6d18f33636369ba_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame_ac21189c22d2e7588e6d18f33636369ba_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_a3234b4f776104caca6749069617a9636_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_a3234b4f776104caca6749069617a9636_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame_a3234b4f776104caca6749069617a9636_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame_a3234b4f776104caca6749069617a9636_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame_aeadc0046b152d112f57466ad7bbb27f5_cgraph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame_aeadc0046b152d112f57466ad7bbb27f5_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame_aeadc0046b152d112f57466ad7bbb27f5_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame_aeadc0046b152d112f57466ad7bbb27f5_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_af2c2da9a3c70647e70be099a2cbf4b50_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_af2c2da9a3c70647e70be099a2cbf4b50_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame_af2c2da9a3c70647e70be099a2cbf4b50_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_b_m_a_frame_af2c2da9a3c70647e70be099a2cbf4b50_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_g_u_i_frame__inherit__graph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_g_u_i_frame__inherit__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame__inherit__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame_af2c2da9a3c70647e70be099a2cbf4b50_cgraph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_b_m_a_frame_af2c2da9a3c70647e70be099a2cbf4b50_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_g_u_i_frame__inherit__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_g_u_i_frame__inherit__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame__coll__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_g_u_i_frame__coll__graph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_g_u_i_frame__coll__graph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_g_u_i_frame_a99041f1f29bd297f167fecd6ea961138_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_g_u_i_frame_a99041f1f29bd297f167fecd6ea961138_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame_a99041f1f29bd297f167fecd6ea961138_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame_a99041f1f29bd297f167fecd6ea961138_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_g_u_i_frame_a99041f1f29bd297f167fecd6ea961138_cgraph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_g_u_i_frame_a99041f1f29bd297f167fecd6ea961138_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_g_u_i_frame__coll__graph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_g_u_i_frame__coll__graph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/graph_legend.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/graph_legend.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_g_u_i_frame_a1e078f7765a8aa753101fd4e0cc0e0b0_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/rtf/class_g_u_i_frame_a1e078f7765a8aa753101fd4e0cc0e0b0_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_g_u_i_frame_a1e078f7765a8aa753101fd4e0cc0e0b0_cgraph.dot" -Tpdf -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/latex/class_g_u_i_frame_a1e078f7765a8aa753101fd4e0cc0e0b0_cgraph.pdf"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame_a1e078f7765a8aa753101fd4e0cc0e0b0_cgraph.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame_a1e078f7765a8aa753101fd4e0cc0e0b0_cgraph.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/inherit_graph_0.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/inherit_graph_0.png"'
+error: Problems running dot: exit code=-1, command='dot', arguments='"D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/inherit_graph_1.dot" -Tpng -o "D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/inherit_graph_1.png"'
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_app_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_app_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_app_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_main_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_main_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_b_m_a_main_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_g_u_i_frame_8cpp__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_g_u_i_frame_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/_g_u_i_frame_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/sqlite_8h__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/sqlite_8h__dep__incl.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_frame__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_frame__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_frame_aa389d695347d4b576e0f962a58b6038c_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame_a86096e43c925d13299894b24972bc569_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_add_item_frame_ad1a92909cf7b8c9300e9ac1f69d0813f_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_app__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_app__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_ac21189c22d2e7588e6d18f33636369ba_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_a3234b4f776104caca6749069617a9636_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_aeadc0046b152d112f57466ad7bbb27f5_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_b_m_a_frame_af2c2da9a3c70647e70be099a2cbf4b50_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame__inherit__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame__coll__graph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame_a99041f1f29bd297f167fecd6ea961138_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/class_g_u_i_frame_a1e078f7765a8aa753101fd4e0cc0e0b0_cgraph.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/inherit_graph_0.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.
+error: problems opening map file D:/cpp/Projekty/WxWidgets/BMA/doxygen/html/inherit_graph_1.map for inclusion in the docs!
+If you installed Graphviz/dot after a previous failing run, 
+try deleting the output directory and rerun doxygen.

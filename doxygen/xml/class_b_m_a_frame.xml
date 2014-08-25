@@ -1,0 +1,205 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_b_m_a_frame" kind="class" prot="public">
+    <compoundname>BMAFrame</compoundname>
+    <basecompoundref refid="class_g_u_i_frame" prot="public" virt="non-virtual">GUIFrame</basecompoundref>
+    <includes refid="_b_m_a_main_8h" local="no">BMAMain.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_b_m_a_frame_1af2c2da9a3c70647e70be099a2cbf4b50" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void BMAFrame::RefreshList</definition>
+        <argsstring>(void)</argsstring>
+        <name>RefreshList</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="22" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="109" bodyend="131"/>
+        <references refid="sqlite_8h_1a15f20f862c3c044d38656009f256b4e0" compoundref="sqlite_8h" startline="8" endline="26">initDB</references>
+        <references refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" compoundref="_g_u_i_frame_8h" startline="66">GUIFrame::m_TableData</references>
+      </memberdef>
+      <memberdef kind="function" id="class_b_m_a_frame_1ac21189c22d2e7588e6d18f33636369ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BMAFrame::BMAFrame</definition>
+        <argsstring>(wxFrame *frame)</argsstring>
+        <name>BMAFrame</name>
+        <param>
+          <type>wxFrame *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="23" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="53" bodyend="60"/>
+        <references refid="class_g_u_i_frame_1aaead1e3685f946f4cf2b37968300536d" compoundref="_g_u_i_frame_8h" startline="55">GUIFrame::statusBar</references>
+        <references refid="_b_m_a_main_8cpp_1afdd094b13f51c9d282a71d71dd0595ab" compoundref="_b_m_a_main_8cpp" startline="29" endline="51">wxbuildinfo</references>
+        <references refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837faf34cf4880b9e5e417182a04ea274043c" compoundref="_b_m_a_main_8cpp" startline="26">short_f</references>
+      </memberdef>
+      <memberdef kind="function" id="class_b_m_a_frame_1a45f96400765e02bdbe59160fcd2f8fef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>BMAFrame::~BMAFrame</definition>
+        <argsstring>()</argsstring>
+        <name>~BMAFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="24" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="62" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_b_m_a_frame_1a3234b4f776104caca6749069617a9636" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void BMAFrame::OnAddItem</definition>
+        <argsstring>(wxRibbonButtonBarEvent &amp;event)</argsstring>
+        <name>OnAddItem</name>
+        <reimplements refid="class_g_u_i_frame_1a61c2049883d2bd8dbe7ee4bbf23a7210">OnAddItem</reimplements>
+        <param>
+          <type>wxRibbonButtonBarEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="27" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="75" bodyend="82"/>
+        <references refid="class_b_m_a_frame_1af2c2da9a3c70647e70be099a2cbf4b50" compoundref="_b_m_a_main_8cpp" startline="109" endline="131">RefreshList</references>
+      </memberdef>
+      <memberdef kind="function" id="class_b_m_a_frame_1a16d84140830e8b756452135bb2c8711b" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void BMAFrame::test</definition>
+        <argsstring>(wxRibbonButtonBarEvent &amp;event)</argsstring>
+        <name>test</name>
+        <param>
+          <type>wxRibbonButtonBarEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="28" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="133" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_m_a_frame_1ad8399f7bf1c97356fd95f6ec1e470c31" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void BMAFrame::OnQuit</definition>
+        <argsstring>(wxRibbonButtonBarEvent &amp;event)</argsstring>
+        <name>OnQuit</name>
+        <reimplements refid="class_g_u_i_frame_1ab0ffdd17fab85e47117dcb0a19a2eb6d">OnQuit</reimplements>
+        <param>
+          <type>wxRibbonButtonBarEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="29" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="99" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_b_m_a_frame_1aeadc0046b152d112f57466ad7bbb27f5" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void BMAFrame::OnRefresh</definition>
+        <argsstring>(wxRibbonButtonBarEvent &amp;event)</argsstring>
+        <name>OnRefresh</name>
+        <reimplements refid="class_g_u_i_frame_1a7d9938c3ae00b4e8d1367b94b24ea326">OnRefresh</reimplements>
+        <param>
+          <type>wxRibbonButtonBarEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="30" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="104" bodyend="107"/>
+        <references refid="class_b_m_a_frame_1af2c2da9a3c70647e70be099a2cbf4b50" compoundref="_b_m_a_main_8cpp" startline="109" endline="131">RefreshList</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="42">
+        <label>GUIFrame</label>
+        <link refid="class_g_u_i_frame"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="43">
+        <label>wxFrame</label>
+      </node>
+      <node id="41">
+        <label>BMAFrame</label>
+        <link refid="class_b_m_a_frame"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="45">
+        <label>GUIFrame</label>
+        <link refid="class_g_u_i_frame"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="46">
+        <label>wxFrame</label>
+      </node>
+      <node id="44">
+        <label>BMAFrame</label>
+        <link refid="class_b_m_a_frame"/>
+        <childnode refid="45" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="20" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" bodystart="19" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_b_m_a_frame_1ac21189c22d2e7588e6d18f33636369ba" prot="public" virt="non-virtual"><scope>BMAFrame</scope><name>BMAFrame</name></member>
+      <member refid="class_g_u_i_frame_1a99041f1f29bd297f167fecd6ea961138" prot="public" virt="non-virtual"><scope>BMAFrame</scope><name>GUIFrame</name></member>
+      <member refid="class_g_u_i_frame_1a230303f14bac3741946470f81d8a7c07" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_ColumnDate</name></member>
+      <member refid="class_g_u_i_frame_1a99b64129f2b8cf9d9a645be02830b298" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_ColumnWeight</name></member>
+      <member refid="class_g_u_i_frame_1a332c2b34570ddce4d9b239367c132502" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_panel1</name></member>
+      <member refid="class_g_u_i_frame_1a84a4073aff66334e308650ab2da932d0" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_panel2</name></member>
+      <member refid="class_g_u_i_frame_1afa782c80ec08b38bc1c7155181f804a4" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_panel3</name></member>
+      <member refid="class_g_u_i_frame_1a738374d963938e0a62e9a8c345ad4f10" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_panel4</name></member>
+      <member refid="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_ribbonBar1</name></member>
+      <member refid="class_g_u_i_frame_1a0f322f84e35af5b623bd6959e2e40f6f" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_ribbonPage1</name></member>
+      <member refid="class_g_u_i_frame_1a20ad742f09844d3a8e118c694b647ff9" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_ribbonPage2</name></member>
+      <member refid="class_g_u_i_frame_1ae7e2fe484243591f8d8f74864615dded" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_splitter1</name></member>
+      <member refid="class_g_u_i_frame_1acd4f81331a4805ec3fe95d9ab9c6caa1" prot="public" virt="non-virtual"><scope>BMAFrame</scope><name>m_splitter1OnIdle</name></member>
+      <member refid="class_g_u_i_frame_1afe9d863db4f47e5e3ef6637a4e5c2f22" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_splitter2</name></member>
+      <member refid="class_g_u_i_frame_1ad175028388eacf06fac046f5bb6a8c2e" prot="public" virt="non-virtual"><scope>BMAFrame</scope><name>m_splitter2OnIdle</name></member>
+      <member refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_TableData</name></member>
+      <member refid="class_g_u_i_frame_1adede8a7af1c20027839a8025852f1358" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>m_textCtrl2</name></member>
+      <member refid="class_g_u_i_frame_1af716f8276acd84e4809ff152930e950a" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>mRibbon_ButtonBarTools</name></member>
+      <member refid="class_g_u_i_frame_1a9ed28512708a6780fa61e922432b8ce5" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>mRibbon_PanelDefault</name></member>
+      <member refid="class_b_m_a_frame_1a3234b4f776104caca6749069617a9636" prot="private" virt="virtual"><scope>BMAFrame</scope><name>OnAddItem</name></member>
+      <member refid="class_g_u_i_frame_1a6b99e20a320f07b2551dd0797d798e40" prot="protected" virt="virtual"><scope>BMAFrame</scope><name>OnClose</name></member>
+      <member refid="class_b_m_a_frame_1ad8399f7bf1c97356fd95f6ec1e470c31" prot="private" virt="virtual"><scope>BMAFrame</scope><name>OnQuit</name></member>
+      <member refid="class_b_m_a_frame_1aeadc0046b152d112f57466ad7bbb27f5" prot="private" virt="virtual"><scope>BMAFrame</scope><name>OnRefresh</name></member>
+      <member refid="class_b_m_a_frame_1af2c2da9a3c70647e70be099a2cbf4b50" prot="public" virt="non-virtual"><scope>BMAFrame</scope><name>RefreshList</name></member>
+      <member refid="class_g_u_i_frame_1aaead1e3685f946f4cf2b37968300536d" prot="protected" virt="non-virtual"><scope>BMAFrame</scope><name>statusBar</name></member>
+      <member refid="class_b_m_a_frame_1a16d84140830e8b756452135bb2c8711b" prot="private" virt="virtual"><scope>BMAFrame</scope><name>test</name></member>
+      <member refid="class_b_m_a_frame_1a45f96400765e02bdbe59160fcd2f8fef" prot="public" virt="non-virtual"><scope>BMAFrame</scope><name>~BMAFrame</name></member>
+      <member refid="class_g_u_i_frame_1a1e078f7765a8aa753101fd4e0cc0e0b0" prot="public" virt="non-virtual"><scope>BMAFrame</scope><name>~GUIFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

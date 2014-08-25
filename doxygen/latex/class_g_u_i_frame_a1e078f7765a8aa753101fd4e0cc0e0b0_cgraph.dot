@@ -1,0 +1,15 @@
+digraph "GUIFrame::~GUIFrame"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="GUIFrame::~GUIFrame",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid"];
+  Node2 [label="GUIFrame::OnClose",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_u_i_frame.html#a6b99e20a320f07b2551dd0797d798e40"];
+  Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid"];
+  Node3 [label="GUIFrame::OnAddItem",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_u_i_frame.html#a61c2049883d2bd8dbe7ee4bbf23a7210"];
+  Node1 -> Node4 [color="midnightblue",fontsize="10",style="solid"];
+  Node4 [label="GUIFrame::OnRefresh",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_u_i_frame.html#a7d9938c3ae00b4e8d1367b94b24ea326"];
+  Node1 -> Node5 [color="midnightblue",fontsize="10",style="solid"];
+  Node5 [label="GUIFrame::OnQuit",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$class_g_u_i_frame.html#ab0ffdd17fab85e47117dcb0a19a2eb6d"];
+}

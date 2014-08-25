@@ -1,0 +1,473 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_g_u_i_frame" kind="class" prot="public">
+    <compoundname>GUIFrame</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">wxFrame</basecompoundref>
+    <derivedcompoundref refid="class_b_m_a_frame" prot="public" virt="non-virtual">BMAFrame</derivedcompoundref>
+    <includes refid="_g_u_i_frame_8h" local="no">GUIFrame.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_g_u_i_frame_1aaead1e3685f946f4cf2b37968300536d" prot="protected" static="no" mutable="no">
+        <type>wxStatusBar *</type>
+        <definition>wxStatusBar* GUIFrame::statusBar</definition>
+        <argsstring></argsstring>
+        <name>statusBar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="55" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" prot="protected" static="no" mutable="no">
+        <type>wxRibbonBar *</type>
+        <definition>wxRibbonBar* GUIFrame::m_ribbonBar1</definition>
+        <argsstring></argsstring>
+        <name>m_ribbonBar1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="56" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1a0f322f84e35af5b623bd6959e2e40f6f" prot="protected" static="no" mutable="no">
+        <type>wxRibbonPage *</type>
+        <definition>wxRibbonPage* GUIFrame::m_ribbonPage1</definition>
+        <argsstring></argsstring>
+        <name>m_ribbonPage1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="57" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1a9ed28512708a6780fa61e922432b8ce5" prot="protected" static="no" mutable="no">
+        <type>wxRibbonPanel *</type>
+        <definition>wxRibbonPanel* GUIFrame::mRibbon_PanelDefault</definition>
+        <argsstring></argsstring>
+        <name>mRibbon_PanelDefault</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="58" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1af716f8276acd84e4809ff152930e950a" prot="protected" static="no" mutable="no">
+        <type>wxRibbonButtonBar *</type>
+        <definition>wxRibbonButtonBar* GUIFrame::mRibbon_ButtonBarTools</definition>
+        <argsstring></argsstring>
+        <name>mRibbon_ButtonBarTools</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="59" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1a20ad742f09844d3a8e118c694b647ff9" prot="protected" static="no" mutable="no">
+        <type>wxRibbonPage *</type>
+        <definition>wxRibbonPage* GUIFrame::m_ribbonPage2</definition>
+        <argsstring></argsstring>
+        <name>m_ribbonPage2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="60" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1afe9d863db4f47e5e3ef6637a4e5c2f22" prot="protected" static="no" mutable="no">
+        <type>wxSplitterWindow *</type>
+        <definition>wxSplitterWindow* GUIFrame::m_splitter2</definition>
+        <argsstring></argsstring>
+        <name>m_splitter2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="61" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1afa782c80ec08b38bc1c7155181f804a4" prot="protected" static="no" mutable="no">
+        <type>wxPanel *</type>
+        <definition>wxPanel* GUIFrame::m_panel3</definition>
+        <argsstring></argsstring>
+        <name>m_panel3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="62" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1a738374d963938e0a62e9a8c345ad4f10" prot="protected" static="no" mutable="no">
+        <type>wxPanel *</type>
+        <definition>wxPanel* GUIFrame::m_panel4</definition>
+        <argsstring></argsstring>
+        <name>m_panel4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="63" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1ae7e2fe484243591f8d8f74864615dded" prot="protected" static="no" mutable="no">
+        <type>wxSplitterWindow *</type>
+        <definition>wxSplitterWindow* GUIFrame::m_splitter1</definition>
+        <argsstring></argsstring>
+        <name>m_splitter1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="64" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1a332c2b34570ddce4d9b239367c132502" prot="protected" static="no" mutable="no">
+        <type>wxPanel *</type>
+        <definition>wxPanel* GUIFrame::m_panel1</definition>
+        <argsstring></argsstring>
+        <name>m_panel1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="65" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" prot="protected" static="no" mutable="no">
+        <type>wxDataViewListCtrl *</type>
+        <definition>wxDataViewListCtrl* GUIFrame::m_TableData</definition>
+        <argsstring></argsstring>
+        <name>m_TableData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="66" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1a230303f14bac3741946470f81d8a7c07" prot="protected" static="no" mutable="no">
+        <type>wxDataViewColumn *</type>
+        <definition>wxDataViewColumn* GUIFrame::m_ColumnDate</definition>
+        <argsstring></argsstring>
+        <name>m_ColumnDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="67" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1a99b64129f2b8cf9d9a645be02830b298" prot="protected" static="no" mutable="no">
+        <type>wxDataViewColumn *</type>
+        <definition>wxDataViewColumn* GUIFrame::m_ColumnWeight</definition>
+        <argsstring></argsstring>
+        <name>m_ColumnWeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="68" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1a84a4073aff66334e308650ab2da932d0" prot="protected" static="no" mutable="no">
+        <type>wxPanel *</type>
+        <definition>wxPanel* GUIFrame::m_panel2</definition>
+        <argsstring></argsstring>
+        <name>m_panel2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="69" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_g_u_i_frame_1adede8a7af1c20027839a8025852f1358" prot="protected" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl* GUIFrame::m_textCtrl2</definition>
+        <argsstring></argsstring>
+        <name>m_textCtrl2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="70" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_g_u_i_frame_1a6b99e20a320f07b2551dd0797d798e40" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GUIFrame::OnClose</definition>
+        <argsstring>(wxCloseEvent &amp;event)</argsstring>
+        <name>OnClose</name>
+        <param>
+          <type>wxCloseEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="73" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_frame_1a61c2049883d2bd8dbe7ee4bbf23a7210" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GUIFrame::OnAddItem</definition>
+        <argsstring>(wxRibbonButtonBarEvent &amp;event)</argsstring>
+        <name>OnAddItem</name>
+        <reimplementedby refid="class_b_m_a_frame_1a3234b4f776104caca6749069617a9636">OnAddItem</reimplementedby>
+        <param>
+          <type>wxRibbonButtonBarEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="77" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="77" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_frame_1a7d9938c3ae00b4e8d1367b94b24ea326" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GUIFrame::OnRefresh</definition>
+        <argsstring>(wxRibbonButtonBarEvent &amp;event)</argsstring>
+        <name>OnRefresh</name>
+        <reimplementedby refid="class_b_m_a_frame_1aeadc0046b152d112f57466ad7bbb27f5">OnRefresh</reimplementedby>
+        <param>
+          <type>wxRibbonButtonBarEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="81" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="81" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_frame_1ab0ffdd17fab85e47117dcb0a19a2eb6d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GUIFrame::OnQuit</definition>
+        <argsstring>(wxRibbonButtonBarEvent &amp;event)</argsstring>
+        <name>OnQuit</name>
+        <reimplementedby refid="class_b_m_a_frame_1ad8399f7bf1c97356fd95f6ec1e470c31">OnQuit</reimplementedby>
+        <param>
+          <type>wxRibbonButtonBarEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="85" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="85" bodyend="88"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_g_u_i_frame_1a99041f1f29bd297f167fecd6ea961138" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GUIFrame::GUIFrame</definition>
+        <argsstring>(wxWindow *parent, wxWindowID id=wxID_ANY, const wxString &amp;title=wxT(&quot;BMA&quot;), const wxPoint &amp;pos=wxDefaultPosition, const wxSize &amp;size=wxSize(481, 466), long style=wxCAPTION|wxDEFAULT_FRAME_STYLE)</argsstring>
+        <name>GUIFrame</name>
+        <param>
+          <type>wxWindow *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>wxWindowID</type>
+          <declname>id</declname>
+          <defval>wxID_ANY</defval>
+        </param>
+        <param>
+          <type>const wxString &amp;</type>
+          <declname>title</declname>
+          <defval>wxT(&quot;BMA&quot;)</defval>
+        </param>
+        <param>
+          <type>const wxPoint &amp;</type>
+          <declname>pos</declname>
+          <defval>wxDefaultPosition</defval>
+        </param>
+        <param>
+          <type>const wxSize &amp;</type>
+          <declname>size</declname>
+          <defval>wxSize(481, 466)</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>style</declname>
+          <defval>wxCAPTION|wxDEFAULT_FRAME_STYLE</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="93" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.cpp" bodystart="22" bodyend="124"/>
+        <references refid="class_g_u_i_frame_1aaead1e3685f946f4cf2b37968300536d" compoundref="_g_u_i_frame_8h" startline="55">statusBar</references>
+        <references refid="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" compoundref="_g_u_i_frame_8h" startline="56">m_ribbonBar1</references>
+        <references refid="class_g_u_i_frame_1a0f322f84e35af5b623bd6959e2e40f6f" compoundref="_g_u_i_frame_8h" startline="57">m_ribbonPage1</references>
+        <references refid="class_g_u_i_frame_1a9ed28512708a6780fa61e922432b8ce5" compoundref="_g_u_i_frame_8h" startline="58">mRibbon_PanelDefault</references>
+        <references refid="class_g_u_i_frame_1af716f8276acd84e4809ff152930e950a" compoundref="_g_u_i_frame_8h" startline="59">mRibbon_ButtonBarTools</references>
+        <references refid="_g_u_i_frame_8h_1ad2599a8ea81d49be82ba48d21660e1f9" compoundref="_g_u_i_frame_8h" startline="42">rb_additem</references>
+        <references refid="_g_u_i_frame_8h_1ae7ab1f03bf5f320cdfaed99e2b36c194" compoundref="_g_u_i_frame_8h" startline="43">rb_refresh</references>
+        <references refid="_g_u_i_frame_8h_1a8eff00a8ef5f6b64042668c9f53dd68c" compoundref="_g_u_i_frame_8h" startline="44">www</references>
+        <references refid="_g_u_i_frame_8h_1a7a3c34c6b8b8d75f4eb85164b2d50301" compoundref="_g_u_i_frame_8h" startline="45">rb_close</references>
+        <references refid="class_g_u_i_frame_1a20ad742f09844d3a8e118c694b647ff9" compoundref="_g_u_i_frame_8h" startline="60">m_ribbonPage2</references>
+        <references refid="class_g_u_i_frame_1afe9d863db4f47e5e3ef6637a4e5c2f22" compoundref="_g_u_i_frame_8h" startline="61">m_splitter2</references>
+        <references refid="class_g_u_i_frame_1ad175028388eacf06fac046f5bb6a8c2e" compoundref="_g_u_i_frame_8h" startline="97" endline="101">m_splitter2OnIdle</references>
+        <references refid="class_g_u_i_frame_1afa782c80ec08b38bc1c7155181f804a4" compoundref="_g_u_i_frame_8h" startline="62">m_panel3</references>
+        <references refid="class_g_u_i_frame_1a738374d963938e0a62e9a8c345ad4f10" compoundref="_g_u_i_frame_8h" startline="63">m_panel4</references>
+        <references refid="class_g_u_i_frame_1ae7e2fe484243591f8d8f74864615dded" compoundref="_g_u_i_frame_8h" startline="64">m_splitter1</references>
+        <references refid="class_g_u_i_frame_1acd4f81331a4805ec3fe95d9ab9c6caa1" compoundref="_g_u_i_frame_8h" startline="103" endline="107">m_splitter1OnIdle</references>
+        <references refid="class_g_u_i_frame_1a332c2b34570ddce4d9b239367c132502" compoundref="_g_u_i_frame_8h" startline="65">m_panel1</references>
+        <references refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" compoundref="_g_u_i_frame_8h" startline="66">m_TableData</references>
+        <references refid="class_g_u_i_frame_1a230303f14bac3741946470f81d8a7c07" compoundref="_g_u_i_frame_8h" startline="67">m_ColumnDate</references>
+        <references refid="class_g_u_i_frame_1a99b64129f2b8cf9d9a645be02830b298" compoundref="_g_u_i_frame_8h" startline="68">m_ColumnWeight</references>
+        <references refid="class_g_u_i_frame_1a84a4073aff66334e308650ab2da932d0" compoundref="_g_u_i_frame_8h" startline="69">m_panel2</references>
+        <references refid="class_g_u_i_frame_1adede8a7af1c20027839a8025852f1358" compoundref="_g_u_i_frame_8h" startline="70">m_textCtrl2</references>
+        <references refid="class_g_u_i_frame_1a6b99e20a320f07b2551dd0797d798e40" compoundref="_g_u_i_frame_8h" startline="73" endline="76">OnClose</references>
+        <references refid="class_g_u_i_frame_1a61c2049883d2bd8dbe7ee4bbf23a7210" compoundref="_g_u_i_frame_8h" startline="77" endline="80">OnAddItem</references>
+        <references refid="class_g_u_i_frame_1a7d9938c3ae00b4e8d1367b94b24ea326" compoundref="_g_u_i_frame_8h" startline="81" endline="84">OnRefresh</references>
+        <references refid="class_g_u_i_frame_1ab0ffdd17fab85e47117dcb0a19a2eb6d" compoundref="_g_u_i_frame_8h" startline="85" endline="88">OnQuit</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_frame_1a1e078f7765a8aa753101fd4e0cc0e0b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>GUIFrame::~GUIFrame</definition>
+        <argsstring>()</argsstring>
+        <name>~GUIFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="95" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.cpp" bodystart="126" bodyend="134"/>
+        <references refid="class_g_u_i_frame_1a6b99e20a320f07b2551dd0797d798e40" compoundref="_g_u_i_frame_8h" startline="73" endline="76">OnClose</references>
+        <references refid="_g_u_i_frame_8h_1ad2599a8ea81d49be82ba48d21660e1f9" compoundref="_g_u_i_frame_8h" startline="42">rb_additem</references>
+        <references refid="class_g_u_i_frame_1a61c2049883d2bd8dbe7ee4bbf23a7210" compoundref="_g_u_i_frame_8h" startline="77" endline="80">OnAddItem</references>
+        <references refid="_g_u_i_frame_8h_1ae7ab1f03bf5f320cdfaed99e2b36c194" compoundref="_g_u_i_frame_8h" startline="43">rb_refresh</references>
+        <references refid="class_g_u_i_frame_1a7d9938c3ae00b4e8d1367b94b24ea326" compoundref="_g_u_i_frame_8h" startline="81" endline="84">OnRefresh</references>
+        <references refid="_g_u_i_frame_8h_1a7a3c34c6b8b8d75f4eb85164b2d50301" compoundref="_g_u_i_frame_8h" startline="45">rb_close</references>
+        <references refid="class_g_u_i_frame_1ab0ffdd17fab85e47117dcb0a19a2eb6d" compoundref="_g_u_i_frame_8h" startline="85" endline="88">OnQuit</references>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_frame_1ad175028388eacf06fac046f5bb6a8c2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIFrame::m_splitter2OnIdle</definition>
+        <argsstring>(wxIdleEvent &amp;)</argsstring>
+        <name>m_splitter2OnIdle</name>
+        <param>
+          <type>wxIdleEvent &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="97" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_g_u_i_frame_1acd4f81331a4805ec3fe95d9ab9c6caa1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GUIFrame::m_splitter1OnIdle</definition>
+        <argsstring>(wxIdleEvent &amp;)</argsstring>
+        <name>m_splitter1OnIdle</name>
+        <param>
+          <type>wxIdleEvent &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="103" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="103" bodyend="107"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class <ref refid="class_g_u_i_frame" kindref="compound">GUIFrame</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="47">
+        <label>GUIFrame</label>
+        <link refid="class_g_u_i_frame"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="48">
+        <label>wxFrame</label>
+      </node>
+      <node id="49">
+        <label>BMAFrame</label>
+        <link refid="class_b_m_a_frame"/>
+        <childnode refid="47" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="50">
+        <label>GUIFrame</label>
+        <link refid="class_g_u_i_frame"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="51">
+        <label>wxFrame</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="51" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="50" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_g_u_i_frame_1a99041f1f29bd297f167fecd6ea961138" prot="public" virt="non-virtual"><scope>GUIFrame</scope><name>GUIFrame</name></member>
+      <member refid="class_g_u_i_frame_1a230303f14bac3741946470f81d8a7c07" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_ColumnDate</name></member>
+      <member refid="class_g_u_i_frame_1a99b64129f2b8cf9d9a645be02830b298" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_ColumnWeight</name></member>
+      <member refid="class_g_u_i_frame_1a332c2b34570ddce4d9b239367c132502" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_panel1</name></member>
+      <member refid="class_g_u_i_frame_1a84a4073aff66334e308650ab2da932d0" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_panel2</name></member>
+      <member refid="class_g_u_i_frame_1afa782c80ec08b38bc1c7155181f804a4" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_panel3</name></member>
+      <member refid="class_g_u_i_frame_1a738374d963938e0a62e9a8c345ad4f10" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_panel4</name></member>
+      <member refid="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_ribbonBar1</name></member>
+      <member refid="class_g_u_i_frame_1a0f322f84e35af5b623bd6959e2e40f6f" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_ribbonPage1</name></member>
+      <member refid="class_g_u_i_frame_1a20ad742f09844d3a8e118c694b647ff9" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_ribbonPage2</name></member>
+      <member refid="class_g_u_i_frame_1ae7e2fe484243591f8d8f74864615dded" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_splitter1</name></member>
+      <member refid="class_g_u_i_frame_1acd4f81331a4805ec3fe95d9ab9c6caa1" prot="public" virt="non-virtual"><scope>GUIFrame</scope><name>m_splitter1OnIdle</name></member>
+      <member refid="class_g_u_i_frame_1afe9d863db4f47e5e3ef6637a4e5c2f22" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_splitter2</name></member>
+      <member refid="class_g_u_i_frame_1ad175028388eacf06fac046f5bb6a8c2e" prot="public" virt="non-virtual"><scope>GUIFrame</scope><name>m_splitter2OnIdle</name></member>
+      <member refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_TableData</name></member>
+      <member refid="class_g_u_i_frame_1adede8a7af1c20027839a8025852f1358" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>m_textCtrl2</name></member>
+      <member refid="class_g_u_i_frame_1af716f8276acd84e4809ff152930e950a" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>mRibbon_ButtonBarTools</name></member>
+      <member refid="class_g_u_i_frame_1a9ed28512708a6780fa61e922432b8ce5" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>mRibbon_PanelDefault</name></member>
+      <member refid="class_g_u_i_frame_1a61c2049883d2bd8dbe7ee4bbf23a7210" prot="protected" virt="virtual"><scope>GUIFrame</scope><name>OnAddItem</name></member>
+      <member refid="class_g_u_i_frame_1a6b99e20a320f07b2551dd0797d798e40" prot="protected" virt="virtual"><scope>GUIFrame</scope><name>OnClose</name></member>
+      <member refid="class_g_u_i_frame_1ab0ffdd17fab85e47117dcb0a19a2eb6d" prot="protected" virt="virtual"><scope>GUIFrame</scope><name>OnQuit</name></member>
+      <member refid="class_g_u_i_frame_1a7d9938c3ae00b4e8d1367b94b24ea326" prot="protected" virt="virtual"><scope>GUIFrame</scope><name>OnRefresh</name></member>
+      <member refid="class_g_u_i_frame_1aaead1e3685f946f4cf2b37968300536d" prot="protected" virt="non-virtual"><scope>GUIFrame</scope><name>statusBar</name></member>
+      <member refid="class_g_u_i_frame_1a1e078f7765a8aa753101fd4e0cc0e0b0" prot="public" virt="non-virtual"><scope>GUIFrame</scope><name>~GUIFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

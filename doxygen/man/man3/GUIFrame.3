@@ -1,0 +1,168 @@
+.TH "GUIFrame" 3 "Pn, 25 sie 2014" "BMA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GUIFrame \- 
+.PP
+Class \fBGUIFrame\fP\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <GUIFrame\&.h>\fP
+.PP
+Dziedziczy wxFrame\&.
+.PP
+Dziedziczona przez \fBBMAFrame\fP\&.
+.SS "Metody publiczne"
+
+.in +1c
+.ti -1c
+.RI "\fBGUIFrame\fP (wxWindow *parent, wxWindowID id=wxID_ANY, const wxString &title=wxT('BMA'), const wxPoint &pos=wxDefaultPosition, const wxSize &size=wxSize(481, 466), long style=wxCAPTION|wxDEFAULT_FRAME_STYLE)"
+.br
+.ti -1c
+.RI "\fB~GUIFrame\fP ()"
+.br
+.ti -1c
+.RI "void \fBm_splitter2OnIdle\fP (wxIdleEvent &)"
+.br
+.ti -1c
+.RI "void \fBm_splitter1OnIdle\fP (wxIdleEvent &)"
+.br
+.in -1c
+.SS "Metody chronione"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBOnClose\fP (wxCloseEvent &event)"
+.br
+.ti -1c
+.RI "virtual void \fBOnAddItem\fP (wxRibbonButtonBarEvent &event)"
+.br
+.ti -1c
+.RI "virtual void \fBOnRefresh\fP (wxRibbonButtonBarEvent &event)"
+.br
+.ti -1c
+.RI "virtual void \fBOnQuit\fP (wxRibbonButtonBarEvent &event)"
+.br
+.in -1c
+.SS "Atrybuty chronione"
+
+.in +1c
+.ti -1c
+.RI "wxStatusBar * \fBstatusBar\fP"
+.br
+.ti -1c
+.RI "wxRibbonBar * \fBm_ribbonBar1\fP"
+.br
+.ti -1c
+.RI "wxRibbonPage * \fBm_ribbonPage1\fP"
+.br
+.ti -1c
+.RI "wxRibbonPanel * \fBmRibbon_PanelDefault\fP"
+.br
+.ti -1c
+.RI "wxRibbonButtonBar * \fBmRibbon_ButtonBarTools\fP"
+.br
+.ti -1c
+.RI "wxRibbonPage * \fBm_ribbonPage2\fP"
+.br
+.ti -1c
+.RI "wxSplitterWindow * \fBm_splitter2\fP"
+.br
+.ti -1c
+.RI "wxPanel * \fBm_panel3\fP"
+.br
+.ti -1c
+.RI "wxPanel * \fBm_panel4\fP"
+.br
+.ti -1c
+.RI "wxSplitterWindow * \fBm_splitter1\fP"
+.br
+.ti -1c
+.RI "wxPanel * \fBm_panel1\fP"
+.br
+.ti -1c
+.RI "wxDataViewListCtrl * \fBm_TableData\fP"
+.br
+.ti -1c
+.RI "wxDataViewColumn * \fBm_ColumnDate\fP"
+.br
+.ti -1c
+.RI "wxDataViewColumn * \fBm_ColumnWeight\fP"
+.br
+.ti -1c
+.RI "wxPanel * \fBm_panel2\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBm_textCtrl2\fP"
+.br
+.in -1c
+.SH "Opis szczegółowy"
+.PP 
+Class \fBGUIFrame\fP\&. 
+.SH "Dokumentacja konstruktora i destruktora"
+.PP 
+.SS "GUIFrame::GUIFrame (wxWindow *parent, wxWindowIDid = \fCwxID_ANY\fP, const wxString &title = \fCwxT('BMA')\fP, const wxPoint &pos = \fCwxDefaultPosition\fP, const wxSize &size = \fCwxSize( 481,466 )\fP, longstyle = \fCwxCAPTION|wxDEFAULT_FRAME_STYLE\fP)"
+
+.SS "GUIFrame::~GUIFrame ()"
+
+.SH "Dokumentacja funkcji składowych"
+.PP 
+.SS "void GUIFrame::m_splitter1OnIdle (wxIdleEvent &)\fC [inline]\fP"
+
+.SS "void GUIFrame::m_splitter2OnIdle (wxIdleEvent &)\fC [inline]\fP"
+
+.SS "virtual void GUIFrame::OnAddItem (wxRibbonButtonBarEvent &event)\fC [inline]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Reimplementowana w \fBBMAFrame\fP\&.
+.SS "virtual void GUIFrame::OnClose (wxCloseEvent &event)\fC [inline]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.SS "virtual void GUIFrame::OnQuit (wxRibbonButtonBarEvent &event)\fC [inline]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Reimplementowana w \fBBMAFrame\fP\&.
+.SS "virtual void GUIFrame::OnRefresh (wxRibbonButtonBarEvent &event)\fC [inline]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Reimplementowana w \fBBMAFrame\fP\&.
+.SH "Dokumentacja atrybutów składowych"
+.PP 
+.SS "wxDataViewColumn* GUIFrame::m_ColumnDate\fC [protected]\fP"
+
+.SS "wxDataViewColumn* GUIFrame::m_ColumnWeight\fC [protected]\fP"
+
+.SS "wxPanel* GUIFrame::m_panel1\fC [protected]\fP"
+
+.SS "wxPanel* GUIFrame::m_panel2\fC [protected]\fP"
+
+.SS "wxPanel* GUIFrame::m_panel3\fC [protected]\fP"
+
+.SS "wxPanel* GUIFrame::m_panel4\fC [protected]\fP"
+
+.SS "wxRibbonBar* GUIFrame::m_ribbonBar1\fC [protected]\fP"
+
+.SS "wxRibbonPage* GUIFrame::m_ribbonPage1\fC [protected]\fP"
+
+.SS "wxRibbonPage* GUIFrame::m_ribbonPage2\fC [protected]\fP"
+
+.SS "wxSplitterWindow* GUIFrame::m_splitter1\fC [protected]\fP"
+
+.SS "wxSplitterWindow* GUIFrame::m_splitter2\fC [protected]\fP"
+
+.SS "wxDataViewListCtrl* GUIFrame::m_TableData\fC [protected]\fP"
+
+.SS "wxTextCtrl* GUIFrame::m_textCtrl2\fC [protected]\fP"
+
+.SS "wxRibbonButtonBar* GUIFrame::mRibbon_ButtonBarTools\fC [protected]\fP"
+
+.SS "wxRibbonPanel* GUIFrame::mRibbon_PanelDefault\fC [protected]\fP"
+
+.SS "wxStatusBar* GUIFrame::statusBar\fC [protected]\fP"
+
+
+.SH "Autor"
+.PP 
+Wygenerowano automatycznie z kodu źródłowego programem Doxygen dla BMA\&.

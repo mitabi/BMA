@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////////////////////////
+﻿///////////////////////////////////////////////////////////////////////////
 // C++ code generated with wxFormBuilder (version Jun  5 2014)
 // http://www.wxformbuilder.org/
 //
@@ -39,105 +39,93 @@
 
 ///////////////////////////////////////////////////////////////////////////
 
-#define rb_additem 1000
-#define rb_refresh 1001
-#define www 1002
-#define rb_close 1003
-
 ///////////////////////////////////////////////////////////////////////////////
 /// Class GUIFrame
 ///////////////////////////////////////////////////////////////////////////////
-class GUIFrame : public wxFrame
+class GUIFrame : public wxFrame 
 {
-private:
-
-protected:
-    wxStatusBar* statusBar;
-    wxRibbonBar* m_ribbonBar1;
-    wxRibbonPage* m_ribbonPage1;
-    wxRibbonPanel* mRibbon_PanelDefault;
-    wxRibbonButtonBar* mRibbon_ButtonBarTools;
-    wxRibbonPage* m_ribbonPage2;
-    wxSplitterWindow* m_splitter2;
-    wxPanel* m_panel3;
-    wxPanel* m_panel4;
-    wxSplitterWindow* m_splitter1;
-    wxPanel* m_panel1;
-    wxDataViewListCtrl* m_TableData;
-    wxDataViewColumn* m_ColumnDate;
-    wxDataViewColumn* m_ColumnWeight;
-    wxPanel* m_panel2;
-    wxTextCtrl* m_textCtrl2;
-
-    // Virtual event handlers, overide them in your derived class
-    virtual void OnClose( wxCloseEvent& event )
-    {
-        event.Skip();
-    }
-    virtual void OnAddItem( wxRibbonButtonBarEvent& event )
-    {
-        event.Skip();
-    }
-    virtual void OnRefresh( wxRibbonButtonBarEvent& event )
-    {
-        event.Skip();
-    }
-    virtual void OnQuit( wxRibbonButtonBarEvent& event )
-    {
-        event.Skip();
-    }
-
-
-public:
-
-    GUIFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("BMA"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 481,466 ), long style = wxCAPTION|wxDEFAULT_FRAME_STYLE );
-
-    ~GUIFrame();
-
-    void m_splitter2OnIdle( wxIdleEvent& )
-    {
-        m_splitter2->SetSashPosition( 0 );
-        m_splitter2->Disconnect( wxEVT_IDLE, wxIdleEventHandler( GUIFrame::m_splitter2OnIdle ), NULL, this );
-    }
-
-    void m_splitter1OnIdle( wxIdleEvent& )
-    {
-        m_splitter1->SetSashPosition( 0 );
-        m_splitter1->Disconnect( wxEVT_IDLE, wxIdleEventHandler( GUIFrame::m_splitter1OnIdle ), NULL, this );
-    }
-
+	private:
+	
+	protected:
+		enum
+		{
+			rb_additem = 1000,
+			rb_refresh,
+			www,
+			rb_close
+		};
+		
+		wxStatusBar* statusBar;
+		wxRibbonBar* m_ribbonBar1;
+		wxRibbonPage* m_ribbonPage1;
+		wxRibbonPanel* mRibbon_PanelDefault;
+		wxRibbonButtonBar* mRibbon_ButtonBarTools;
+		wxRibbonPage* m_ribbonPage2;
+		wxSplitterWindow* m_splitter2;
+		wxPanel* m_panel3;
+		wxPanel* m_panel4;
+		wxSplitterWindow* m_splitter1;
+		wxPanel* m_panel1;
+		wxDataViewListCtrl* m_TableData;
+		wxDataViewColumn* m_ColumnDate;
+		wxDataViewColumn* m_ColumnWeight;
+		wxPanel* m_panel2;
+		wxTextCtrl* m_textCtrl2;
+		
+		// Virtual event handlers, overide them in your derived class
+		virtual void OnAutoRefresh( wxActivateEvent& event ) { event.Skip(); }
+		virtual void OnClose( wxCloseEvent& event ) { event.Skip(); }
+		virtual void OnAddItem( wxRibbonButtonBarEvent& event ) { event.Skip(); }
+		virtual void OnRefresh( wxRibbonButtonBarEvent& event ) { event.Skip(); }
+		virtual void OnQuit( wxRibbonButtonBarEvent& event ) { event.Skip(); }
+		
+	
+	public:
+		
+		GUIFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("BMA"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 481,466 ), long style = wxCAPTION|wxCLOSE_BOX|wxDEFAULT_FRAME_STYLE|wxMAXIMIZE|wxCLIP_CHILDREN );
+		
+		~GUIFrame();
+		
+		void m_splitter2OnIdle( wxIdleEvent& )
+		{
+			m_splitter2->SetSashPosition( 0 );
+			m_splitter2->Disconnect( wxEVT_IDLE, wxIdleEventHandler( GUIFrame::m_splitter2OnIdle ), NULL, this );
+		}
+		
+		void m_splitter1OnIdle( wxIdleEvent& )
+		{
+			m_splitter1->SetSashPosition( 0 );
+			m_splitter1->Disconnect( wxEVT_IDLE, wxIdleEventHandler( GUIFrame::m_splitter1OnIdle ), NULL, this );
+		}
+	
 };
 
 ///////////////////////////////////////////////////////////////////////////////
 /// Class AddItemFrame
 ///////////////////////////////////////////////////////////////////////////////
-class AddItemFrame : public wxFrame
+class AddItemFrame : public wxFrame 
 {
-private:
-
-protected:
-    wxStaticText* lblWeight;
-    wxSlider* m_slider2;
-    wxTextCtrl* weightValue;
-    wxStaticText* m_staticText5;
-    wxStaticText* lblDate;
-    wxDatePickerCtrl* DateItem;
-    wxButton* ButtonAddItem;
-    wxButton* m_button3;
-
-    // Virtual event handlers, overide them in your derived class
-    virtual void OnAddItem( wxCommandEvent& event )
-    {
-        event.Skip();
-    }
-
-
-public:
-
-    AddItemFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("Dodaj wynik pomiaru"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 509,134 ), long style = wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL );
-
-    ~AddItemFrame();
-
+	private:
+	
+	protected:
+		wxStaticText* lblWeight;
+		wxSlider* m_slider2;
+		wxTextCtrl* weightValue;
+		wxStaticText* m_staticText5;
+		wxStaticText* lblDate;
+		wxDatePickerCtrl* DateItem;
+		wxButton* ButtonAddItem;
+		
+		// Virtual event handlers, overide them in your derived class
+		virtual void OnAddItem( wxCommandEvent& event ) { event.Skip(); }
+		
+	
+	public:
+		
+		AddItemFrame( wxWindow* parent, wxWindowID id = wxID_ANY, const wxString& title = wxT("Dodaj wynik pomiaru"), const wxPoint& pos = wxDefaultPosition, const wxSize& size = wxSize( 509,134 ), long style = wxDEFAULT_FRAME_STYLE|wxFRAME_FLOAT_ON_PARENT );
+		
+		~AddItemFrame();
+	
 };
 
 #endif //__GUIFRAME_H__

@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="_b_m_a_main_8h" kind="file">
+    <compoundname>BMAMain.h</compoundname>
+    <includes refid="_b_m_a_app_8h" local="yes">BMAApp.h</includes>
+    <includes refid="_g_u_i_frame_8h" local="yes">GUIFrame.h</includes>
+    <includes local="yes">wx/ribbon/buttonbar.h</includes>
+    <includedby refid="_b_m_a_main_8cpp" local="yes">BMAMain.cpp</includedby>
+    <includedby refid="_b_m_a_app_8cpp" local="yes">BMAApp.cpp</includedby>
+    <incdepgraph>
+      <node id="289">
+        <label>wx/ribbon/buttonbar.h</label>
+      </node>
+      <node id="276">
+        <label>wx/app.h</label>
+      </node>
+      <node id="282">
+        <label>wx/font.h</label>
+      </node>
+      <node id="275">
+        <label>BMAApp.h</label>
+        <link refid="_b_m_a_app_8h"/>
+        <childnode refid="276" relation="include">
+        </childnode>
+      </node>
+      <node id="304">
+        <label>wx/dateevt.h</label>
+      </node>
+      <node id="302">
+        <label>wx/slider.h</label>
+      </node>
+      <node id="294">
+        <label>wx/ribbon/bar.h</label>
+      </node>
+      <node id="287">
+        <label>wx/image.h</label>
+      </node>
+      <node id="300">
+        <label>wx/frame.h</label>
+      </node>
+      <node id="278">
+        <label>wx/artprov.h</label>
+      </node>
+      <node id="281">
+        <label>wx/gdicmn.h</label>
+      </node>
+      <node id="301">
+        <label>wx/stattext.h</label>
+      </node>
+      <node id="284">
+        <label>wx/settings.h</label>
+      </node>
+      <node id="303">
+        <label>wx/datectrl.h</label>
+      </node>
+      <node id="297">
+        <label>wx/dataview.h</label>
+      </node>
+      <node id="291">
+        <label>wx/ribbon/page.h</label>
+      </node>
+      <node id="292">
+        <label>wx/ribbon/control.h</label>
+      </node>
+      <node id="283">
+        <label>wx/colour.h</label>
+      </node>
+      <node id="279">
+        <label>wx/xrc/xmlres.h</label>
+      </node>
+      <node id="293">
+        <label>wx/ribbon/art.h</label>
+      </node>
+      <node id="274">
+        <label>BMAMain.h</label>
+        <link refid="BMAMain.h"/>
+        <childnode refid="275" relation="include">
+        </childnode>
+        <childnode refid="277" relation="include">
+        </childnode>
+        <childnode refid="289" relation="include">
+        </childnode>
+      </node>
+      <node id="285">
+        <label>wx/string.h</label>
+      </node>
+      <node id="277">
+        <label>GUIFrame.h</label>
+        <link refid="_g_u_i_frame_8h"/>
+        <childnode refid="278" relation="include">
+        </childnode>
+        <childnode refid="279" relation="include">
+        </childnode>
+        <childnode refid="280" relation="include">
+        </childnode>
+        <childnode refid="281" relation="include">
+        </childnode>
+        <childnode refid="282" relation="include">
+        </childnode>
+        <childnode refid="283" relation="include">
+        </childnode>
+        <childnode refid="284" relation="include">
+        </childnode>
+        <childnode refid="285" relation="include">
+        </childnode>
+        <childnode refid="286" relation="include">
+        </childnode>
+        <childnode refid="287" relation="include">
+        </childnode>
+        <childnode refid="288" relation="include">
+        </childnode>
+        <childnode refid="289" relation="include">
+        </childnode>
+        <childnode refid="290" relation="include">
+        </childnode>
+        <childnode refid="291" relation="include">
+        </childnode>
+        <childnode refid="292" relation="include">
+        </childnode>
+        <childnode refid="293" relation="include">
+        </childnode>
+        <childnode refid="294" relation="include">
+        </childnode>
+        <childnode refid="295" relation="include">
+        </childnode>
+        <childnode refid="296" relation="include">
+        </childnode>
+        <childnode refid="297" relation="include">
+        </childnode>
+        <childnode refid="298" relation="include">
+        </childnode>
+        <childnode refid="299" relation="include">
+        </childnode>
+        <childnode refid="300" relation="include">
+        </childnode>
+        <childnode refid="301" relation="include">
+        </childnode>
+        <childnode refid="302" relation="include">
+        </childnode>
+        <childnode refid="303" relation="include">
+        </childnode>
+        <childnode refid="304" relation="include">
+        </childnode>
+        <childnode refid="305" relation="include">
+        </childnode>
+      </node>
+      <node id="299">
+        <label>wx/splitter.h</label>
+      </node>
+      <node id="295">
+        <label>wx/sizer.h</label>
+      </node>
+      <node id="280">
+        <label>wx/statusbr.h</label>
+      </node>
+      <node id="305">
+        <label>wx/button.h</label>
+      </node>
+      <node id="296">
+        <label>wx/panel.h</label>
+      </node>
+      <node id="286">
+        <label>wx/bitmap.h</label>
+      </node>
+      <node id="290">
+        <label>wx/ribbon/panel.h</label>
+      </node>
+      <node id="288">
+        <label>wx/icon.h</label>
+      </node>
+      <node id="298">
+        <label>wx/textctrl.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="307">
+        <label>BMAMain.cpp</label>
+        <link refid="_b_m_a_main_8cpp"/>
+      </node>
+      <node id="306">
+        <label>BMAMain.h</label>
+        <link refid="BMAMain.h"/>
+        <childnode refid="307" relation="include">
+        </childnode>
+        <childnode refid="308" relation="include">
+        </childnode>
+      </node>
+      <node id="308">
+        <label>BMAApp.cpp</label>
+        <link refid="_b_m_a_app_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_b_m_a_frame" prot="public">BMAFrame</innerclass>
+    <innerclass refid="class_add_frame" prot="public">AddFrame</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Name:<sp/><sp/><sp/><sp/><sp/><sp/>BMAMain.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Purpose:<sp/><sp/><sp/>Defines<sp/>Application<sp/>Frame</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Author:<sp/><sp/><sp/><sp/><sp/>()</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Created:<sp/><sp/><sp/>2014-08-19</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright:<sp/><sp/>()</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>License:</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>**************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BMAMAIN_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BMAMAIN_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_b_m_a_app_8h" kindref="compound">BMAApp.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_g_u_i_frame_8h" kindref="compound">GUIFrame.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;wx/ribbon/buttonbar.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_b_m_a_frame" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_b_m_a_frame" kindref="compound">BMAFrame</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_g_u_i_frame" kindref="compound">GUIFrame</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_a_frame_1af2c2da9a3c70647e70be099a2cbf4b50" kindref="member">RefreshList</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_b_m_a_frame_1ac21189c22d2e7588e6d18f33636369ba" kindref="member">BMAFrame</ref>(wxFrame<sp/>*frame);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_b_m_a_frame_1a45f96400765e02bdbe59160fcd2f8fef" kindref="member">~BMAFrame</ref>();</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_a_frame_1a3234b4f776104caca6749069617a9636" kindref="member">OnAddItem</ref>(wxRibbonButtonBarEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_a_frame_1a16d84140830e8b756452135bb2c8711b" kindref="member">test</ref>(<sp/>wxRibbonButtonBarEvent&amp;<sp/>event<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_a_frame_1ad8399f7bf1c97356fd95f6ec1e470c31" kindref="member">OnQuit</ref>(wxRibbonButtonBarEvent&amp;<sp/>event);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_a_frame_1aeadc0046b152d112f57466ad7bbb27f5" kindref="member">OnRefresh</ref>(<sp/>wxRibbonButtonBarEvent&amp;<sp/>event<sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="class_add_frame" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_add_frame" kindref="compound">AddFrame</ref>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_add_item_frame" kindref="compound">AddItemFrame</ref></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_frame_1aa283cf74b21f6a6bfd49ca57fd75d297" kindref="member">AddFrame</ref>(wxFrame<sp/>*aframe);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_frame_1aebed4c4d8e322603a4ddbbf7e247d7fb" kindref="member">~AddFrame</ref>();</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_add_frame_1aa389d695347d4b576e0f962a58b6038c" kindref="member">OnAddItem</ref>(<sp/>wxCommandEvent&amp;<sp/>event<sp/>);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>BMAMAIN_H</highlight></codeline>
+    </programlisting>
+    <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h"/>
+  </compounddef>
+</doxygen>

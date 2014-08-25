@@ -1,0 +1,99 @@
+.TH "AddItemFrame" 3 "Pn, 25 sie 2014" "BMA" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AddItemFrame \- 
+.PP
+Class \fBAddItemFrame\fP\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+\fC#include <GUIFrame\&.h>\fP
+.PP
+Dziedziczy wxFrame\&.
+.PP
+Dziedziczona przez \fBAddFrame\fP\&.
+.SS "Metody publiczne"
+
+.in +1c
+.ti -1c
+.RI "\fBAddItemFrame\fP (wxWindow *parent, wxWindowID id=wxID_ANY, const wxString &title=wxT('Dodaj wynik pomiaru'), const wxPoint &pos=wxDefaultPosition, const wxSize &size=wxSize(509, 134), long style=wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL)"
+.br
+.ti -1c
+.RI "\fB~AddItemFrame\fP ()"
+.br
+.in -1c
+.SS "Metody chronione"
+
+.in +1c
+.ti -1c
+.RI "virtual void \fBOnAddItem\fP (wxCommandEvent &event)"
+.br
+.in -1c
+.SS "Atrybuty chronione"
+
+.in +1c
+.ti -1c
+.RI "wxStaticText * \fBlblWeight\fP"
+.br
+.ti -1c
+.RI "wxSlider * \fBm_slider2\fP"
+.br
+.ti -1c
+.RI "wxTextCtrl * \fBweightValue\fP"
+.br
+.ti -1c
+.RI "wxStaticText * \fBm_staticText5\fP"
+.br
+.ti -1c
+.RI "wxStaticText * \fBlblDate\fP"
+.br
+.ti -1c
+.RI "wxDatePickerCtrl * \fBDateItem\fP"
+.br
+.ti -1c
+.RI "wxButton * \fBButtonAddItem\fP"
+.br
+.ti -1c
+.RI "wxButton * \fBm_button3\fP"
+.br
+.in -1c
+.SH "Opis szczegółowy"
+.PP 
+Class \fBAddItemFrame\fP\&. 
+.SH "Dokumentacja konstruktora i destruktora"
+.PP 
+.SS "AddItemFrame::AddItemFrame (wxWindow *parent, wxWindowIDid = \fCwxID_ANY\fP, const wxString &title = \fCwxT('Dodaj wynik pomiaru')\fP, const wxPoint &pos = \fCwxDefaultPosition\fP, const wxSize &size = \fCwxSize( 509,134 )\fP, longstyle = \fCwxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL\fP)"
+
+.SS "AddItemFrame::~AddItemFrame ()"
+
+.SH "Dokumentacja funkcji składowych"
+.PP 
+.SS "virtual void AddItemFrame::OnAddItem (wxCommandEvent &event)\fC [inline]\fP, \fC [protected]\fP, \fC [virtual]\fP"
+
+.PP
+Reimplementowana w \fBAddFrame\fP\&.
+.SH "Dokumentacja atrybutów składowych"
+.PP 
+.SS "wxButton* AddItemFrame::ButtonAddItem\fC [protected]\fP"
+
+.SS "wxDatePickerCtrl* AddItemFrame::DateItem\fC [protected]\fP"
+
+.SS "wxStaticText* AddItemFrame::lblDate\fC [protected]\fP"
+
+.SS "wxStaticText* AddItemFrame::lblWeight\fC [protected]\fP"
+
+.SS "wxButton* AddItemFrame::m_button3\fC [protected]\fP"
+
+.SS "wxSlider* AddItemFrame::m_slider2\fC [protected]\fP"
+
+.SS "wxStaticText* AddItemFrame::m_staticText5\fC [protected]\fP"
+
+.SS "wxTextCtrl* AddItemFrame::weightValue\fC [protected]\fP"
+
+
+.SH "Autor"
+.PP 
+Wygenerowano automatycznie z kodu źródłowego programem Doxygen dla BMA\&.

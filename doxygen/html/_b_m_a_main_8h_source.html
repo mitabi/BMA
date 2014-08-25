@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.8"/>
+<title>BMA: Plik źródłowy BMAMain.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">BMA
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Wygenerowano przez Doxygen 1.8.8 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Strona&#160;główna</span></a></li>
+      <li><a href="namespaces.html"><span>Przestrzenie&#160;nazw</span></a></li>
+      <li><a href="annotated.html"><span>Klasy</span></a></li>
+      <li class="current"><a href="files.html"><span>Pliki</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;plików</span></a></li>
+      <li><a href="globals.html"><span>Składowe&#160;plików</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">BMAMain.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_b_m_a_main_8h.html">Idź do dokumentacji tego pliku.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">/***************************************************************</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="comment"> * Name:      BMAMain.h</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment"> * Purpose:   Defines Application Frame</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment"> * Author:     ()</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment"> * Created:   2014-08-19</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment"> * Copyright:  ()</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment"> * License:</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment"> **************************************************************/</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#ifndef BMAMAIN_H</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#define BMAMAIN_H</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_b_m_a_app_8h.html">BMAApp.h</a>&quot;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="_g_u_i_frame_8h.html">GUIFrame.h</a>&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &quot;wx/ribbon/buttonbar.h&quot;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_b_m_a_frame.html">   19</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_b_m_a_frame.html">BMAFrame</a>: <span class="keyword">public</span> <a class="code" href="class_g_u_i_frame.html">GUIFrame</a></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="class_b_m_a_frame.html#af2c2da9a3c70647e70be099a2cbf4b50">RefreshList</a>(<span class="keywordtype">void</span>);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="class_b_m_a_frame.html#ac21189c22d2e7588e6d18f33636369ba">BMAFrame</a>(wxFrame *frame);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="class_b_m_a_frame.html#a45f96400765e02bdbe59160fcd2f8fef">~BMAFrame</a>();</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_b_m_a_frame.html#a3234b4f776104caca6749069617a9636">OnAddItem</a>(wxRibbonButtonBarEvent&amp; event);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_b_m_a_frame.html#a16d84140830e8b756452135bb2c8711b">test</a>( wxRibbonButtonBarEvent&amp; event );</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_b_m_a_frame.html#ad8399f7bf1c97356fd95f6ec1e470c31">OnQuit</a>(wxRibbonButtonBarEvent&amp; event);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_b_m_a_frame.html#aeadc0046b152d112f57466ad7bbb27f5">OnRefresh</a>( wxRibbonButtonBarEvent&amp; event );</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;};</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_add_frame.html">   35</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_add_frame.html">AddFrame</a>: <span class="keyword">public</span> <a class="code" href="class_add_item_frame.html">AddItemFrame</a></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;{</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="class_add_frame.html#aa283cf74b21f6a6bfd49ca57fd75d297">AddFrame</a>(wxFrame *aframe);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="class_add_frame.html#aebed4c4d8e322603a4ddbbf7e247d7fb">~AddFrame</a>();</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_add_frame.html#aa389d695347d4b576e0f962a58b6038c">OnAddItem</a>( wxCommandEvent&amp; event );</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;};</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif // BMAMAIN_H</span></div>
+<div class="ttc" id="_b_m_a_app_8h_html"><div class="ttname"><a href="_b_m_a_app_8h.html">BMAApp.h</a></div></div>
+<div class="ttc" id="class_b_m_a_frame_html_ac21189c22d2e7588e6d18f33636369ba"><div class="ttname"><a href="class_b_m_a_frame.html#ac21189c22d2e7588e6d18f33636369ba">BMAFrame::BMAFrame</a></div><div class="ttdeci">BMAFrame(wxFrame *frame)</div><div class="ttdef"><b>Definition:</b> BMAMain.cpp:53</div></div>
+<div class="ttc" id="class_b_m_a_frame_html_a16d84140830e8b756452135bb2c8711b"><div class="ttname"><a href="class_b_m_a_frame.html#a16d84140830e8b756452135bb2c8711b">BMAFrame::test</a></div><div class="ttdeci">virtual void test(wxRibbonButtonBarEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> BMAMain.cpp:133</div></div>
+<div class="ttc" id="class_b_m_a_frame_html"><div class="ttname"><a href="class_b_m_a_frame.html">BMAFrame</a></div><div class="ttdef"><b>Definition:</b> BMAMain.h:19</div></div>
+<div class="ttc" id="class_add_frame_html"><div class="ttname"><a href="class_add_frame.html">AddFrame</a></div><div class="ttdef"><b>Definition:</b> BMAMain.h:35</div></div>
+<div class="ttc" id="class_add_frame_html_aa389d695347d4b576e0f962a58b6038c"><div class="ttname"><a href="class_add_frame.html#aa389d695347d4b576e0f962a58b6038c">AddFrame::OnAddItem</a></div><div class="ttdeci">virtual void OnAddItem(wxCommandEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> BMAMain.cpp:84</div></div>
+<div class="ttc" id="class_b_m_a_frame_html_ad8399f7bf1c97356fd95f6ec1e470c31"><div class="ttname"><a href="class_b_m_a_frame.html#ad8399f7bf1c97356fd95f6ec1e470c31">BMAFrame::OnQuit</a></div><div class="ttdeci">virtual void OnQuit(wxRibbonButtonBarEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> BMAMain.cpp:99</div></div>
+<div class="ttc" id="class_b_m_a_frame_html_a3234b4f776104caca6749069617a9636"><div class="ttname"><a href="class_b_m_a_frame.html#a3234b4f776104caca6749069617a9636">BMAFrame::OnAddItem</a></div><div class="ttdeci">virtual void OnAddItem(wxRibbonButtonBarEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> BMAMain.cpp:75</div></div>
+<div class="ttc" id="_g_u_i_frame_8h_html"><div class="ttname"><a href="_g_u_i_frame_8h.html">GUIFrame.h</a></div></div>
+<div class="ttc" id="class_add_frame_html_aa283cf74b21f6a6bfd49ca57fd75d297"><div class="ttname"><a href="class_add_frame.html#aa283cf74b21f6a6bfd49ca57fd75d297">AddFrame::AddFrame</a></div><div class="ttdeci">AddFrame(wxFrame *aframe)</div><div class="ttdef"><b>Definition:</b> BMAMain.cpp:66</div></div>
+<div class="ttc" id="class_b_m_a_frame_html_aeadc0046b152d112f57466ad7bbb27f5"><div class="ttname"><a href="class_b_m_a_frame.html#aeadc0046b152d112f57466ad7bbb27f5">BMAFrame::OnRefresh</a></div><div class="ttdeci">virtual void OnRefresh(wxRibbonButtonBarEvent &amp;event)</div><div class="ttdef"><b>Definition:</b> BMAMain.cpp:104</div></div>
+<div class="ttc" id="class_add_item_frame_html"><div class="ttname"><a href="class_add_item_frame.html">AddItemFrame</a></div><div class="ttdoc">Class AddItemFrame. </div><div class="ttdef"><b>Definition:</b> GUIFrame.h:114</div></div>
+<div class="ttc" id="class_add_frame_html_aebed4c4d8e322603a4ddbbf7e247d7fb"><div class="ttname"><a href="class_add_frame.html#aebed4c4d8e322603a4ddbbf7e247d7fb">AddFrame::~AddFrame</a></div><div class="ttdeci">~AddFrame()</div><div class="ttdef"><b>Definition:</b> BMAMain.cpp:71</div></div>
+<div class="ttc" id="class_g_u_i_frame_html"><div class="ttname"><a href="class_g_u_i_frame.html">GUIFrame</a></div><div class="ttdoc">Class GUIFrame. </div><div class="ttdef"><b>Definition:</b> GUIFrame.h:50</div></div>
+<div class="ttc" id="class_b_m_a_frame_html_a45f96400765e02bdbe59160fcd2f8fef"><div class="ttname"><a href="class_b_m_a_frame.html#a45f96400765e02bdbe59160fcd2f8fef">BMAFrame::~BMAFrame</a></div><div class="ttdeci">~BMAFrame()</div><div class="ttdef"><b>Definition:</b> BMAMain.cpp:62</div></div>
+<div class="ttc" id="class_b_m_a_frame_html_af2c2da9a3c70647e70be099a2cbf4b50"><div class="ttname"><a href="class_b_m_a_frame.html#af2c2da9a3c70647e70be099a2cbf4b50">BMAFrame::RefreshList</a></div><div class="ttdeci">void RefreshList(void)</div><div class="ttdef"><b>Definition:</b> BMAMain.cpp:109</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Wygenerowano Pn, 25 sie 2014 09:09:15 dla BMA programem &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.8
+</small></address>
+</body>
+</html>

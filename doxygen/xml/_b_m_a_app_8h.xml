@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="_b_m_a_app_8h" kind="file">
+    <compoundname>BMAApp.h</compoundname>
+    <includes local="no">wx/app.h</includes>
+    <includedby refid="_b_m_a_main_8h" local="yes">BMAMain.h</includedby>
+    <includedby refid="_b_m_a_app_8cpp" local="yes">BMAApp.cpp</includedby>
+    <incdepgraph>
+      <node id="231">
+        <label>wx/app.h</label>
+      </node>
+      <node id="230">
+        <label>BMAApp.h</label>
+        <link refid="BMAApp.h"/>
+        <childnode refid="231" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="232">
+        <label>BMAApp.h</label>
+        <link refid="BMAApp.h"/>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+      </node>
+      <node id="234">
+        <label>BMAMain.cpp</label>
+        <link refid="_b_m_a_main_8cpp"/>
+      </node>
+      <node id="233">
+        <label>BMAMain.h</label>
+        <link refid="_b_m_a_main_8h"/>
+        <childnode refid="234" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+      </node>
+      <node id="235">
+        <label>BMAApp.cpp</label>
+        <link refid="_b_m_a_app_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_b_m_a_app" prot="public">BMAApp</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Name:<sp/><sp/><sp/><sp/><sp/><sp/>BMAApp.h</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Purpose:<sp/><sp/><sp/>Defines<sp/>Application<sp/>Class</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Author:<sp/><sp/><sp/><sp/><sp/>()</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Created:<sp/><sp/><sp/>2014-08-19</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright:<sp/><sp/>()</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>License:</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>**************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>BMAAPP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BMAAPP_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;wx/app.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="class_b_m_a_app" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_b_m_a_app" kindref="compound">BMAApp</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>wxApp</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">virtual</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_b_m_a_app_1a828b3ac0b67b8d8eb497cc368b68cd85" kindref="member">OnInit</ref>();</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>BMAAPP_H</highlight></codeline>
+    </programlisting>
+    <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAApp.h"/>
+  </compounddef>
+</doxygen>

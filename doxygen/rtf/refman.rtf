@@ -1,0 +1,1834 @@
+{\rtf1\ansi\ansicpg1250\uc1 \deff0\deflang1033\deflangfe1033
+{\fonttbl {\f0\froman\fcharset238\fprq2{\*\panose 02020603050405020304}Times New Roman;}
+{\f1\fswiss\fcharset238\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset238\fprq1{\*\panose 02070309020205020404}Courier New;}
+{\f3\froman\fcharset2\fprq2{\*\panose 05050102010706020507}Symbol;}
+}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}
+{\stylesheet
+{\widctlpar\adjustright \fs20\cgrid \snext0 Normal;}
+{\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid \sbasedon0 \snext0 heading 1;}
+{\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid \sbasedon0 \snext0 heading 2;}
+{\s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid \sbasedon0 \snext0 heading 3;}
+{\s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 4;}{\*\cs10 \additive Default Paragraph Font;}
+{\s5\sb90\sa30\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext0 heading 5;}{\*\cs10 \additive Default Paragraph Font;}
+{\s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid \sbasedon0 \snext15 Title;}
+{\s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid \sbasedon0 \snext16 Subtitle;}
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid \sbasedon0 \snext17 BodyText;}
+{\s18\widctlpar\fs22\cgrid \sbasedon0 \snext18 DenseText;}
+{\s28\widctlpar\tqc\tx4320\tqr\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext28 header;}
+{\s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid \sbasedon0 \snext29 footer;}
+{\s30\li360\sa60\sb120\keepn\widctlpar\adjustright \b\f1\fs20\cgrid \sbasedon0 \snext30 GroupHeader;}
+{\s40\li0\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext41 Code Example 0;}
+{\s41\li360\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext42 Code Example 1;}
+{\s42\li720\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext43 Code Example 2;}
+{\s43\li1080\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext44 Code Example 3;}
+{\s44\li1440\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext45 Code Example 4;}
+{\s45\li1800\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext46 Code Example 5;}
+{\s46\li2160\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext47 Code Example 6;}
+{\s47\li2520\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext48 Code Example 7;}
+{\s48\li2880\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 8;}
+{\s49\li3240\widctlpar\adjustright \shading1000\cbpat8 \f2\fs16\cgrid \sbasedon0 \snext49 Code Example 9;}
+{\s50\li0\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext51 List Continue 0;}
+{\s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext52 List Continue 1;}
+{\s52\li720\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext53 List Continue 2;}
+{\s53\li1080\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext54 List Continue 3;}
+{\s54\li1440\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext55 List Continue 4;}
+{\s55\li1800\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext56 List Continue 5;}
+{\s56\li2160\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext57 List Continue 6;}
+{\s57\li2520\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext58 List Continue 7;}
+{\s58\li2880\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 8;}
+{\s59\li3240\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid \sbasedon0 \snext59 List Continue 9;}
+{\s60\li0\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext61 DescContinue 0;}
+{\s61\li360\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext62 DescContinue 1;}
+{\s62\li720\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext63 DescContinue 2;}
+{\s63\li1080\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext64 DescContinue 3;}
+{\s64\li1440\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext65 DescContinue 4;}
+{\s65\li1800\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext66 DescContinue 5;}
+{\s66\li2160\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext67 DescContinue 6;}
+{\s67\li2520\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext68 DescContinue 7;}
+{\s68\li2880\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 8;}
+{\s69\li3240\widctlpar\ql\adjustright \fs20\cgrid \sbasedon0 \snext69 DescContinue 9;}
+{\s70\li0\sa30\sb30\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext81 LatexTOC 0;}
+{\s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext82 LatexTOC 1;}
+{\s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext83 LatexTOC 2;}
+{\s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext84 LatexTOC 3;}
+{\s74\li1440\sa18\sb18\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext85 LatexTOC 4;}
+{\s75\li1800\sa15\sb15\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext86 LatexTOC 5;}
+{\s76\li2160\sa12\sb12\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext87 LatexTOC 6;}
+{\s77\li2520\sa9\sb9\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext88 LatexTOC 7;}
+{\s78\li2880\sa6\sb6\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 8;}
+{\s79\li3240\sa3\sb3\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid \sbasedon0 \snext89 LatexTOC 9;}
+{\s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid \sbasedon0 \snext81 \sautoupd List Bullet 0;}
+{\s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid \sbasedon0 \snext82 \sautoupd List Bullet 1;}
+{\s82\fi-360\li1080\widctlpar\jclisttab\tx1080{\*\pn \pnlvlbody\ilvl0\ls3\pnrnot0\pndec }\ls3\adjustright \fs20\cgrid \sbasedon0 \snext83 \sautoupd List Bullet 2;}
+{\s83\fi-360\li1440\widctlpar\jclisttab\tx1440{\*\pn \pnlvlbody\ilvl0\ls4\pnrnot0\pndec }\ls4\adjustright \fs20\cgrid \sbasedon0 \snext84 \sautoupd List Bullet 3;}
+{\s84\fi-360\li1800\widctlpar\jclisttab\tx1800{\*\pn \pnlvlbody\ilvl0\ls5\pnrnot0\pndec }\ls5\adjustright \fs20\cgrid \sbasedon0 \snext85 \sautoupd List Bullet 4;}
+{\s85\fi-360\li2160\widctlpar\jclisttab\tx2160{\*\pn \pnlvlbody\ilvl0\ls6\pnrnot0\pndec }\ls6\adjustright \fs20\cgrid \sbasedon0 \snext86 \sautoupd List Bullet 5;}
+{\s86\fi-360\li2520\widctlpar\jclisttab\tx2520{\*\pn \pnlvlbody\ilvl0\ls7\pnrnot0\pndec }\ls7\adjustright \fs20\cgrid \sbasedon0 \snext87 \sautoupd List Bullet 6;}
+{\s87\fi-360\li2880\widctlpar\jclisttab\tx2880{\*\pn \pnlvlbody\ilvl0\ls8\pnrnot0\pndec }\ls8\adjustright \fs20\cgrid \sbasedon0 \snext88 \sautoupd List Bullet 7;}
+{\s88\fi-360\li3240\widctlpar\jclisttab\tx3240{\*\pn \pnlvlbody\ilvl0\ls9\pnrnot0\pndec }\ls9\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 8;}
+{\s89\fi-360\li3600\widctlpar\jclisttab\tx3600{\*\pn \pnlvlbody\ilvl0\ls10\pnrnot0\pndec }\ls10\adjustright \fs20\cgrid \sbasedon0 \snext89 \sautoupd List Bullet 9;}
+{\s90\fi-360\li360\widctlpar\fs20\cgrid \sbasedon0 \snext91 \sautoupd List Enum 0;}
+{\s91\fi-360\li720\widctlpar\fs20\cgrid \sbasedon0 \snext92 \sautoupd List Enum 1;}
+{\s92\fi-360\li1080\widctlpar\fs20\cgrid \sbasedon0 \snext93 \sautoupd List Enum 2;}
+{\s93\fi-360\li1440\widctlpar\fs20\cgrid \sbasedon0 \snext94 \sautoupd List Enum 3;}
+{\s94\fi-360\li1800\widctlpar\fs20\cgrid \sbasedon0 \snext95 \sautoupd List Enum 4;}
+{\s95\fi-360\li2160\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s96\fi-360\li2520\widctlpar\fs20\cgrid \sbasedon0 \snext96 \sautoupd List Enum 5;}
+{\s97\fi-360\li2880\widctlpar\fs20\cgrid \sbasedon0 \snext98 \sautoupd List Enum 7;}
+{\s98\fi-360\li3240\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 8;}
+{\s99\fi-360\li3600\widctlpar\fs20\cgrid \sbasedon0 \snext99 \sautoupd List Enum 9;}
+}
+{\comment begin body}
+{\info 
+{\title {\comment BMA }BMA}
+{\comment Wygenerowano przezDoxgyen. }
+{\creatim \yr2014\mo8\dy25\hr9\min9\sec16}
+}\pard\plain 
+\sectd\pgnlcrm
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\vertalc\qc\par\par\par\par\par\par\par
+\pard\plain \s15\qc\sb240\sa60\widctlpar\outlinelevel0\adjustright \b\f1\fs32\kerning28\cgrid 
+{\field\fldedit {\*\fldinst TITLE \\*MERGEFORMAT}{\fldrslt TITLE}}\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+\par
+\par\par\par\par\par\par\par\par\par\par\par\par
+\pard\plain \s16\qc\sa60\widctlpar\outlinelevel1\adjustright \f1\cgrid 
+{\field\fldedit {\*\fldinst AUTHOR \\*MERGEFORMAT}{\fldrslt AUTHOR}}\par
+Version \par{\field\fldedit {\*\fldinst CREATEDATE \\*MERGEFORMAT}{\fldrslt CREATEDATE}}\par
+\page\page\vertalt
+\pard\plain 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Spis tre\'9Cci\par
+\pard\plain \par
+{\field\fldedit {\*\fldinst TOC \\f \\*MERGEFORMAT}{\fldrslt Table of contents}}\par
+\pard\plain 
+\sect \sbkpage \pgndec \pgnrestart
+\sect \sectd \sbknone
+{\footer \s29\widctlpar\tqc\tx4320\tqr\tx8640\qr\adjustright \fs20\cgrid {\chpgn}}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Indeks przestrzeni nazw\par \pard\plain 
+{\tc \v Indeks przestrzeni nazw}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista przestrzeni nazw\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Tutaj znajduj\'B9 si\'EA wszystkie przestrzenie nazw wraz z ich kr\'F3tkimi opisami:}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b AutoVersion} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAADG \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Indeks hierarchiczny\par \pard\plain 
+{\tc \v Indeks hierarchiczny}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Hierarchia klas\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Ta lista dziedziczenia posortowana jest z grubsza, cho\'E6 nie ca\'B3kowicie, alfabetycznie:}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+wxApp
+{
+\par
+\pard\plain \s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+BMAApp\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+wxFrame
+{
+\par
+\pard\plain \s72\li720\sa24\sb24\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+AddItemFrame\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABM \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+AddFrame\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+GUIFrame\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACK \\*MERGEFORMAT}{\fldrslt pagenum}}
+{
+\par
+\pard\plain \s73\li1080\sa21\sb21\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+BMAFrame\tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+}\par
+}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Indeks klas\par \pard\plain 
+{\tc \v Indeks klas}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista klas\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Tutaj znajduj\'B9 si\'EA klasy, struktury, unie i interfejsy wraz z ich kr\'F3tkimi opisami:}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b AddFrame} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABH \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b AddItemFrame} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Class {\b AddItemFrame} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABM \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b BMAApp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABX \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b BMAFrame} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAABZ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b GUIFrame} ({\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Class {\b GUIFrame} })} \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAACK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Indeks plik\'F3w\par \pard\plain 
+{\tc \v Indeks plik\'F3w}
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Lista plik\'F3w\par \pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Tutaj znajduje si\'EA lista wszystkich plik\'F3w z ich kr\'F3tkimi opisami:}
+{
+\par
+\pard\plain \s71\li360\sa27\sb27\widctlpar\tqr\tldot\tx8640\adjustright \fs20\cgrid 
+{\b {\b BMAApp.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAA \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b BMAApp.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAC \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b BMAMain.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAD \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b BMAMain.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAI \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b GUIFrame.cpp} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAJ \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b GUIFrame.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAK \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b sqlite.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAP \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+{\b {\b version.h} } \tab {\field\fldedit {\*\fldinst PAGEREF AAAAAAAAAR \\*MERGEFORMAT}{\fldrslt pagenum}}
+\par
+\par}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Dokumentacja przestrzeni nazw\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja przestrzeni nazw AutoVersion\par \pard\plain 
+{\tc\tcl2 \v AutoVersion}
+{\xe \v AutoVersion}
+{\bkmkstart AAAAAAAADG}
+{\bkmkend AAAAAAAADG}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Dokumentacja klas{\tc \v Dokumentacja klas}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja klasy AddFrame\par \pard\plain 
+{\tc\tcl2 \v AddFrame}
+{\xe \v AddFrame}
+{\bkmkstart AAAAAAAABH}
+{\bkmkend AAAAAAAABH}
+\par
+{
+{\f2 #include <BMAMain.h>}}\par
+Diagram dziedziczenia dla AddFrame{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_add_frame__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagram wsp\'F3\'B3pracy dla AddFrame:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_add_frame__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Metody publiczne\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b AddFrame} (wxFrame *aframe)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~AddFrame} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Metody prywatne\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b OnAddItem} (wxCommandEvent &event)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dodatkowe Dziedziczone Sk\'B3adowe\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja konstruktora i destruktora\par
+\pard\plain 
+{\xe \v AddFrame\:AddFrame}
+{\xe \v AddFrame\:AddFrame}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+AddFrame::AddFrame (wxFrame * {\i aframe})}}
+\par
+{\bkmkstart AAAAAAAABI}
+{\bkmkend AAAAAAAABI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v ~AddFrame\:AddFrame}
+{\xe \v AddFrame\:~AddFrame}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+AddFrame::~AddFrame ()}}
+\par
+{\bkmkstart AAAAAAAABJ}
+{\bkmkend AAAAAAAABJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja funkcji sk\'B3adowych\par
+\pard\plain 
+{\xe \v OnAddItem\:AddFrame}
+{\xe \v AddFrame\:OnAddItem}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void AddFrame::OnAddItem (wxCommandEvent & {\i event}){\f2 [private]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABK}
+{\bkmkend AAAAAAAABK}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementowana z {\b AddItemFrame} ({\i str.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABL \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Oto graf wywo\'B3a\'F1 dla tej funkcji:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_add_frame_aa389d695347d4b576e0f962a58b6038c_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+Dokumentacja dla tej klasy zosta\'B3a wygenerowana z plik\'F3w:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b BMAMain.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b BMAMain.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja klasy AddItemFrame\par \pard\plain 
+{\tc\tcl2 \v AddItemFrame}
+{\xe \v AddItemFrame}
+{\bkmkstart AAAAAAAABM}
+{\bkmkend AAAAAAAABM}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Class {\b AddItemFrame}. }}\par
+{
+{\f2 #include <GUIFrame.h>}}\par
+Diagram dziedziczenia dla AddItemFrame{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_add_item_frame__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagram wsp\'F3\'B3pracy dla AddItemFrame:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_add_item_frame__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Metody publiczne\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b AddItemFrame} (wxWindow *parent, wxWindowID id=wxID_ANY, const wxString &title=wxT("Dodaj wynik pomiaru"), const wxPoint &pos=wxDefaultPosition, const wxSize &size=wxSize(509, 134), long style=wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~AddItemFrame} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Metody chronione\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b OnAddItem} (wxCommandEvent &event)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atrybuty chronione\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxStaticText * {\b lblWeight}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxSlider * {\b m_slider2}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxTextCtrl * {\b weightValue}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxStaticText * {\b m_staticText5}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxStaticText * {\b lblDate}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxDatePickerCtrl * {\b DateItem}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxButton * {\b ButtonAddItem}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxButton * {\b m_button3}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Opis szczeg\'F3\'B3owy\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Class {\b AddItemFrame}. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja konstruktora i destruktora\par
+\pard\plain 
+{\xe \v AddItemFrame\:AddItemFrame}
+{\xe \v AddItemFrame\:AddItemFrame}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+AddItemFrame::AddItemFrame (wxWindow * {\i parent}, wxWindowID {\i id} = {\f2 wxID_ANY}, const wxString & {\i title} = {\f2 wxT("Dodaj\~ wynik\~ pomiaru")}, const wxPoint & {\i pos} = {\f2 wxDefaultPosition}, const wxSize & {\i size} = {\f2 wxSize(\~ 509,134\~ )}, long {\i style} = {\f2 wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL})}}
+\par
+{\bkmkstart AAAAAAAABN}
+{\bkmkend AAAAAAAABN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Oto graf wywo\'B3a\'F1 dla tej funkcji:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_add_item_frame_a86096e43c925d13299894b24972bc569_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}\par
+}
+{\xe \v ~AddItemFrame\:AddItemFrame}
+{\xe \v AddItemFrame\:~AddItemFrame}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+AddItemFrame::~AddItemFrame ()}}
+\par
+{\bkmkstart AAAAAAAABO}
+{\bkmkend AAAAAAAABO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Oto graf wywo\'B3a\'F1 dla tej funkcji:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_add_item_frame_ad1a92909cf7b8c9300e9ac1f69d0813f_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja funkcji sk\'B3adowych\par
+\pard\plain 
+{\xe \v OnAddItem\:AddItemFrame}
+{\xe \v AddItemFrame\:OnAddItem}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void AddItemFrame::OnAddItem (wxCommandEvent & {\i event}){\f2 [inline]}, {\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABL}
+{\bkmkend AAAAAAAABL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementowana w {\b AddFrame} ({\i str.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAABK \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja atrybut\'F3w sk\'B3adowych\par
+\pard\plain 
+{\xe \v ButtonAddItem\:AddItemFrame}
+{\xe \v AddItemFrame\:ButtonAddItem}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxButton* AddItemFrame::ButtonAddItem{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAABP}
+{\bkmkend AAAAAAAABP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v DateItem\:AddItemFrame}
+{\xe \v AddItemFrame\:DateItem}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxDatePickerCtrl* AddItemFrame::DateItem{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAABQ}
+{\bkmkend AAAAAAAABQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v lblDate\:AddItemFrame}
+{\xe \v AddItemFrame\:lblDate}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxStaticText* AddItemFrame::lblDate{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAABR}
+{\bkmkend AAAAAAAABR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v lblWeight\:AddItemFrame}
+{\xe \v AddItemFrame\:lblWeight}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxStaticText* AddItemFrame::lblWeight{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAABS}
+{\bkmkend AAAAAAAABS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_button3\:AddItemFrame}
+{\xe \v AddItemFrame\:m_button3}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxButton* AddItemFrame::m_button3{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAABT}
+{\bkmkend AAAAAAAABT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_slider2\:AddItemFrame}
+{\xe \v AddItemFrame\:m_slider2}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxSlider* AddItemFrame::m_slider2{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAABU}
+{\bkmkend AAAAAAAABU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_staticText5\:AddItemFrame}
+{\xe \v AddItemFrame\:m_staticText5}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxStaticText* AddItemFrame::m_staticText5{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAABV}
+{\bkmkend AAAAAAAABV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v weightValue\:AddItemFrame}
+{\xe \v AddItemFrame\:weightValue}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxTextCtrl* AddItemFrame::weightValue{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAABW}
+{\bkmkend AAAAAAAABW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+Dokumentacja dla tej klasy zosta\'B3a wygenerowana z plik\'F3w:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b GUIFrame.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b GUIFrame.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja klasy BMAApp\par \pard\plain 
+{\tc\tcl2 \v BMAApp}
+{\xe \v BMAApp}
+{\bkmkstart AAAAAAAABX}
+{\bkmkend AAAAAAAABX}
+\par
+{
+{\f2 #include <BMAApp.h>}}\par
+Diagram dziedziczenia dla BMAApp{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_b_m_a_app__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagram wsp\'F3\'B3pracy dla BMAApp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_b_m_a_app__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Metody publiczne\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual bool {\b OnInit} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja funkcji sk\'B3adowych\par
+\pard\plain 
+{\xe \v OnInit\:BMAApp}
+{\xe \v BMAApp\:OnInit}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+bool BMAApp::OnInit (){\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAABY}
+{\bkmkend AAAAAAAABY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+Dokumentacja dla tej klasy zosta\'B3a wygenerowana z plik\'F3w:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b BMAApp.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b BMAApp.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja klasy BMAFrame\par \pard\plain 
+{\tc\tcl2 \v BMAFrame}
+{\xe \v BMAFrame}
+{\bkmkstart AAAAAAAABZ}
+{\bkmkend AAAAAAAABZ}
+\par
+{
+{\f2 #include <BMAMain.h>}}\par
+Diagram dziedziczenia dla BMAFrame{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_b_m_a_frame__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagram wsp\'F3\'B3pracy dla BMAFrame:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_b_m_a_frame__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Metody publiczne\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b RefreshList} (void)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b BMAFrame} (wxFrame *frame)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~BMAFrame} ()\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Metody prywatne\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b OnAddItem} (wxRibbonButtonBarEvent &event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b test} (wxRibbonButtonBarEvent &event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b OnQuit} (wxRibbonButtonBarEvent &event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b OnRefresh} (wxRibbonButtonBarEvent &event)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dodatkowe Dziedziczone Sk\'B3adowe\par
+\pard\plain 
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja konstruktora i destruktora\par
+\pard\plain 
+{\xe \v BMAFrame\:BMAFrame}
+{\xe \v BMAFrame\:BMAFrame}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+BMAFrame::BMAFrame (wxFrame * {\i frame})}}
+\par
+{\bkmkstart AAAAAAAACA}
+{\bkmkend AAAAAAAACA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Oto graf wywo\'B3a\'F1 dla tej funkcji:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_b_m_a_frame_ac21189c22d2e7588e6d18f33636369ba_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}\par
+}
+{\xe \v ~BMAFrame\:BMAFrame}
+{\xe \v BMAFrame\:~BMAFrame}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+BMAFrame::~BMAFrame ()}}
+\par
+{\bkmkstart AAAAAAAACB}
+{\bkmkend AAAAAAAACB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja funkcji sk\'B3adowych\par
+\pard\plain 
+{\xe \v OnAddItem\:BMAFrame}
+{\xe \v BMAFrame\:OnAddItem}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void BMAFrame::OnAddItem (wxRibbonButtonBarEvent & {\i event}){\f2 [private]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACC}
+{\bkmkend AAAAAAAACC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementowana z {\b GUIFrame} ({\i str.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACD \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Oto graf wywo\'B3a\'F1 dla tej funkcji:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_b_m_a_frame_a3234b4f776104caca6749069617a9636_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}\par
+}
+{\xe \v OnQuit\:BMAFrame}
+{\xe \v BMAFrame\:OnQuit}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void BMAFrame::OnQuit (wxRibbonButtonBarEvent & {\i event}){\f2 [private]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACE}
+{\bkmkend AAAAAAAACE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementowana z {\b GUIFrame} ({\i str.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACF \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v OnRefresh\:BMAFrame}
+{\xe \v BMAFrame\:OnRefresh}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void BMAFrame::OnRefresh (wxRibbonButtonBarEvent & {\i event}){\f2 [private]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACG}
+{\bkmkend AAAAAAAACG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementowana z {\b GUIFrame} ({\i str.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACH \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+{
+Oto graf wywo\'B3a\'F1 dla tej funkcji:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_b_m_a_frame_aeadc0046b152d112f57466ad7bbb27f5_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}\par
+}
+{\xe \v RefreshList\:BMAFrame}
+{\xe \v BMAFrame\:RefreshList}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void BMAFrame::RefreshList (void )}}
+\par
+{\bkmkstart AAAAAAAACI}
+{\bkmkend AAAAAAAACI}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Oto graf wywo\'B3a\'F1 dla tej funkcji:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_b_m_a_frame_af2c2da9a3c70647e70be099a2cbf4b50_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}\par
+}
+{\xe \v test\:BMAFrame}
+{\xe \v BMAFrame\:test}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void BMAFrame::test (wxRibbonButtonBarEvent & {\i event}){\f2 [private]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACJ}
+{\bkmkend AAAAAAAACJ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+Dokumentacja dla tej klasy zosta\'B3a wygenerowana z plik\'F3w:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b BMAMain.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b BMAMain.cpp}\par
+}\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja klasy GUIFrame\par \pard\plain 
+{\tc\tcl2 \v GUIFrame}
+{\xe \v GUIFrame}
+{\bkmkstart AAAAAAAACK}
+{\bkmkend AAAAAAAACK}
+\par
+{
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Class {\b GUIFrame}. }}\par
+{
+{\f2 #include <GUIFrame.h>}}\par
+Diagram dziedziczenia dla GUIFrame{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_u_i_frame__inherit__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+Diagram wsp\'F3\'B3pracy dla GUIFrame:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_u_i_frame__coll__graph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Metody publiczne\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b GUIFrame} (wxWindow *parent, wxWindowID id=wxID_ANY, const wxString &title=wxT("BMA"), const wxPoint &pos=wxDefaultPosition, const wxSize &size=wxSize(481, 466), long style=wxCAPTION|wxDEFAULT_FRAME_STYLE)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b ~GUIFrame} ()\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b m_splitter2OnIdle} (wxIdleEvent &)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+void {\b m_splitter1OnIdle} (wxIdleEvent &)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Metody chronione\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b OnClose} (wxCloseEvent &event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b OnAddItem} (wxRibbonButtonBarEvent &event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b OnRefresh} (wxRibbonButtonBarEvent &event)\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+virtual void {\b OnQuit} (wxRibbonButtonBarEvent &event)\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Atrybuty chronione\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxStatusBar * {\b statusBar}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxRibbonBar * {\b m_ribbonBar1}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxRibbonPage * {\b m_ribbonPage1}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxRibbonPanel * {\b mRibbon_PanelDefault}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxRibbonButtonBar * {\b mRibbon_ButtonBarTools}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxRibbonPage * {\b m_ribbonPage2}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxSplitterWindow * {\b m_splitter2}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxPanel * {\b m_panel3}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxPanel * {\b m_panel4}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxSplitterWindow * {\b m_splitter1}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxPanel * {\b m_panel1}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxDataViewListCtrl * {\b m_TableData}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxDataViewColumn * {\b m_ColumnDate}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxDataViewColumn * {\b m_ColumnWeight}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxPanel * {\b m_panel2}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxTextCtrl * {\b m_textCtrl2}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Opis szczeg\'F3\'B3owy\par
+\pard\plain 
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Class {\b GUIFrame}. \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja konstruktora i destruktora\par
+\pard\plain 
+{\xe \v GUIFrame\:GUIFrame}
+{\xe \v GUIFrame\:GUIFrame}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+GUIFrame::GUIFrame (wxWindow * {\i parent}, wxWindowID {\i id} = {\f2 wxID_ANY}, const wxString & {\i title} = {\f2 wxT("BMA")}, const wxPoint & {\i pos} = {\f2 wxDefaultPosition}, const wxSize & {\i size} = {\f2 wxSize(\~ 481,466\~ )}, long {\i style} = {\f2 wxCAPTION|wxDEFAULT_FRAME_STYLE})}}
+\par
+{\bkmkstart AAAAAAAACL}
+{\bkmkend AAAAAAAACL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Oto graf wywo\'B3a\'F1 dla tej funkcji:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_u_i_frame_a99041f1f29bd297f167fecd6ea961138_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}\par
+}
+{\xe \v ~GUIFrame\:GUIFrame}
+{\xe \v GUIFrame\:~GUIFrame}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+GUIFrame::~GUIFrame ()}}
+\par
+{\bkmkstart AAAAAAAACM}
+{\bkmkend AAAAAAAACM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Oto graf wywo\'B3a\'F1 dla tej funkcji:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "class_g_u_i_frame_a1e078f7765a8aa753101fd4e0cc0e0b0_cgraph.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja funkcji sk\'B3adowych\par
+\pard\plain 
+{\xe \v m_splitter1OnIdle\:GUIFrame}
+{\xe \v GUIFrame\:m_splitter1OnIdle}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void GUIFrame::m_splitter1OnIdle (wxIdleEvent & ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACN}
+{\bkmkend AAAAAAAACN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_splitter2OnIdle\:GUIFrame}
+{\xe \v GUIFrame\:m_splitter2OnIdle}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+void GUIFrame::m_splitter2OnIdle (wxIdleEvent & ){\f2 [inline]}}}
+\par
+{\bkmkstart AAAAAAAACO}
+{\bkmkend AAAAAAAACO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v OnAddItem\:GUIFrame}
+{\xe \v GUIFrame\:OnAddItem}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void GUIFrame::OnAddItem (wxRibbonButtonBarEvent & {\i event}){\f2 [inline]}, {\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACD}
+{\bkmkend AAAAAAAACD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementowana w {\b BMAFrame} ({\i str.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACC \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v OnClose\:GUIFrame}
+{\xe \v GUIFrame\:OnClose}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void GUIFrame::OnClose (wxCloseEvent & {\i event}){\f2 [inline]}, {\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACP}
+{\bkmkend AAAAAAAACP}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v OnQuit\:GUIFrame}
+{\xe \v GUIFrame\:OnQuit}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void GUIFrame::OnQuit (wxRibbonButtonBarEvent & {\i event}){\f2 [inline]}, {\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACF}
+{\bkmkend AAAAAAAACF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementowana w {\b BMAFrame} ({\i str.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACE \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\xe \v OnRefresh\:GUIFrame}
+{\xe \v GUIFrame\:OnRefresh}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+virtual void GUIFrame::OnRefresh (wxRibbonButtonBarEvent & {\i event}){\f2 [inline]}, {\f2 [protected]}, {\f2 [virtual]}}}
+\par
+{\bkmkstart AAAAAAAACH}
+{\bkmkend AAAAAAAACH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+\par
+{
+Reimplementowana w {\b BMAFrame} ({\i str.{\field\fldedit {\*\fldinst PAGEREF AAAAAAAACG \\*MERGEFORMAT}{\fldrslt pagenum}}}).}\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja atrybut\'F3w sk\'B3adowych\par
+\pard\plain 
+{\xe \v m_ColumnDate\:GUIFrame}
+{\xe \v GUIFrame\:m_ColumnDate}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxDataViewColumn* GUIFrame::m_ColumnDate{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAACQ}
+{\bkmkend AAAAAAAACQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_ColumnWeight\:GUIFrame}
+{\xe \v GUIFrame\:m_ColumnWeight}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxDataViewColumn* GUIFrame::m_ColumnWeight{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAACR}
+{\bkmkend AAAAAAAACR}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_panel1\:GUIFrame}
+{\xe \v GUIFrame\:m_panel1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxPanel* GUIFrame::m_panel1{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAACS}
+{\bkmkend AAAAAAAACS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_panel2\:GUIFrame}
+{\xe \v GUIFrame\:m_panel2}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxPanel* GUIFrame::m_panel2{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAACT}
+{\bkmkend AAAAAAAACT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_panel3\:GUIFrame}
+{\xe \v GUIFrame\:m_panel3}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxPanel* GUIFrame::m_panel3{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAACU}
+{\bkmkend AAAAAAAACU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_panel4\:GUIFrame}
+{\xe \v GUIFrame\:m_panel4}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxPanel* GUIFrame::m_panel4{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAACV}
+{\bkmkend AAAAAAAACV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_ribbonBar1\:GUIFrame}
+{\xe \v GUIFrame\:m_ribbonBar1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxRibbonBar* GUIFrame::m_ribbonBar1{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAACW}
+{\bkmkend AAAAAAAACW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_ribbonPage1\:GUIFrame}
+{\xe \v GUIFrame\:m_ribbonPage1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxRibbonPage* GUIFrame::m_ribbonPage1{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAACX}
+{\bkmkend AAAAAAAACX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_ribbonPage2\:GUIFrame}
+{\xe \v GUIFrame\:m_ribbonPage2}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxRibbonPage* GUIFrame::m_ribbonPage2{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAACY}
+{\bkmkend AAAAAAAACY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_splitter1\:GUIFrame}
+{\xe \v GUIFrame\:m_splitter1}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxSplitterWindow* GUIFrame::m_splitter1{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAACZ}
+{\bkmkend AAAAAAAACZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_splitter2\:GUIFrame}
+{\xe \v GUIFrame\:m_splitter2}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxSplitterWindow* GUIFrame::m_splitter2{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAADA}
+{\bkmkend AAAAAAAADA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_TableData\:GUIFrame}
+{\xe \v GUIFrame\:m_TableData}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxDataViewListCtrl* GUIFrame::m_TableData{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAADB}
+{\bkmkend AAAAAAAADB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v m_textCtrl2\:GUIFrame}
+{\xe \v GUIFrame\:m_textCtrl2}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxTextCtrl* GUIFrame::m_textCtrl2{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAADC}
+{\bkmkend AAAAAAAADC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mRibbon_ButtonBarTools\:GUIFrame}
+{\xe \v GUIFrame\:mRibbon_ButtonBarTools}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxRibbonButtonBar* GUIFrame::mRibbon_ButtonBarTools{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAADD}
+{\bkmkend AAAAAAAADD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v mRibbon_PanelDefault\:GUIFrame}
+{\xe \v GUIFrame\:mRibbon_PanelDefault}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxRibbonPanel* GUIFrame::mRibbon_PanelDefault{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAADE}
+{\bkmkend AAAAAAAADE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v statusBar\:GUIFrame}
+{\xe \v GUIFrame\:statusBar}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxStatusBar* GUIFrame::statusBar{\f2 [protected]}}}
+\par
+{\bkmkstart AAAAAAAADF}
+{\bkmkend AAAAAAAADF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+Dokumentacja dla tej klasy zosta\'B3a wygenerowana z plik\'F3w:{\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b GUIFrame.h}\par
+\pard\plain \s81\fi-360\li720\widctlpar\jclisttab\tx720{\*\pn \pnlvlbody\ilvl0\ls2\pnrnot0\pndec }\ls2\adjustright \fs20\cgrid 
+{\b GUIFrame.cpp}\par
+}
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+Dokumentacja plik\'F3w{\tc \v Dokumentacja plik\'F3w}
+\par \pard\plain 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja pliku BMAApp.cpp\par \pard\plain 
+{\tc\tcl2 \v BMAApp.cpp}
+{\xe \v BMAApp.cpp}
+{\bkmkstart AAAAAAAAAA}
+{\bkmkend AAAAAAAAAA}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "BMAApp.h"}\par
+{\f2 #include "BMAMain.h"}\par
+{\f2 #include "wx/textfile.h"}\par
+{\f2 #include "wx/file.h"}\par
+{\f2 #include "wx/string.h"}\par
+{\f2 #include "wx/stdpaths.h"}\par
+{\f2 #include "wx/msgdlg.h"}\par
+{\f2 #include "wx/wxsqlite3.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Wykres zale\'BFno\'9Cci za\'B3\'B9czania dla BMAApp.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_b_m_a_app_8cpp__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funkcje\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+{\b IMPLEMENT_APP} ({\b BMAApp})\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja funkcji\par
+\pard\plain 
+{\xe \v IMPLEMENT_APP\:BMAApp.cpp}
+{\xe \v BMAApp.cpp\:IMPLEMENT_APP}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+IMPLEMENT_APP ({\b BMAApp} )}}
+\par
+{\bkmkstart AAAAAAAAAB}
+{\bkmkend AAAAAAAAAB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja pliku BMAApp.h\par \pard\plain 
+{\tc\tcl2 \v BMAApp.h}
+{\xe \v BMAApp.h}
+{\bkmkstart AAAAAAAAAC}
+{\bkmkend AAAAAAAAAC}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <wx/app.h>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Wykres zale\'BFno\'9Cci za\'B3\'B9czania dla BMAApp.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_b_m_a_app_8h__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Ten wykres pokazuje, kt\'F3re pliki bezpo\'9Crednio lub po\'9Crednio za\'B3\'B9czaj\'B9 ten plik:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_b_m_a_app_8h__dep__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Komponenty\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b BMAApp}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja pliku BMAMain.cpp\par \pard\plain 
+{\tc\tcl2 \v BMAMain.cpp}
+{\xe \v BMAMain.cpp}
+{\bkmkstart AAAAAAAAAD}
+{\bkmkend AAAAAAAAAD}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "BMAMain.h"}\par
+{\f2 #include "wx/msgdlg.h"}\par
+{\f2 #include "sqlite.h"}\par
+{\f2 #include "wx/debug.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Wykres zale\'BFno\'9Cci za\'B3\'B9czania dla BMAMain.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_b_m_a_main_8cpp__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Wyliczenia\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+enum {\b wxbuildinfoformat} \{ {\b short_f}, 
+{\b long_f}
+ \}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funkcje\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxString {\b wxbuildinfo} ({\b wxbuildinfoformat} format)\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja typ\'F3w wyliczanych\par
+\pard\plain 
+{\xe \v wxbuildinfoformat\:BMAMain.cpp}
+{\xe \v BMAMain.cpp\:wxbuildinfoformat}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+enum {\b wxbuildinfoformat}}}
+\par
+{\bkmkstart AAAAAAAAAE}
+{\bkmkend AAAAAAAAAE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{{{\b \par
+Warto\'9Cci wylicze\'F1}}\par
+\pard\plain \s62\li720\widctlpar\ql\adjustright \fs20\cgrid {\xe \v short_f\:BMAMain.cpp}
+{\xe \v BMAMain.cpp\:short_f}
+{\b {\i short_f{\bkmkstart AAAAAAAAAF}
+{\bkmkend AAAAAAAAAF}
+}}  \par
+{\xe \v long_f\:BMAMain.cpp}
+{\xe \v BMAMain.cpp\:long_f}
+{\b {\i long_f{\bkmkstart AAAAAAAAAG}
+{\bkmkend AAAAAAAAAG}
+}}  \par
+}}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja funkcji\par
+\pard\plain 
+{\xe \v wxbuildinfo\:BMAMain.cpp}
+{\xe \v BMAMain.cpp\:wxbuildinfo}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxString wxbuildinfo ({\b wxbuildinfoformat} {\i format})}}
+\par
+{\bkmkstart AAAAAAAAAH}
+{\bkmkend AAAAAAAAAH}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja pliku BMAMain.h\par \pard\plain 
+{\tc\tcl2 \v BMAMain.h}
+{\xe \v BMAMain.h}
+{\bkmkstart AAAAAAAAAI}
+{\bkmkend AAAAAAAAAI}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "BMAApp.h"}\par
+{\f2 #include "GUIFrame.h"}\par
+{\f2 #include "wx/ribbon/buttonbar.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Wykres zale\'BFno\'9Cci za\'B3\'B9czania dla BMAMain.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_b_m_a_main_8h__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Ten wykres pokazuje, kt\'F3re pliki bezpo\'9Crednio lub po\'9Crednio za\'B3\'B9czaj\'B9 ten plik:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_b_m_a_main_8h__dep__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Komponenty\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b BMAFrame}\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b AddFrame}\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja pliku GUIFrame.cpp\par \pard\plain 
+{\tc\tcl2 \v GUIFrame.cpp}
+{\xe \v GUIFrame.cpp}
+{\bkmkstart AAAAAAAAAJ}
+{\bkmkend AAAAAAAAAJ}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "wx/wxprec.h"}\par
+{\f2 #include <wx/wx.h>}\par
+{\f2 #include "GUIFrame.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Wykres zale\'BFno\'9Cci za\'B3\'B9czania dla GUIFrame.cpp:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_g_u_i_frame_8cpp__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja pliku GUIFrame.h\par \pard\plain 
+{\tc\tcl2 \v GUIFrame.h}
+{\xe \v GUIFrame.h}
+{\bkmkstart AAAAAAAAAK}
+{\bkmkend AAAAAAAAAK}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include <wx/artprov.h>}\par
+{\f2 #include <wx/xrc/xmlres.h>}\par
+{\f2 #include <wx/statusbr.h>}\par
+{\f2 #include <wx/gdicmn.h>}\par
+{\f2 #include <wx/font.h>}\par
+{\f2 #include <wx/colour.h>}\par
+{\f2 #include <wx/settings.h>}\par
+{\f2 #include <wx/string.h>}\par
+{\f2 #include <wx/bitmap.h>}\par
+{\f2 #include <wx/image.h>}\par
+{\f2 #include <wx/icon.h>}\par
+{\f2 #include <wx/ribbon/buttonbar.h>}\par
+{\f2 #include <wx/ribbon/panel.h>}\par
+{\f2 #include <wx/ribbon/page.h>}\par
+{\f2 #include <wx/ribbon/control.h>}\par
+{\f2 #include <wx/ribbon/art.h>}\par
+{\f2 #include <wx/ribbon/bar.h>}\par
+{\f2 #include <wx/sizer.h>}\par
+{\f2 #include <wx/panel.h>}\par
+{\f2 #include <wx/dataview.h>}\par
+{\f2 #include <wx/textctrl.h>}\par
+{\f2 #include <wx/splitter.h>}\par
+{\f2 #include <wx/frame.h>}\par
+{\f2 #include <wx/stattext.h>}\par
+{\f2 #include <wx/slider.h>}\par
+{\f2 #include <wx/datectrl.h>}\par
+{\f2 #include <wx/dateevt.h>}\par
+{\f2 #include <wx/button.h>}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Wykres zale\'BFno\'9Cci za\'B3\'B9czania dla GUIFrame.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_g_u_i_frame_8h__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Ten wykres pokazuje, kt\'F3re pliki bezpo\'9Crednio lub po\'9Crednio za\'B3\'B9czaj\'B9 ten plik:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "_g_u_i_frame_8h__dep__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Komponenty\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b GUIFrame}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Class {\b GUIFrame}. }}}
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+class {\b AddItemFrame}\par
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid {\i {\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+Class {\b AddItemFrame}. }}}
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Definicje\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b rb_additem}\~ 1000\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b rb_refresh}\~ 1001\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b www}\~ 1002\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b rb_close}\~ 1003\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja definicji\par
+\pard\plain 
+{\xe \v rb_additem\:GUIFrame.h}
+{\xe \v GUIFrame.h\:rb_additem}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define rb_additem\~ 1000}}
+\par
+{\bkmkstart AAAAAAAAAL}
+{\bkmkend AAAAAAAAAL}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v rb_close\:GUIFrame.h}
+{\xe \v GUIFrame.h\:rb_close}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define rb_close\~ 1003}}
+\par
+{\bkmkstart AAAAAAAAAM}
+{\bkmkend AAAAAAAAAM}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v rb_refresh\:GUIFrame.h}
+{\xe \v GUIFrame.h\:rb_refresh}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define rb_refresh\~ 1001}}
+\par
+{\bkmkstart AAAAAAAAAN}
+{\bkmkend AAAAAAAAAN}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v www\:GUIFrame.h}
+{\xe \v GUIFrame.h\:www}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define www\~ 1002}}
+\par
+{\bkmkstart AAAAAAAAAO}
+{\bkmkend AAAAAAAAAO}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja pliku sqlite.h\par \pard\plain 
+{\tc\tcl2 \v sqlite.h}
+{\xe \v sqlite.h}
+{\bkmkstart AAAAAAAAAP}
+{\bkmkend AAAAAAAAAP}
+{
+\pard\plain \s18\widctlpar\fs22\cgrid {\f2 #include "wx/wxsqlite3.h"}\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Wykres zale\'BFno\'9Cci za\'B3\'B9czania dla sqlite.h:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "sqlite_8h__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+{
+\pard\plain \s17\sa60\sb30\widctlpar\qj \fs22\cgrid Ten wykres pokazuje, kt\'F3re pliki bezpo\'9Crednio lub po\'9Crednio za\'B3\'B9czaj\'B9 ten plik:{
+\pard\plain 
+\par\pard \qc {\field\flddirty {\*\fldinst INCLUDEPICTURE "sqlite_8h__dep__incl.png" \\d \\*MERGEFORMAT}{\fldrslt IMAGE}}\par
+}
+\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Funkcje\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+wxSQLite3Database * {\b initDB} ()\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja funkcji\par
+\pard\plain 
+{\xe \v initDB\:sqlite.h}
+{\xe \v sqlite.h\:initDB}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+wxSQLite3Database* initDB ()}}
+\par
+{\bkmkstart AAAAAAAAAQ}
+{\bkmkend AAAAAAAAAQ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+{\s17\sa60\sb30\widctlpar\qj \fs22\cgrid 
+< Inicjalizacja bazy danych \par
+}}
+\par \pard\plain 
+
+\pard\plain \sect\sbkpage
+\s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+\pard\plain \s2\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs28\kerning28\cgrid 
+Dokumentacja pliku version.h\par \pard\plain 
+{\tc\tcl2 \v version.h}
+{\xe \v version.h}
+{\bkmkstart AAAAAAAAAR}
+{\bkmkend AAAAAAAAAR}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Przestrzenie nazw\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+ {\b AutoVersion}\par
+}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Definicje\par
+\pard\plain 
+
+{
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b DATE}\~ "25"\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b MONTH}\~ "08"\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b YEAR}\~ "2014"\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b UBUNTU_VERSION_STYLE}\~ "14.08"\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b STATUS}\~ "Alpha"\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b STATUS_SHORT}\~ "a"\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b MAJOR}\~ 0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b MINOR}\~ 0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b BUILD}\~ 0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b REVISION}\~ 0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b BUILDS_COUNT}\~ 8\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b RC_FILEVERSION}\~ 0,0,0,0\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b RC_FILEVERSION_STRING}\~ "0, 0, 0, 0\\0"\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b FULLVERSION_STRING}\~ "0.0.0.0"\par
+\pard\plain \s80\fi-360\li360\widctlpar\jclisttab\tx360{\*\pn \pnlvlbody\ilvl0\ls1\pnrnot0\pndec }\ls1\adjustright \fs20\cgrid 
+#define {\b BUILD_HISTORY}\~ 0\par
+}
+{\pard\widctlpar\brdrb\brdrs\brdrw5\brsp20 \adjustright \par}
+\pard\plain \s3\sb240\sa60\keepn\widctlpar\adjustright \b\f1\cgrid 
+Dokumentacja definicji\par
+\pard\plain 
+{\xe \v BUILD\:version.h}
+{\xe \v version.h\:BUILD}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define BUILD\~ 0}}
+\par
+{\bkmkstart AAAAAAAAAS}
+{\bkmkend AAAAAAAAAS}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v BUILD_HISTORY\:version.h}
+{\xe \v version.h\:BUILD_HISTORY}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define BUILD_HISTORY\~ 0}}
+\par
+{\bkmkstart AAAAAAAAAT}
+{\bkmkend AAAAAAAAAT}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v BUILDS_COUNT\:version.h}
+{\xe \v version.h\:BUILDS_COUNT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define BUILDS_COUNT\~ 8}}
+\par
+{\bkmkstart AAAAAAAAAU}
+{\bkmkend AAAAAAAAAU}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v DATE\:version.h}
+{\xe \v version.h\:DATE}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define DATE\~ "25"}}
+\par
+{\bkmkstart AAAAAAAAAV}
+{\bkmkend AAAAAAAAAV}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v FULLVERSION_STRING\:version.h}
+{\xe \v version.h\:FULLVERSION_STRING}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define FULLVERSION_STRING\~ "0.0.0.0"}}
+\par
+{\bkmkstart AAAAAAAAAW}
+{\bkmkend AAAAAAAAAW}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v MAJOR\:version.h}
+{\xe \v version.h\:MAJOR}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define MAJOR\~ 0}}
+\par
+{\bkmkstart AAAAAAAAAX}
+{\bkmkend AAAAAAAAAX}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v MINOR\:version.h}
+{\xe \v version.h\:MINOR}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define MINOR\~ 0}}
+\par
+{\bkmkstart AAAAAAAAAY}
+{\bkmkend AAAAAAAAAY}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v MONTH\:version.h}
+{\xe \v version.h\:MONTH}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define MONTH\~ "08"}}
+\par
+{\bkmkstart AAAAAAAAAZ}
+{\bkmkend AAAAAAAAAZ}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v RC_FILEVERSION\:version.h}
+{\xe \v version.h\:RC_FILEVERSION}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define RC_FILEVERSION\~ 0,0,0,0}}
+\par
+{\bkmkstart AAAAAAAABA}
+{\bkmkend AAAAAAAABA}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v RC_FILEVERSION_STRING\:version.h}
+{\xe \v version.h\:RC_FILEVERSION_STRING}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define RC_FILEVERSION_STRING\~ "0, 0, 0, 0\\0"}}
+\par
+{\bkmkstart AAAAAAAABB}
+{\bkmkend AAAAAAAABB}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v REVISION\:version.h}
+{\xe \v version.h\:REVISION}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define REVISION\~ 0}}
+\par
+{\bkmkstart AAAAAAAABC}
+{\bkmkend AAAAAAAABC}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v STATUS\:version.h}
+{\xe \v version.h\:STATUS}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define STATUS\~ "Alpha"}}
+\par
+{\bkmkstart AAAAAAAABD}
+{\bkmkend AAAAAAAABD}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v STATUS_SHORT\:version.h}
+{\xe \v version.h\:STATUS_SHORT}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define STATUS_SHORT\~ "a"}}
+\par
+{\bkmkstart AAAAAAAABE}
+{\bkmkend AAAAAAAABE}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v UBUNTU_VERSION_STYLE\:version.h}
+{\xe \v version.h\:UBUNTU_VERSION_STYLE}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define UBUNTU_VERSION_STYLE\~ "14.08"}}
+\par
+{\bkmkstart AAAAAAAABF}
+{\bkmkend AAAAAAAABF}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+{\xe \v YEAR\:version.h}
+{\xe \v version.h\:YEAR}
+\pard\plain \s4\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs20\cgrid {
+{\b 
+#define YEAR\~ "2014"}}
+\par
+{\bkmkstart AAAAAAAABG}
+{\bkmkend AAAAAAAABG}
+{
+\pard\plain \s51\li360\sa60\sb30\qj\widctlpar\qj\adjustright \fs20\cgrid 
+}
+
+\pard\plain \sect\sbkpage
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid 
+\s1\sb240\sa60\keepn\widctlpar\adjustright \b\f1\fs36\kerning36\cgrid Indeks\par 
+\pard\plain 
+{\tc \v Indeks}
+{\field\fldedit {\*\fldinst INDEX \\c2 \\*MERGEFORMAT}{\fldrslt INDEX}}
+}

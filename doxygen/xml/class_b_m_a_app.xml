@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_b_m_a_app" kind="class" prot="public">
+    <compoundname>BMAApp</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">wxApp</basecompoundref>
+    <includes refid="_b_m_a_app_8h" local="no">BMAApp.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_b_m_a_app_1a828b3ac0b67b8d8eb497cc368b68cd85" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool BMAApp::OnInit</definition>
+        <argsstring>()</argsstring>
+        <name>OnInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAApp.h" line="18" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAApp.cpp" bodystart="29" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="37">
+        <label>BMAApp</label>
+        <link refid="class_b_m_a_app"/>
+        <childnode refid="38" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>wxApp</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="39">
+        <label>BMAApp</label>
+        <link refid="class_b_m_a_app"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="40">
+        <label>wxApp</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAApp.h" line="16" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAApp.h" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_b_m_a_app_1a828b3ac0b67b8d8eb497cc368b68cd85" prot="public" virt="virtual"><scope>BMAApp</scope><name>OnInit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

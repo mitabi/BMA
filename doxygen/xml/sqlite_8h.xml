@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="sqlite_8h" kind="file">
+    <compoundname>sqlite.h</compoundname>
+    <includes local="yes">wx/wxsqlite3.h</includes>
+    <includedby refid="_b_m_a_main_8cpp" local="yes">BMAMain.cpp</includedby>
+    <incdepgraph>
+      <node id="376">
+        <label>sqlite.h</label>
+        <link refid="sqlite.h"/>
+        <childnode refid="377" relation="include">
+        </childnode>
+      </node>
+      <node id="377">
+        <label>wx/wxsqlite3.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="379">
+        <label>BMAMain.cpp</label>
+        <link refid="_b_m_a_main_8cpp"/>
+      </node>
+      <node id="378">
+        <label>sqlite.h</label>
+        <link refid="sqlite.h"/>
+        <childnode refid="379" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="sqlite_8h_1a15f20f862c3c044d38656009f256b4e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>wxSQLite3Database *</type>
+        <definition>wxSQLite3Database* initDB</definition>
+        <argsstring>()</argsstring>
+        <name>initDB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; Inicjalizacja bazy danych </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/sqlite.h" line="8" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/sqlite.h" bodystart="8" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>SQLITE_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>SQLITE_H_INCLUDED</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;wx/wxsqlite3.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="sqlite_8h_1a15f20f862c3c044d38656009f256b4e0" refkind="member"><highlight class="normal">wxSQLite3Database*<sp/><ref refid="sqlite_8h_1a15f20f862c3c044d38656009f256b4e0" kindref="member">initDB</ref>()</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>wxString<sp/>testDBName<sp/>=<sp/>wxGetCwd()<sp/>+<sp/>wxT(</highlight><highlight class="stringliteral">&quot;/base.db&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>wxSQLite3Database*<sp/>db<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxSQLite3Database();</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(wxFileExists(testDBName))</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db-&gt;InitializeSQLite();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db-&gt;Open(testDBName,wxEmptyString,WXSQLITE_OPEN_CREATE|WXSQLITE_OPEN_READWRITE);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db-&gt;InitializeSQLite();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db-&gt;Open(testDBName,wxEmptyString,WXSQLITE_OPEN_CREATE|WXSQLITE_OPEN_READWRITE);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>db-&gt;ExecuteUpdate(wxT(</highlight><highlight class="stringliteral">&quot;CREATE<sp/>TABLE<sp/>Data(id<sp/>INTEGER,<sp/>date<sp/>TEXT,<sp/>weight<sp/>REAL,PRIMARY<sp/>KEY(id<sp/>ASC))&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>db;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>SQLITE_H_INCLUDED</highlight></codeline>
+    </programlisting>
+    <location file="D:/cpp/Projekty/WxWidgets/BMA/sqlite.h"/>
+  </compounddef>
+</doxygen>

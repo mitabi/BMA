@@ -1,0 +1,214 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="version_8h" kind="file">
+    <compoundname>version.h</compoundname>
+    <innernamespace refid="namespace_auto_version">AutoVersion</innernamespace>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="version_8h_1a30b328ca499f27b3d0f8111b495834ca" prot="public" static="no">
+        <name>DATE</name>
+        <initializer>&quot;25&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="7" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1a3729d06495d9713592f79f3122c9e677" prot="public" static="no">
+        <name>MONTH</name>
+        <initializer>&quot;08&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="8" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1a5871356500f559add06ea81d60331b1b" prot="public" static="no">
+        <name>YEAR</name>
+        <initializer>&quot;2014&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="9" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1ae4cb7f81be9812839a611553d732624f" prot="public" static="no">
+        <name>UBUNTU_VERSION_STYLE</name>
+        <initializer>&quot;14.08&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="10" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1a59279bee44f34d08b3cbf3a89fb0d8d9" prot="public" static="no">
+        <name>STATUS</name>
+        <initializer>&quot;Alpha&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="13" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1a61a2a4bb56cad7ff1964d7aa56d6048f" prot="public" static="no">
+        <name>STATUS_SHORT</name>
+        <initializer>&quot;a&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="14" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1a877cce34f3e58fd7f9194fab90724cb8" prot="public" static="no">
+        <name>MAJOR</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="17" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1a4e10915d93013542d442d78de0e02e9a" prot="public" static="no">
+        <name>MINOR</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="18" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1a03505fe2d99ef550d9e1d39f57048908" prot="public" static="no">
+        <name>BUILD</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="19" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1ad526597ab378f3faff87123d7742c79a" prot="public" static="no">
+        <name>REVISION</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="20" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1af6858c4809791dd7ebb4e363530605e8" prot="public" static="no">
+        <name>BUILDS_COUNT</name>
+        <initializer>8</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="23" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1a0e86d046ea87587e402d375c6b0927c6" prot="public" static="no">
+        <name>RC_FILEVERSION</name>
+        <initializer>0,0,0,0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="24" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1a4763e81d3c29ec0fab79225d3ec3f1a2" prot="public" static="no">
+        <name>RC_FILEVERSION_STRING</name>
+        <initializer>&quot;0, 0, 0, 0\0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="25" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1a2bc65fb5ae59891ce201e2100b8e933f" prot="public" static="no">
+        <name>FULLVERSION_STRING</name>
+        <initializer>&quot;0.0.0.0&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="26" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="version_8h_1ac8f06d08fe87fa1c1c991e7f000c1d06" prot="public" static="no">
+        <name>BUILD_HISTORY</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h" line="29" column="10" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/version.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>VERSION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>VERSION_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace_auto_version" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_auto_version" kindref="compound">AutoVersion</ref>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Date<sp/>Version<sp/>Types</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7" refid="version_8h_1a30b328ca499f27b3d0f8111b495834ca" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>DATE<sp/>&quot;25&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="version_8h_1a3729d06495d9713592f79f3122c9e677" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>MONTH<sp/>&quot;08&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="version_8h_1a5871356500f559add06ea81d60331b1b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>YEAR<sp/>&quot;2014&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="version_8h_1ae4cb7f81be9812839a611553d732624f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>UBUNTU_VERSION_STYLE<sp/><sp/>&quot;14.08&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Software<sp/>Status</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="version_8h_1a59279bee44f34d08b3cbf3a89fb0d8d9" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>STATUS<sp/><sp/>&quot;Alpha&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="version_8h_1a61a2a4bb56cad7ff1964d7aa56d6048f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>STATUS_SHORT<sp/><sp/>&quot;a&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Standard<sp/>Version<sp/>Type</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="version_8h_1a877cce34f3e58fd7f9194fab90724cb8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>MAJOR<sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="version_8h_1a4e10915d93013542d442d78de0e02e9a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>MINOR<sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="version_8h_1a03505fe2d99ef550d9e1d39f57048908" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>BUILD<sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="version_8h_1ad526597ab378f3faff87123d7742c79a" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>REVISION<sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Miscellaneous<sp/>Version<sp/>Types</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="version_8h_1af6858c4809791dd7ebb4e363530605e8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>BUILDS_COUNT<sp/><sp/>8</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="version_8h_1a0e86d046ea87587e402d375c6b0927c6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>RC_FILEVERSION<sp/>0,0,0,0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="version_8h_1a4763e81d3c29ec0fab79225d3ec3f1a2" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>RC_FILEVERSION_STRING<sp/>&quot;0,<sp/>0,<sp/>0,<sp/>0\0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="version_8h_1a2bc65fb5ae59891ce201e2100b8e933f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>FULLVERSION_STRING<sp/><sp/>&quot;0.0.0.0&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//These<sp/>values<sp/>are<sp/>to<sp/>keep<sp/>track<sp/>of<sp/>your<sp/>versioning<sp/>state,<sp/>don&apos;t<sp/>modify<sp/>them.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="version_8h_1ac8f06d08fe87fa1c1c991e7f000c1d06" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#define<sp/>BUILD_HISTORY<sp/><sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//VERSION_H</highlight></codeline>
+    </programlisting>
+    <location file="D:/cpp/Projekty/WxWidgets/BMA/version.h"/>
+  </compounddef>
+</doxygen>

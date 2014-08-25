@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.8">
+  <compound refid="class_add_frame" kind="class"><name>AddFrame</name>
+    <member refid="class_add_frame_1aa283cf74b21f6a6bfd49ca57fd75d297" kind="function"><name>AddFrame</name></member>
+    <member refid="class_add_frame_1aebed4c4d8e322603a4ddbbf7e247d7fb" kind="function"><name>~AddFrame</name></member>
+    <member refid="class_add_frame_1aa389d695347d4b576e0f962a58b6038c" kind="function"><name>OnAddItem</name></member>
+  </compound>
+  <compound refid="class_add_item_frame" kind="class"><name>AddItemFrame</name>
+    <member refid="class_add_item_frame_1a6a9da7cb41a654ae06ea7e64676db36f" kind="variable"><name>lblWeight</name></member>
+    <member refid="class_add_item_frame_1a840b2b66c739c9eb6d34234335435a3d" kind="variable"><name>m_slider2</name></member>
+    <member refid="class_add_item_frame_1a88e5bac41b035d903073637e97998d50" kind="variable"><name>weightValue</name></member>
+    <member refid="class_add_item_frame_1a772f2c686c3bf03a8d5ff1bfef9ccd81" kind="variable"><name>m_staticText5</name></member>
+    <member refid="class_add_item_frame_1ad08250f82a948ebff2f65d60c45c7f54" kind="variable"><name>lblDate</name></member>
+    <member refid="class_add_item_frame_1a8096f40b89662727687011b68c2ea955" kind="variable"><name>DateItem</name></member>
+    <member refid="class_add_item_frame_1a35bd911645a80d7082315998cb6cbfb7" kind="variable"><name>ButtonAddItem</name></member>
+    <member refid="class_add_item_frame_1a29e406c8fa85a1c85e0765d271c6517b" kind="variable"><name>m_button3</name></member>
+    <member refid="class_add_item_frame_1abd99995dfff0641b38134c4ab71be35e" kind="function"><name>OnAddItem</name></member>
+    <member refid="class_add_item_frame_1a86096e43c925d13299894b24972bc569" kind="function"><name>AddItemFrame</name></member>
+    <member refid="class_add_item_frame_1ad1a92909cf7b8c9300e9ac1f69d0813f" kind="function"><name>~AddItemFrame</name></member>
+  </compound>
+  <compound refid="class_b_m_a_app" kind="class"><name>BMAApp</name>
+    <member refid="class_b_m_a_app_1a828b3ac0b67b8d8eb497cc368b68cd85" kind="function"><name>OnInit</name></member>
+  </compound>
+  <compound refid="class_b_m_a_frame" kind="class"><name>BMAFrame</name>
+    <member refid="class_b_m_a_frame_1af2c2da9a3c70647e70be099a2cbf4b50" kind="function"><name>RefreshList</name></member>
+    <member refid="class_b_m_a_frame_1ac21189c22d2e7588e6d18f33636369ba" kind="function"><name>BMAFrame</name></member>
+    <member refid="class_b_m_a_frame_1a45f96400765e02bdbe59160fcd2f8fef" kind="function"><name>~BMAFrame</name></member>
+    <member refid="class_b_m_a_frame_1a3234b4f776104caca6749069617a9636" kind="function"><name>OnAddItem</name></member>
+    <member refid="class_b_m_a_frame_1a16d84140830e8b756452135bb2c8711b" kind="function"><name>test</name></member>
+    <member refid="class_b_m_a_frame_1ad8399f7bf1c97356fd95f6ec1e470c31" kind="function"><name>OnQuit</name></member>
+    <member refid="class_b_m_a_frame_1aeadc0046b152d112f57466ad7bbb27f5" kind="function"><name>OnRefresh</name></member>
+  </compound>
+  <compound refid="class_g_u_i_frame" kind="class"><name>GUIFrame</name>
+    <member refid="class_g_u_i_frame_1aaead1e3685f946f4cf2b37968300536d" kind="variable"><name>statusBar</name></member>
+    <member refid="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" kind="variable"><name>m_ribbonBar1</name></member>
+    <member refid="class_g_u_i_frame_1a0f322f84e35af5b623bd6959e2e40f6f" kind="variable"><name>m_ribbonPage1</name></member>
+    <member refid="class_g_u_i_frame_1a9ed28512708a6780fa61e922432b8ce5" kind="variable"><name>mRibbon_PanelDefault</name></member>
+    <member refid="class_g_u_i_frame_1af716f8276acd84e4809ff152930e950a" kind="variable"><name>mRibbon_ButtonBarTools</name></member>
+    <member refid="class_g_u_i_frame_1a20ad742f09844d3a8e118c694b647ff9" kind="variable"><name>m_ribbonPage2</name></member>
+    <member refid="class_g_u_i_frame_1afe9d863db4f47e5e3ef6637a4e5c2f22" kind="variable"><name>m_splitter2</name></member>
+    <member refid="class_g_u_i_frame_1afa782c80ec08b38bc1c7155181f804a4" kind="variable"><name>m_panel3</name></member>
+    <member refid="class_g_u_i_frame_1a738374d963938e0a62e9a8c345ad4f10" kind="variable"><name>m_panel4</name></member>
+    <member refid="class_g_u_i_frame_1ae7e2fe484243591f8d8f74864615dded" kind="variable"><name>m_splitter1</name></member>
+    <member refid="class_g_u_i_frame_1a332c2b34570ddce4d9b239367c132502" kind="variable"><name>m_panel1</name></member>
+    <member refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" kind="variable"><name>m_TableData</name></member>
+    <member refid="class_g_u_i_frame_1a230303f14bac3741946470f81d8a7c07" kind="variable"><name>m_ColumnDate</name></member>
+    <member refid="class_g_u_i_frame_1a99b64129f2b8cf9d9a645be02830b298" kind="variable"><name>m_ColumnWeight</name></member>
+    <member refid="class_g_u_i_frame_1a84a4073aff66334e308650ab2da932d0" kind="variable"><name>m_panel2</name></member>
+    <member refid="class_g_u_i_frame_1adede8a7af1c20027839a8025852f1358" kind="variable"><name>m_textCtrl2</name></member>
+    <member refid="class_g_u_i_frame_1a6b99e20a320f07b2551dd0797d798e40" kind="function"><name>OnClose</name></member>
+    <member refid="class_g_u_i_frame_1a61c2049883d2bd8dbe7ee4bbf23a7210" kind="function"><name>OnAddItem</name></member>
+    <member refid="class_g_u_i_frame_1a7d9938c3ae00b4e8d1367b94b24ea326" kind="function"><name>OnRefresh</name></member>
+    <member refid="class_g_u_i_frame_1ab0ffdd17fab85e47117dcb0a19a2eb6d" kind="function"><name>OnQuit</name></member>
+    <member refid="class_g_u_i_frame_1a99041f1f29bd297f167fecd6ea961138" kind="function"><name>GUIFrame</name></member>
+    <member refid="class_g_u_i_frame_1a1e078f7765a8aa753101fd4e0cc0e0b0" kind="function"><name>~GUIFrame</name></member>
+    <member refid="class_g_u_i_frame_1ad175028388eacf06fac046f5bb6a8c2e" kind="function"><name>m_splitter2OnIdle</name></member>
+    <member refid="class_g_u_i_frame_1acd4f81331a4805ec3fe95d9ab9c6caa1" kind="function"><name>m_splitter1OnIdle</name></member>
+  </compound>
+  <compound refid="namespace_auto_version" kind="namespace"><name>AutoVersion</name>
+  </compound>
+  <compound refid="_b_m_a_app_8cpp" kind="file"><name>BMAApp.cpp</name>
+    <member refid="_b_m_a_app_8cpp_1aa48290ac534eebc3228e16f632510f2d" kind="function"><name>IMPLEMENT_APP</name></member>
+  </compound>
+  <compound refid="_b_m_a_app_8h" kind="file"><name>BMAApp.h</name>
+  </compound>
+  <compound refid="_b_m_a_main_8cpp" kind="file"><name>BMAMain.cpp</name>
+    <member refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837f" kind="enum"><name>wxbuildinfoformat</name></member>
+    <member refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837faf34cf4880b9e5e417182a04ea274043c" kind="enumvalue"><name>short_f</name></member>
+    <member refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837fa7ed9aefb554be1a3e8b51f0d58c60c18" kind="enumvalue"><name>long_f</name></member>
+    <member refid="_b_m_a_main_8cpp_1afdd094b13f51c9d282a71d71dd0595ab" kind="function"><name>wxbuildinfo</name></member>
+  </compound>
+  <compound refid="_b_m_a_main_8h" kind="file"><name>BMAMain.h</name>
+  </compound>
+  <compound refid="_g_u_i_frame_8cpp" kind="file"><name>GUIFrame.cpp</name>
+  </compound>
+  <compound refid="_g_u_i_frame_8h" kind="file"><name>GUIFrame.h</name>
+    <member refid="_g_u_i_frame_8h_1ad2599a8ea81d49be82ba48d21660e1f9" kind="define"><name>rb_additem</name></member>
+    <member refid="_g_u_i_frame_8h_1ae7ab1f03bf5f320cdfaed99e2b36c194" kind="define"><name>rb_refresh</name></member>
+    <member refid="_g_u_i_frame_8h_1a8eff00a8ef5f6b64042668c9f53dd68c" kind="define"><name>www</name></member>
+    <member refid="_g_u_i_frame_8h_1a7a3c34c6b8b8d75f4eb85164b2d50301" kind="define"><name>rb_close</name></member>
+  </compound>
+  <compound refid="sqlite_8h" kind="file"><name>sqlite.h</name>
+    <member refid="sqlite_8h_1a15f20f862c3c044d38656009f256b4e0" kind="function"><name>initDB</name></member>
+  </compound>
+  <compound refid="version_8h" kind="file"><name>version.h</name>
+    <member refid="version_8h_1a30b328ca499f27b3d0f8111b495834ca" kind="define"><name>DATE</name></member>
+    <member refid="version_8h_1a3729d06495d9713592f79f3122c9e677" kind="define"><name>MONTH</name></member>
+    <member refid="version_8h_1a5871356500f559add06ea81d60331b1b" kind="define"><name>YEAR</name></member>
+    <member refid="version_8h_1ae4cb7f81be9812839a611553d732624f" kind="define"><name>UBUNTU_VERSION_STYLE</name></member>
+    <member refid="version_8h_1a59279bee44f34d08b3cbf3a89fb0d8d9" kind="define"><name>STATUS</name></member>
+    <member refid="version_8h_1a61a2a4bb56cad7ff1964d7aa56d6048f" kind="define"><name>STATUS_SHORT</name></member>
+    <member refid="version_8h_1a877cce34f3e58fd7f9194fab90724cb8" kind="define"><name>MAJOR</name></member>
+    <member refid="version_8h_1a4e10915d93013542d442d78de0e02e9a" kind="define"><name>MINOR</name></member>
+    <member refid="version_8h_1a03505fe2d99ef550d9e1d39f57048908" kind="define"><name>BUILD</name></member>
+    <member refid="version_8h_1ad526597ab378f3faff87123d7742c79a" kind="define"><name>REVISION</name></member>
+    <member refid="version_8h_1af6858c4809791dd7ebb4e363530605e8" kind="define"><name>BUILDS_COUNT</name></member>
+    <member refid="version_8h_1a0e86d046ea87587e402d375c6b0927c6" kind="define"><name>RC_FILEVERSION</name></member>
+    <member refid="version_8h_1a4763e81d3c29ec0fab79225d3ec3f1a2" kind="define"><name>RC_FILEVERSION_STRING</name></member>
+    <member refid="version_8h_1a2bc65fb5ae59891ce201e2100b8e933f" kind="define"><name>FULLVERSION_STRING</name></member>
+    <member refid="version_8h_1ac8f06d08fe87fa1c1c991e7f000c1d06" kind="define"><name>BUILD_HISTORY</name></member>
+  </compound>
+</doxygenindex>

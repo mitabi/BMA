@@ -28,6 +28,7 @@ private:
     virtual void test( wxRibbonButtonBarEvent& event );
     virtual void OnQuit(wxRibbonButtonBarEvent& event);
     virtual void OnRefresh( wxRibbonButtonBarEvent& event );
+    virtual void OnAutoRefresh( wxActivateEvent& event ) ;
 
 
 };

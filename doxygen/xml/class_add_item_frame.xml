@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_add_item_frame" kind="class" prot="public">
+    <compoundname>AddItemFrame</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">wxFrame</basecompoundref>
+    <derivedcompoundref refid="class_add_frame" prot="public" virt="non-virtual">AddFrame</derivedcompoundref>
+    <includes refid="_g_u_i_frame_8h" local="no">GUIFrame.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_add_item_frame_1a6a9da7cb41a654ae06ea7e64676db36f" prot="protected" static="no" mutable="no">
+        <type>wxStaticText *</type>
+        <definition>wxStaticText* AddItemFrame::lblWeight</definition>
+        <argsstring></argsstring>
+        <name>lblWeight</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="119" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_add_item_frame_1a840b2b66c739c9eb6d34234335435a3d" prot="protected" static="no" mutable="no">
+        <type>wxSlider *</type>
+        <definition>wxSlider* AddItemFrame::m_slider2</definition>
+        <argsstring></argsstring>
+        <name>m_slider2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="120" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_add_item_frame_1a88e5bac41b035d903073637e97998d50" prot="protected" static="no" mutable="no">
+        <type>wxTextCtrl *</type>
+        <definition>wxTextCtrl* AddItemFrame::weightValue</definition>
+        <argsstring></argsstring>
+        <name>weightValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="121" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_add_item_frame_1a772f2c686c3bf03a8d5ff1bfef9ccd81" prot="protected" static="no" mutable="no">
+        <type>wxStaticText *</type>
+        <definition>wxStaticText* AddItemFrame::m_staticText5</definition>
+        <argsstring></argsstring>
+        <name>m_staticText5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="122" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_add_item_frame_1ad08250f82a948ebff2f65d60c45c7f54" prot="protected" static="no" mutable="no">
+        <type>wxStaticText *</type>
+        <definition>wxStaticText* AddItemFrame::lblDate</definition>
+        <argsstring></argsstring>
+        <name>lblDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="123" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_add_item_frame_1a8096f40b89662727687011b68c2ea955" prot="protected" static="no" mutable="no">
+        <type>wxDatePickerCtrl *</type>
+        <definition>wxDatePickerCtrl* AddItemFrame::DateItem</definition>
+        <argsstring></argsstring>
+        <name>DateItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="124" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_add_item_frame_1a35bd911645a80d7082315998cb6cbfb7" prot="protected" static="no" mutable="no">
+        <type>wxButton *</type>
+        <definition>wxButton* AddItemFrame::ButtonAddItem</definition>
+        <argsstring></argsstring>
+        <name>ButtonAddItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="125" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_add_item_frame_1a29e406c8fa85a1c85e0765d271c6517b" prot="protected" static="no" mutable="no">
+        <type>wxButton *</type>
+        <definition>wxButton* AddItemFrame::m_button3</definition>
+        <argsstring></argsstring>
+        <name>m_button3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="126" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_add_item_frame_1abd99995dfff0641b38134c4ab71be35e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void AddItemFrame::OnAddItem</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>OnAddItem</name>
+        <reimplementedby refid="class_add_frame_1aa389d695347d4b576e0f962a58b6038c">OnAddItem</reimplementedby>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="129" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="129" bodyend="132"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_add_item_frame_1a86096e43c925d13299894b24972bc569" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AddItemFrame::AddItemFrame</definition>
+        <argsstring>(wxWindow *parent, wxWindowID id=wxID_ANY, const wxString &amp;title=wxT(&quot;Dodaj wynik pomiaru&quot;), const wxPoint &amp;pos=wxDefaultPosition, const wxSize &amp;size=wxSize(509, 134), long style=wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL)</argsstring>
+        <name>AddItemFrame</name>
+        <param>
+          <type>wxWindow *</type>
+          <declname>parent</declname>
+        </param>
+        <param>
+          <type>wxWindowID</type>
+          <declname>id</declname>
+          <defval>wxID_ANY</defval>
+        </param>
+        <param>
+          <type>const wxString &amp;</type>
+          <declname>title</declname>
+          <defval>wxT(&quot;Dodaj wynik pomiaru&quot;)</defval>
+        </param>
+        <param>
+          <type>const wxPoint &amp;</type>
+          <declname>pos</declname>
+          <defval>wxDefaultPosition</defval>
+        </param>
+        <param>
+          <type>const wxSize &amp;</type>
+          <declname>size</declname>
+          <defval>wxSize(509, 134)</defval>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>style</declname>
+          <defval>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="137" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.cpp" bodystart="136" bodyend="201"/>
+        <references refid="class_add_item_frame_1a6a9da7cb41a654ae06ea7e64676db36f" compoundref="_g_u_i_frame_8h" startline="119">lblWeight</references>
+        <references refid="class_add_item_frame_1a840b2b66c739c9eb6d34234335435a3d" compoundref="_g_u_i_frame_8h" startline="120">m_slider2</references>
+        <references refid="class_add_item_frame_1a88e5bac41b035d903073637e97998d50" compoundref="_g_u_i_frame_8h" startline="121">weightValue</references>
+        <references refid="class_add_item_frame_1a772f2c686c3bf03a8d5ff1bfef9ccd81" compoundref="_g_u_i_frame_8h" startline="122">m_staticText5</references>
+        <references refid="class_add_item_frame_1ad08250f82a948ebff2f65d60c45c7f54" compoundref="_g_u_i_frame_8h" startline="123">lblDate</references>
+        <references refid="class_add_item_frame_1a8096f40b89662727687011b68c2ea955" compoundref="_g_u_i_frame_8h" startline="124">DateItem</references>
+        <references refid="class_add_item_frame_1a35bd911645a80d7082315998cb6cbfb7" compoundref="_g_u_i_frame_8h" startline="125">ButtonAddItem</references>
+        <references refid="class_add_item_frame_1a29e406c8fa85a1c85e0765d271c6517b" compoundref="_g_u_i_frame_8h" startline="126">m_button3</references>
+        <references refid="class_add_item_frame_1abd99995dfff0641b38134c4ab71be35e" compoundref="_g_u_i_frame_8h" startline="129" endline="132">OnAddItem</references>
+      </memberdef>
+      <memberdef kind="function" id="class_add_item_frame_1ad1a92909cf7b8c9300e9ac1f69d0813f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AddItemFrame::~AddItemFrame</definition>
+        <argsstring>()</argsstring>
+        <name>~AddItemFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="139" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.cpp" bodystart="203" bodyend="208"/>
+        <references refid="class_add_item_frame_1a35bd911645a80d7082315998cb6cbfb7" compoundref="_g_u_i_frame_8h" startline="125">ButtonAddItem</references>
+        <references refid="class_add_item_frame_1abd99995dfff0641b38134c4ab71be35e" compoundref="_g_u_i_frame_8h" startline="129" endline="132">OnAddItem</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class <ref refid="class_add_item_frame" kindref="compound">AddItemFrame</ref>. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="32">
+        <label>AddItemFrame</label>
+        <link refid="class_add_item_frame"/>
+        <childnode refid="33" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="34">
+        <label>AddFrame</label>
+        <link refid="class_add_frame"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="33">
+        <label>wxFrame</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="35">
+        <label>AddItemFrame</label>
+        <link refid="class_add_item_frame"/>
+        <childnode refid="36" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="36">
+        <label>wxFrame</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" line="115" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.h" bodystart="114" bodyend="141"/>
+    <listofallmembers>
+      <member refid="class_add_item_frame_1a86096e43c925d13299894b24972bc569" prot="public" virt="non-virtual"><scope>AddItemFrame</scope><name>AddItemFrame</name></member>
+      <member refid="class_add_item_frame_1a35bd911645a80d7082315998cb6cbfb7" prot="protected" virt="non-virtual"><scope>AddItemFrame</scope><name>ButtonAddItem</name></member>
+      <member refid="class_add_item_frame_1a8096f40b89662727687011b68c2ea955" prot="protected" virt="non-virtual"><scope>AddItemFrame</scope><name>DateItem</name></member>
+      <member refid="class_add_item_frame_1ad08250f82a948ebff2f65d60c45c7f54" prot="protected" virt="non-virtual"><scope>AddItemFrame</scope><name>lblDate</name></member>
+      <member refid="class_add_item_frame_1a6a9da7cb41a654ae06ea7e64676db36f" prot="protected" virt="non-virtual"><scope>AddItemFrame</scope><name>lblWeight</name></member>
+      <member refid="class_add_item_frame_1a29e406c8fa85a1c85e0765d271c6517b" prot="protected" virt="non-virtual"><scope>AddItemFrame</scope><name>m_button3</name></member>
+      <member refid="class_add_item_frame_1a840b2b66c739c9eb6d34234335435a3d" prot="protected" virt="non-virtual"><scope>AddItemFrame</scope><name>m_slider2</name></member>
+      <member refid="class_add_item_frame_1a772f2c686c3bf03a8d5ff1bfef9ccd81" prot="protected" virt="non-virtual"><scope>AddItemFrame</scope><name>m_staticText5</name></member>
+      <member refid="class_add_item_frame_1abd99995dfff0641b38134c4ab71be35e" prot="protected" virt="virtual"><scope>AddItemFrame</scope><name>OnAddItem</name></member>
+      <member refid="class_add_item_frame_1a88e5bac41b035d903073637e97998d50" prot="protected" virt="non-virtual"><scope>AddItemFrame</scope><name>weightValue</name></member>
+      <member refid="class_add_item_frame_1ad1a92909cf7b8c9300e9ac1f69d0813f" prot="public" virt="non-virtual"><scope>AddItemFrame</scope><name>~AddItemFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

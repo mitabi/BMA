@@ -63,8 +63,8 @@ BMAFrame::~BMAFrame()
 {
 }
 
-AddFrame::AddFrame(wxFrame *aframe)
-    : AddItemFrame(aframe)
+AddFrame::AddFrame(wxFrame *frame)
+    : AddItemFrame(frame)
 {
 }
 
@@ -75,7 +75,7 @@ AddFrame::~AddFrame()
 void BMAFrame::OnAddItem(wxRibbonButtonBarEvent& event)
 {
 
-    AddFrame *aframe = new AddFrame(0L);
+    AddFrame *aframe = new AddFrame(this);
     aframe->SetIcon(wxICON(aaaa)); // To Set App Icon
     aframe -> Show();
     RefreshList();
@@ -93,7 +93,6 @@ void AddFrame::OnAddItem(wxCommandEvent& event )
                       + wxT("',")+ strvalue +wxT(")"));
     t.Commit();
     Destroy();
-
 }
 
 void BMAFrame::OnQuit(wxRibbonButtonBarEvent& event)
@@ -129,7 +128,10 @@ void BMAFrame::RefreshList(void)
         }
     setdate.Finalize();
 }
+  void BMAFrame::OnAutoRefresh( wxActivateEvent& event ) {
 
+                        RefreshList();
+   }
 void BMAFrame::test( wxRibbonButtonBarEvent& event )
 {
 

@@ -10,23 +10,23 @@ namespace AutoVersion{
 	#define UBUNTU_VERSION_STYLE  "14.08"
 	
 	//Software Status
-	#define STATUS  "Alpha"
-	#define STATUS_SHORT  "a"
+	#define STATUS  ""
+	#define STATUS_SHORT  ""
 	
 	//Standard Version Type
 	#define MAJOR  0
 	#define MINOR  0
-	#define BUILD  0
-	#define REVISION  0
+	#define BUILD  29
+	#define REVISION  181
 	
 	//Miscellaneous Version Types
-	#define BUILDS_COUNT  8
-	#define RC_FILEVERSION 0,0,0,0
-	#define RC_FILEVERSION_STRING "0, 0, 0, 0\0"
-	#define FULLVERSION_STRING  "0.0.0.0"
+	#define BUILDS_COUNT  57
+	#define RC_FILEVERSION 0,0,29,181
+	#define RC_FILEVERSION_STRING "0, 0, 29, 181\0"
+	#define FULLVERSION_STRING  "0.0.29.181"
 	
 	//These values are to keep track of your versioning state, don't modify them.
-	#define BUILD_HISTORY  0
+	#define BUILD_HISTORY  29
 	
 
 }

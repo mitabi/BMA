@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="_b_m_a_main_8cpp" kind="file">
+    <compoundname>BMAMain.cpp</compoundname>
+    <includes refid="_b_m_a_main_8h" local="yes">BMAMain.h</includes>
+    <includes local="yes">wx/msgdlg.h</includes>
+    <includes refid="sqlite_8h" local="yes">sqlite.h</includes>
+    <includes local="yes">wx/debug.h</includes>
+    <incdepgraph>
+      <node id="252">
+        <label>wx/ribbon/buttonbar.h</label>
+      </node>
+      <node id="239">
+        <label>wx/app.h</label>
+      </node>
+      <node id="245">
+        <label>wx/font.h</label>
+      </node>
+      <node id="238">
+        <label>BMAApp.h</label>
+        <link refid="_b_m_a_app_8h"/>
+        <childnode refid="239" relation="include">
+        </childnode>
+      </node>
+      <node id="267">
+        <label>wx/dateevt.h</label>
+      </node>
+      <node id="265">
+        <label>wx/slider.h</label>
+      </node>
+      <node id="257">
+        <label>wx/ribbon/bar.h</label>
+      </node>
+      <node id="250">
+        <label>wx/image.h</label>
+      </node>
+      <node id="263">
+        <label>wx/frame.h</label>
+      </node>
+      <node id="241">
+        <label>wx/artprov.h</label>
+      </node>
+      <node id="244">
+        <label>wx/gdicmn.h</label>
+      </node>
+      <node id="264">
+        <label>wx/stattext.h</label>
+      </node>
+      <node id="236">
+        <label>BMAMain.cpp</label>
+        <link refid="BMAMain.cpp"/>
+        <childnode refid="237" relation="include">
+        </childnode>
+        <childnode refid="269" relation="include">
+        </childnode>
+        <childnode refid="270" relation="include">
+        </childnode>
+        <childnode refid="272" relation="include">
+        </childnode>
+      </node>
+      <node id="247">
+        <label>wx/settings.h</label>
+      </node>
+      <node id="266">
+        <label>wx/datectrl.h</label>
+      </node>
+      <node id="260">
+        <label>wx/dataview.h</label>
+      </node>
+      <node id="270">
+        <label>sqlite.h</label>
+        <link refid="sqlite_8h"/>
+        <childnode refid="271" relation="include">
+        </childnode>
+      </node>
+      <node id="254">
+        <label>wx/ribbon/page.h</label>
+      </node>
+      <node id="255">
+        <label>wx/ribbon/control.h</label>
+      </node>
+      <node id="246">
+        <label>wx/colour.h</label>
+      </node>
+      <node id="272">
+        <label>wx/debug.h</label>
+      </node>
+      <node id="242">
+        <label>wx/xrc/xmlres.h</label>
+      </node>
+      <node id="256">
+        <label>wx/ribbon/art.h</label>
+      </node>
+      <node id="237">
+        <label>BMAMain.h</label>
+        <link refid="_b_m_a_main_8h"/>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+      </node>
+      <node id="248">
+        <label>wx/string.h</label>
+      </node>
+      <node id="269">
+        <label>wx/msgdlg.h</label>
+      </node>
+      <node id="271">
+        <label>wx/wxsqlite3.h</label>
+      </node>
+      <node id="240">
+        <label>GUIFrame.h</label>
+        <link refid="_g_u_i_frame_8h"/>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+        <childnode refid="259" relation="include">
+        </childnode>
+        <childnode refid="260" relation="include">
+        </childnode>
+        <childnode refid="261" relation="include">
+        </childnode>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+        <childnode refid="266" relation="include">
+        </childnode>
+        <childnode refid="267" relation="include">
+        </childnode>
+        <childnode refid="268" relation="include">
+        </childnode>
+      </node>
+      <node id="262">
+        <label>wx/splitter.h</label>
+      </node>
+      <node id="258">
+        <label>wx/sizer.h</label>
+      </node>
+      <node id="243">
+        <label>wx/statusbr.h</label>
+      </node>
+      <node id="268">
+        <label>wx/button.h</label>
+      </node>
+      <node id="259">
+        <label>wx/panel.h</label>
+      </node>
+      <node id="249">
+        <label>wx/bitmap.h</label>
+      </node>
+      <node id="253">
+        <label>wx/ribbon/panel.h</label>
+      </node>
+      <node id="251">
+        <label>wx/icon.h</label>
+      </node>
+      <node id="261">
+        <label>wx/textctrl.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837f" prot="public" static="no">
+        <name>wxbuildinfoformat</name>
+        <enumvalue id="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837faf34cf4880b9e5e417182a04ea274043c" prot="public">
+          <name>short_f</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837fa7ed9aefb554be1a3e8b51f0d58c60c18" prot="public">
+          <name>long_f</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" line="25" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_b_m_a_main_8cpp_1afdd094b13f51c9d282a71d71dd0595ab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>wxString</type>
+        <definition>wxString wxbuildinfo</definition>
+        <argsstring>(wxbuildinfoformat format)</argsstring>
+        <name>wxbuildinfo</name>
+        <param>
+          <type><ref refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837f" kindref="member">wxbuildinfoformat</ref></type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" line="29" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="29" bodyend="51"/>
+        <references refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837fa7ed9aefb554be1a3e8b51f0d58c60c18" compoundref="_b_m_a_main_8cpp" startline="26">long_f</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/***************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Name:<sp/><sp/><sp/><sp/><sp/><sp/>BMAMain.cpp</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>Purpose:<sp/><sp/><sp/>Code<sp/>for<sp/>Application<sp/>Frame</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>Author:<sp/><sp/><sp/><sp/><sp/>()</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Created:<sp/><sp/><sp/>2014-08-19</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Copyright:<sp/><sp/>()</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>License:</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>**************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>WX_PRECOMP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;wx_pch.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__BORLANDC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>hdrstop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//__BORLANDC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_b_m_a_main_8h" kindref="compound">BMAMain.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;wx/msgdlg.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="sqlite_8h" kindref="compound">sqlite.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;wx/debug.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="comment">//helper<sp/>functions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837f" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837f" kindref="member">wxbuildinfoformat</ref></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26" refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837faf34cf4880b9e5e417182a04ea274043c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837faf34cf4880b9e5e417182a04ea274043c" kindref="member">short_f</ref>,<sp/><ref refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837fa7ed9aefb554be1a3e8b51f0d58c60c18" kindref="member">long_f</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="_b_m_a_main_8cpp_1afdd094b13f51c9d282a71d71dd0595ab" refkind="member"><highlight class="normal">wxString<sp/><ref refid="_b_m_a_main_8cpp_1afdd094b13f51c9d282a71d71dd0595ab" kindref="member">wxbuildinfo</ref>(<ref refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837f" kindref="member">wxbuildinfoformat</ref><sp/>format)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>wxString<sp/>wxbuild(wxVERSION_STRING);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(format<sp/>==<sp/><ref refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837fa7ed9aefb554be1a3e8b51f0d58c60c18" kindref="member">long_f</ref><sp/>)</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(__WXMSW__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxbuild<sp/>&lt;&lt;<sp/>_T(</highlight><highlight class="stringliteral">&quot;-Windows&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(__WXMAC__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxbuild<sp/>&lt;&lt;<sp/>_T(</highlight><highlight class="stringliteral">&quot;-Mac&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#elif<sp/>defined(__UNIX__)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxbuild<sp/>&lt;&lt;<sp/>_T(</highlight><highlight class="stringliteral">&quot;-Linux&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>wxUSE_UNICODE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxbuild<sp/>&lt;&lt;<sp/>_T(</highlight><highlight class="stringliteral">&quot;-Unicode<sp/>build&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxbuild<sp/>&lt;&lt;<sp/>_T(</highlight><highlight class="stringliteral">&quot;-ANSI<sp/>build&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>wxUSE_UNICODE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>wxbuild;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="class_b_m_a_frame_1ac21189c22d2e7588e6d18f33636369ba" refkind="member"><highlight class="normal"><ref refid="class_b_m_a_frame_1ac21189c22d2e7588e6d18f33636369ba" kindref="member">BMAFrame::BMAFrame</ref>(wxFrame<sp/>*frame)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_g_u_i_frame" kindref="compound">GUIFrame</ref>(frame)</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>wxUSE_STATUSBAR</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1aaead1e3685f946f4cf2b37968300536d" kindref="member">statusBar</ref>-&gt;SetStatusText(_(</highlight><highlight class="stringliteral">&quot;Hello<sp/>Code::Blocks<sp/>user!&quot;</highlight><highlight class="normal">),<sp/>0);</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1aaead1e3685f946f4cf2b37968300536d" kindref="member">statusBar</ref>-&gt;SetStatusText(<ref refid="_b_m_a_main_8cpp_1afdd094b13f51c9d282a71d71dd0595ab" kindref="member">wxbuildinfo</ref>(<ref refid="_b_m_a_main_8cpp_1ad6438f1e9a52a97d8c47b461a64b837faf34cf4880b9e5e417182a04ea274043c" kindref="member">short_f</ref>),<sp/>1);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62" refid="class_b_m_a_frame_1a45f96400765e02bdbe59160fcd2f8fef" refkind="member"><highlight class="normal"><ref refid="class_b_m_a_frame_1a45f96400765e02bdbe59160fcd2f8fef" kindref="member">BMAFrame::~BMAFrame</ref>()</highlight></codeline>
+<codeline lineno="63"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="class_add_frame_1aa283cf74b21f6a6bfd49ca57fd75d297" refkind="member"><highlight class="normal"><ref refid="class_add_frame_1aa283cf74b21f6a6bfd49ca57fd75d297" kindref="member">AddFrame::AddFrame</ref>(wxFrame<sp/>*aframe)</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/>:<sp/><ref refid="class_add_item_frame" kindref="compound">AddItemFrame</ref>(aframe)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="69"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="class_add_frame_1aebed4c4d8e322603a4ddbbf7e247d7fb" refkind="member"><highlight class="normal"><ref refid="class_add_frame_1aebed4c4d8e322603a4ddbbf7e247d7fb" kindref="member">AddFrame::~AddFrame</ref>()</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="class_b_m_a_frame_1a3234b4f776104caca6749069617a9636" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_a_frame_1a3234b4f776104caca6749069617a9636" kindref="member">BMAFrame::OnAddItem</ref>(wxRibbonButtonBarEvent&amp;<sp/>event)</highlight></codeline>
+<codeline lineno="76"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_frame" kindref="compound">AddFrame</ref><sp/>*aframe<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_add_frame" kindref="compound">AddFrame</ref>(0L);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/>aframe-&gt;SetIcon(wxICON(aaaa));<sp/></highlight><highlight class="comment">//<sp/>To<sp/>Set<sp/>App<sp/>Icon</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>aframe<sp/>-&gt;<sp/>Show();</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_b_m_a_frame_1af2c2da9a3c70647e70be099a2cbf4b50" kindref="member">RefreshList</ref>();</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="class_add_frame_1aa389d695347d4b576e0f962a58b6038c" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_add_frame_1aa389d695347d4b576e0f962a58b6038c" kindref="member">AddFrame::OnAddItem</ref>(wxCommandEvent&amp;<sp/>event<sp/>)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/>wxSQLite3Database*<sp/>db<sp/>=<sp/><ref refid="sqlite_8h_1a15f20f862c3c044d38656009f256b4e0" kindref="member">initDB</ref>();</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>wxSQLite3Transaction<sp/>t(db);</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/>wxDateTime<sp/>weightDate<sp/>=<sp/><ref refid="class_add_item_frame_1a8096f40b89662727687011b68c2ea955" kindref="member">DateItem</ref>-&gt;GetValue();</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/>wxString<sp/>strdate<sp/>=<sp/>weightDate.Format(wxT(</highlight><highlight class="stringliteral">&quot;%Y-%m-%d&quot;</highlight><highlight class="normal">),<sp/>wxDateTime::CET<sp/>);</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>wxString<sp/>strvalue<sp/>=<sp/><ref refid="class_add_item_frame_1a88e5bac41b035d903073637e97998d50" kindref="member">weightValue</ref>-&gt;GetValue();</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>db-&gt;ExecuteUpdate(wxT(</highlight><highlight class="stringliteral">&quot;INSERT<sp/>INTO<sp/>Data<sp/>(date,weight)<sp/>VALUES<sp/>(&apos;&quot;</highlight><highlight class="normal">)+<sp/>strdate</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>+<sp/>wxT(</highlight><highlight class="stringliteral">&quot;&apos;,&quot;</highlight><highlight class="normal">)+<sp/>strvalue<sp/>+wxT(</highlight><highlight class="stringliteral">&quot;)&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/>t.Commit();</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/>Destroy();</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight></codeline>
+<codeline lineno="97"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="class_b_m_a_frame_1ad8399f7bf1c97356fd95f6ec1e470c31" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_a_frame_1ad8399f7bf1c97356fd95f6ec1e470c31" kindref="member">BMAFrame::OnQuit</ref>(wxRibbonButtonBarEvent&amp;<sp/>event)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>Destroy();</highlight></codeline>
+<codeline lineno="102"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="class_b_m_a_frame_1aeadc0046b152d112f57466ad7bbb27f5" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_a_frame_1aeadc0046b152d112f57466ad7bbb27f5" kindref="member">BMAFrame::OnRefresh</ref>(wxRibbonButtonBarEvent&amp;<sp/>event)</highlight></codeline>
+<codeline lineno="105"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_b_m_a_frame_1af2c2da9a3c70647e70be099a2cbf4b50" kindref="member">RefreshList</ref>();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"></highlight></codeline>
+<codeline lineno="109" refid="class_b_m_a_frame_1af2c2da9a3c70647e70be099a2cbf4b50" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_a_frame_1af2c2da9a3c70647e70be099a2cbf4b50" kindref="member">BMAFrame::RefreshList</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="110"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>wxSQLite3Database*<sp/>db<sp/>=<sp/><ref refid="sqlite_8h_1a15f20f862c3c044d38656009f256b4e0" kindref="member">initDB</ref>();</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>wxSQLite3ResultSet<sp/>setdate<sp/>=<sp/>db-&gt;ExecuteQuery(wxT(</highlight><highlight class="stringliteral">&quot;SELECT<sp/>date,<sp/>weight<sp/>FROM<sp/>Data&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>wxVector&lt;wxVariant&gt;<sp/>data;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" kindref="member">m_TableData</ref>-&gt;DeleteAllItems()<sp/>;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(setdate.NextRow())</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxString<sp/>s1<sp/>=<sp/>setdate.GetAsString(0);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>wxString<sp/>s2<sp/>=<sp/>setdate.GetAsString(1);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>count++;</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data.push_back(s1);</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data.push_back(s2);</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" kindref="member">m_TableData</ref>-&gt;AppendItem(<sp/>data<sp/>);</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>data.clear();</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>setdate.Finalize();</highlight></codeline>
+<codeline lineno="131"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="class_b_m_a_frame_1a16d84140830e8b756452135bb2c8711b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_b_m_a_frame_1a16d84140830e8b756452135bb2c8711b" kindref="member">BMAFrame::test</ref>(<sp/>wxRibbonButtonBarEvent&amp;<sp/>event<sp/>)</highlight></codeline>
+<codeline lineno="134"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp"/>
+  </compounddef>
+</doxygen>

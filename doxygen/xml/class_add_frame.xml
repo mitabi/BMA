@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="class_add_frame" kind="class" prot="public">
+    <compoundname>AddFrame</compoundname>
+    <basecompoundref refid="class_add_item_frame" prot="public" virt="non-virtual">AddItemFrame</basecompoundref>
+    <includes refid="_b_m_a_main_8h" local="no">BMAMain.h</includes>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_add_frame_1aa283cf74b21f6a6bfd49ca57fd75d297" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AddFrame::AddFrame</definition>
+        <argsstring>(wxFrame *aframe)</argsstring>
+        <name>AddFrame</name>
+        <param>
+          <type>wxFrame *</type>
+          <declname>aframe</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="38" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="66" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_add_frame_1aebed4c4d8e322603a4ddbbf7e247d7fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>AddFrame::~AddFrame</definition>
+        <argsstring>()</argsstring>
+        <name>~AddFrame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="39" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="71" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_add_frame_1aa389d695347d4b576e0f962a58b6038c" prot="private" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>void</type>
+        <definition>void AddFrame::OnAddItem</definition>
+        <argsstring>(wxCommandEvent &amp;event)</argsstring>
+        <name>OnAddItem</name>
+        <reimplements refid="class_add_item_frame_1abd99995dfff0641b38134c4ab71be35e">OnAddItem</reimplements>
+        <param>
+          <type>wxCommandEvent &amp;</type>
+          <declname>event</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="41" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.cpp" bodystart="84" bodyend="97"/>
+        <references refid="sqlite_8h_1a15f20f862c3c044d38656009f256b4e0" compoundref="sqlite_8h" startline="8" endline="26">initDB</references>
+        <references refid="class_add_item_frame_1a8096f40b89662727687011b68c2ea955" compoundref="_g_u_i_frame_8h" startline="124">AddItemFrame::DateItem</references>
+        <references refid="class_add_item_frame_1a88e5bac41b035d903073637e97998d50" compoundref="_g_u_i_frame_8h" startline="121">AddItemFrame::weightValue</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="27">
+        <label>AddItemFrame</label>
+        <link refid="class_add_item_frame"/>
+        <childnode refid="28" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="26">
+        <label>AddFrame</label>
+        <link refid="class_add_frame"/>
+        <childnode refid="27" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>wxFrame</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="30">
+        <label>AddItemFrame</label>
+        <link refid="class_add_item_frame"/>
+        <childnode refid="31" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="29">
+        <label>AddFrame</label>
+        <link refid="class_add_frame"/>
+        <childnode refid="30" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="31">
+        <label>wxFrame</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" line="36" column="1" bodyfile="D:/cpp/Projekty/WxWidgets/BMA/BMAMain.h" bodystart="35" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_add_frame_1aa283cf74b21f6a6bfd49ca57fd75d297" prot="public" virt="non-virtual"><scope>AddFrame</scope><name>AddFrame</name></member>
+      <member refid="class_add_item_frame_1a86096e43c925d13299894b24972bc569" prot="public" virt="non-virtual"><scope>AddFrame</scope><name>AddItemFrame</name></member>
+      <member refid="class_add_item_frame_1a35bd911645a80d7082315998cb6cbfb7" prot="protected" virt="non-virtual"><scope>AddFrame</scope><name>ButtonAddItem</name></member>
+      <member refid="class_add_item_frame_1a8096f40b89662727687011b68c2ea955" prot="protected" virt="non-virtual"><scope>AddFrame</scope><name>DateItem</name></member>
+      <member refid="class_add_item_frame_1ad08250f82a948ebff2f65d60c45c7f54" prot="protected" virt="non-virtual"><scope>AddFrame</scope><name>lblDate</name></member>
+      <member refid="class_add_item_frame_1a6a9da7cb41a654ae06ea7e64676db36f" prot="protected" virt="non-virtual"><scope>AddFrame</scope><name>lblWeight</name></member>
+      <member refid="class_add_item_frame_1a29e406c8fa85a1c85e0765d271c6517b" prot="protected" virt="non-virtual"><scope>AddFrame</scope><name>m_button3</name></member>
+      <member refid="class_add_item_frame_1a840b2b66c739c9eb6d34234335435a3d" prot="protected" virt="non-virtual"><scope>AddFrame</scope><name>m_slider2</name></member>
+      <member refid="class_add_item_frame_1a772f2c686c3bf03a8d5ff1bfef9ccd81" prot="protected" virt="non-virtual"><scope>AddFrame</scope><name>m_staticText5</name></member>
+      <member refid="class_add_frame_1aa389d695347d4b576e0f962a58b6038c" prot="private" virt="virtual"><scope>AddFrame</scope><name>OnAddItem</name></member>
+      <member refid="class_add_item_frame_1a88e5bac41b035d903073637e97998d50" prot="protected" virt="non-virtual"><scope>AddFrame</scope><name>weightValue</name></member>
+      <member refid="class_add_frame_1aebed4c4d8e322603a4ddbbf7e247d7fb" prot="public" virt="non-virtual"><scope>AddFrame</scope><name>~AddFrame</name></member>
+      <member refid="class_add_item_frame_1ad1a92909cf7b8c9300e9ac1f69d0813f" prot="public" virt="non-virtual"><scope>AddFrame</scope><name>~AddItemFrame</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -63,8 +63,8 @@ BMAFrame::~BMAFrame()
 {
 }
 
-AddFrame::AddFrame(wxFrame *aframe)
-    : AddItemFrame(aframe)
+AddFrame::AddFrame(wxFrame *frame)
+    : AddItemFrame(frame)
 {
 }
 
@@ -75,9 +75,10 @@ AddFrame::~AddFrame()
 void BMAFrame::OnAddItem(wxRibbonButtonBarEvent& event)
 {
 
-    AddFrame *aframe = new AddFrame(0L);
+    AddFrame *aframe = new AddFrame(this);
     aframe->SetIcon(wxICON(aaaa)); // To Set App Icon
     aframe -> Show();
+    RefreshList();
 }
 
 void AddFrame::OnAddItem(wxCommandEvent& event )
@@ -88,11 +89,11 @@ void AddFrame::OnAddItem(wxCommandEvent& event )
     wxString strdate = weightDate.Format(wxT("%Y-%m-%d"), wxDateTime::CET );
     wxString strvalue = weightValue->GetValue();
 
-    db->ExecuteUpdate(wxT("INSERT INTO Data (date,weight) VALUES ('")+ strdate + wxT("',")+ strvalue +wxT(")"));
+    db->ExecuteUpdate(wxT("INSERT INTO Data (date,weight) VALUES ('")+ strdate
+                      + wxT("',")+ strvalue +wxT(")"));
     t.Commit();
-    &BMAFrame::RefreshList(void);
+             BMAFrame->RefreshList();
     Destroy();
-
 }
 
 void BMAFrame::OnQuit(wxRibbonButtonBarEvent& event)
@@ -102,7 +103,7 @@ void BMAFrame::OnQuit(wxRibbonButtonBarEvent& event)
 
 void BMAFrame::OnRefresh(wxRibbonButtonBarEvent& event)
 {
-   RefreshList();
+    RefreshList();
 }
 
 void BMAFrame::RefreshList(void)

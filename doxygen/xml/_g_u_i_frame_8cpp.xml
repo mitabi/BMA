@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.8">
+  <compounddef id="_g_u_i_frame_8cpp" kind="file">
+    <compoundname>GUIFrame.cpp</compoundname>
+    <includes local="yes">wx/wxprec.h</includes>
+    <includes local="no">wx/wx.h</includes>
+    <includes refid="_g_u_i_frame_8h" local="yes">GUIFrame.h</includes>
+    <incdepgraph>
+      <node id="324">
+        <label>wx/ribbon/buttonbar.h</label>
+      </node>
+      <node id="317">
+        <label>wx/font.h</label>
+      </node>
+      <node id="339">
+        <label>wx/dateevt.h</label>
+      </node>
+      <node id="337">
+        <label>wx/slider.h</label>
+      </node>
+      <node id="329">
+        <label>wx/ribbon/bar.h</label>
+      </node>
+      <node id="322">
+        <label>wx/image.h</label>
+      </node>
+      <node id="335">
+        <label>wx/frame.h</label>
+      </node>
+      <node id="309">
+        <label>GUIFrame.cpp</label>
+        <link refid="GUIFrame.cpp"/>
+        <childnode refid="310" relation="include">
+        </childnode>
+        <childnode refid="311" relation="include">
+        </childnode>
+        <childnode refid="312" relation="include">
+        </childnode>
+      </node>
+      <node id="313">
+        <label>wx/artprov.h</label>
+      </node>
+      <node id="316">
+        <label>wx/gdicmn.h</label>
+      </node>
+      <node id="336">
+        <label>wx/stattext.h</label>
+      </node>
+      <node id="319">
+        <label>wx/settings.h</label>
+      </node>
+      <node id="310">
+        <label>wx/wxprec.h</label>
+      </node>
+      <node id="338">
+        <label>wx/datectrl.h</label>
+      </node>
+      <node id="332">
+        <label>wx/dataview.h</label>
+      </node>
+      <node id="326">
+        <label>wx/ribbon/page.h</label>
+      </node>
+      <node id="327">
+        <label>wx/ribbon/control.h</label>
+      </node>
+      <node id="318">
+        <label>wx/colour.h</label>
+      </node>
+      <node id="314">
+        <label>wx/xrc/xmlres.h</label>
+      </node>
+      <node id="328">
+        <label>wx/ribbon/art.h</label>
+      </node>
+      <node id="320">
+        <label>wx/string.h</label>
+      </node>
+      <node id="312">
+        <label>GUIFrame.h</label>
+        <link refid="_g_u_i_frame_8h"/>
+        <childnode refid="313" relation="include">
+        </childnode>
+        <childnode refid="314" relation="include">
+        </childnode>
+        <childnode refid="315" relation="include">
+        </childnode>
+        <childnode refid="316" relation="include">
+        </childnode>
+        <childnode refid="317" relation="include">
+        </childnode>
+        <childnode refid="318" relation="include">
+        </childnode>
+        <childnode refid="319" relation="include">
+        </childnode>
+        <childnode refid="320" relation="include">
+        </childnode>
+        <childnode refid="321" relation="include">
+        </childnode>
+        <childnode refid="322" relation="include">
+        </childnode>
+        <childnode refid="323" relation="include">
+        </childnode>
+        <childnode refid="324" relation="include">
+        </childnode>
+        <childnode refid="325" relation="include">
+        </childnode>
+        <childnode refid="326" relation="include">
+        </childnode>
+        <childnode refid="327" relation="include">
+        </childnode>
+        <childnode refid="328" relation="include">
+        </childnode>
+        <childnode refid="329" relation="include">
+        </childnode>
+        <childnode refid="330" relation="include">
+        </childnode>
+        <childnode refid="331" relation="include">
+        </childnode>
+        <childnode refid="332" relation="include">
+        </childnode>
+        <childnode refid="333" relation="include">
+        </childnode>
+        <childnode refid="334" relation="include">
+        </childnode>
+        <childnode refid="335" relation="include">
+        </childnode>
+        <childnode refid="336" relation="include">
+        </childnode>
+        <childnode refid="337" relation="include">
+        </childnode>
+        <childnode refid="338" relation="include">
+        </childnode>
+        <childnode refid="339" relation="include">
+        </childnode>
+        <childnode refid="340" relation="include">
+        </childnode>
+      </node>
+      <node id="334">
+        <label>wx/splitter.h</label>
+      </node>
+      <node id="330">
+        <label>wx/sizer.h</label>
+      </node>
+      <node id="311">
+        <label>wx/wx.h</label>
+      </node>
+      <node id="315">
+        <label>wx/statusbr.h</label>
+      </node>
+      <node id="340">
+        <label>wx/button.h</label>
+      </node>
+      <node id="331">
+        <label>wx/panel.h</label>
+      </node>
+      <node id="321">
+        <label>wx/bitmap.h</label>
+      </node>
+      <node id="325">
+        <label>wx/ribbon/panel.h</label>
+      </node>
+      <node id="323">
+        <label>wx/icon.h</label>
+      </node>
+      <node id="333">
+        <label>wx/textctrl.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>C++<sp/>code<sp/>generated<sp/>with<sp/>wxFormBuilder<sp/>(version<sp/>Jun<sp/><sp/>5<sp/>2014)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>http://www.wxformbuilder.org/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>PLEASE<sp/>DO<sp/>&quot;NOT&quot;<sp/>EDIT<sp/>THIS<sp/>FILE!</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;wx/wxprec.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__BORLANDC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>hdrstop</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//__BORLANDC__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>WX_PRECOMP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;wx/wx.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//WX_PRECOMP</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_g_u_i_frame_8h" kindref="compound">GUIFrame.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="class_g_u_i_frame_1a99041f1f29bd297f167fecd6ea961138" refkind="member"><highlight class="normal"><ref refid="class_g_u_i_frame_1a99041f1f29bd297f167fecd6ea961138" kindref="member">GUIFrame::GUIFrame</ref>(<sp/>wxWindow*<sp/>parent,<sp/>wxWindowID<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxString&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxPoint&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxSize&amp;<sp/>size,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>style<sp/>)<sp/>:<sp/>wxFrame(<sp/>parent,<sp/>id,<sp/>title,<sp/>pos,<sp/>size,<sp/>style<sp/>)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;SetSizeHints(<sp/>wxDefaultSize,<sp/>wxDefaultSize<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;SetForegroundColour(<sp/>wxSystemSettings::GetColour(<sp/>wxSYS_COLOUR_WINDOW<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;SetBackgroundColour(<sp/>wxSystemSettings::GetColour(<sp/>wxSYS_COLOUR_WINDOW<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1aaead1e3685f946f4cf2b37968300536d" kindref="member">statusBar</ref><sp/>=<sp/>this-&gt;CreateStatusBar(<sp/>2,<sp/>wxST_SIZEGRIP,<sp/>wxID_ANY<sp/>);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1aaead1e3685f946f4cf2b37968300536d" kindref="member">statusBar</ref>-&gt;SetForegroundColour(<sp/>wxSystemSettings::GetColour(<sp/>wxSYS_COLOUR_WINDOW<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1aaead1e3685f946f4cf2b37968300536d" kindref="member">statusBar</ref>-&gt;SetBackgroundColour(<sp/>wxColour(<sp/>193,<sp/>208,<sp/>227<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>wxBoxSizer*<sp/>bSizer1;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer1<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxBoxSizer(<sp/>wxVERTICAL<sp/>);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" kindref="member">m_ribbonBar1</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxRibbonBar(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>wxID_ANY,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxRIBBON_BAR_DEFAULT_STYLE|wxNO_BORDER<sp/>);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" kindref="member">m_ribbonBar1</ref>-&gt;SetArtProvider(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxRibbonDefaultArtProvider);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a0f322f84e35af5b623bd6959e2e40f6f" kindref="member">m_ribbonPage1</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxRibbonPage(<sp/><ref refid="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" kindref="member">m_ribbonBar1</ref>,<sp/>wxID_ANY,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;MyRibbonPage&quot;</highlight><highlight class="normal">)<sp/>,<sp/>wxNullBitmap<sp/>,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" kindref="member">m_ribbonBar1</ref>-&gt;SetActivePage(<sp/><ref refid="class_g_u_i_frame_1a0f322f84e35af5b623bd6959e2e40f6f" kindref="member">m_ribbonPage1</ref><sp/>);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a9ed28512708a6780fa61e922432b8ce5" kindref="member">mRibbon_PanelDefault</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxRibbonPanel(<sp/><ref refid="class_g_u_i_frame_1a0f322f84e35af5b623bd6959e2e40f6f" kindref="member">m_ribbonPage1</ref>,<sp/>wxID_ANY,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;Narzędzia&quot;</highlight><highlight class="normal">)<sp/>,<sp/>wxNullBitmap<sp/>,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxRIBBON_PANEL_DEFAULT_STYLE|wxNO_BORDER<sp/>);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1af716f8276acd84e4809ff152930e950a" kindref="member">mRibbon_ButtonBarTools</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxRibbonButtonBar(<sp/><ref refid="class_g_u_i_frame_1a9ed28512708a6780fa61e922432b8ce5" kindref="member">mRibbon_PanelDefault</ref>,<sp/>wxID_ANY,<sp/>wxDefaultPosition,<sp/>wxSize(<sp/>-1,-1<sp/>),<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1af716f8276acd84e4809ff152930e950a" kindref="member">mRibbon_ButtonBarTools</ref>-&gt;AddButton(<sp/><ref refid="_g_u_i_frame_8h_1ad2599a8ea81d49be82ba48d21660e1f9" kindref="member">rb_additem</ref>,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;Dodaj wpis&quot;</highlight><highlight class="normal">),<sp/>wxArtProvider::GetBitmap(<sp/>wxART_ADD_BOOKMARK,<sp/>wxART_MENU<sp/>),<sp/>wxEmptyString);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1af716f8276acd84e4809ff152930e950a" kindref="member">mRibbon_ButtonBarTools</ref>-&gt;AddButton(<sp/><ref refid="_g_u_i_frame_8h_1ae7ab1f03bf5f320cdfaed99e2b36c194" kindref="member">rb_refresh</ref>,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;Odśwież&quot;</highlight><highlight class="normal">),<sp/>wxArtProvider::GetBitmap(<sp/>wxART_HELP_FOLDER,<sp/>wxART_HELP_BROWSER<sp/>),<sp/>wxEmptyString);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1af716f8276acd84e4809ff152930e950a" kindref="member">mRibbon_ButtonBarTools</ref>-&gt;AddButton(<sp/><ref refid="_g_u_i_frame_8h_1a8eff00a8ef5f6b64042668c9f53dd68c" kindref="member">www</ref>,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;MyRibbonButton&quot;</highlight><highlight class="normal">),<sp/>wxArtProvider::GetBitmap(<sp/>wxART_GO_FORWARD,<sp/>wxART_BUTTON<sp/>),<sp/>wxEmptyString);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1af716f8276acd84e4809ff152930e950a" kindref="member">mRibbon_ButtonBarTools</ref>-&gt;AddButton(<sp/><ref refid="_g_u_i_frame_8h_1a7a3c34c6b8b8d75f4eb85164b2d50301" kindref="member">rb_close</ref>,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;Zamknij&quot;</highlight><highlight class="normal">),<sp/>wxArtProvider::GetBitmap(<sp/>wxART_QUIT,<sp/>wxART_HELP_BROWSER<sp/>),<sp/>wxEmptyString);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a20ad742f09844d3a8e118c694b647ff9" kindref="member">m_ribbonPage2</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxRibbonPage(<sp/><ref refid="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" kindref="member">m_ribbonBar1</ref>,<sp/>wxID_ANY,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;MyRibbonPage&quot;</highlight><highlight class="normal">)<sp/>,<sp/>wxNullBitmap<sp/>,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" kindref="member">m_ribbonBar1</ref>-&gt;Realize();</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer1-&gt;Add(<sp/><ref refid="class_g_u_i_frame_1a4b02944bb29cec15be93fef659f72c46" kindref="member">m_ribbonBar1</ref>,<sp/>0,<sp/>wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>wxBoxSizer*<sp/>bSizer4;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer4<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxBoxSizer(<sp/>wxVERTICAL<sp/>);</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1afe9d863db4f47e5e3ef6637a4e5c2f22" kindref="member">m_splitter2</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxSplitterWindow(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>wxID_ANY,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxSP_3D<sp/>);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1afe9d863db4f47e5e3ef6637a4e5c2f22" kindref="member">m_splitter2</ref>-&gt;Connect(<sp/>wxEVT_IDLE,<sp/>wxIdleEventHandler(<sp/><ref refid="class_g_u_i_frame_1ad175028388eacf06fac046f5bb6a8c2e" kindref="member">GUIFrame::m_splitter2OnIdle</ref><sp/>),<sp/>NULL,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1afa782c80ec08b38bc1c7155181f804a4" kindref="member">m_panel3</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxPanel(<sp/><ref refid="class_g_u_i_frame_1afe9d863db4f47e5e3ef6637a4e5c2f22" kindref="member">m_splitter2</ref>,<sp/>wxID_ANY,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxTAB_TRAVERSAL<sp/>);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>wxBoxSizer*<sp/>bSizer9;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer9<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxBoxSizer(<sp/>wxVERTICAL<sp/>);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer9-&gt;Add(<sp/>0,<sp/>0,<sp/>1,<sp/>wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1afa782c80ec08b38bc1c7155181f804a4" kindref="member">m_panel3</ref>-&gt;SetSizer(<sp/>bSizer9<sp/>);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1afa782c80ec08b38bc1c7155181f804a4" kindref="member">m_panel3</ref>-&gt;Layout();</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer9-&gt;Fit(<sp/><ref refid="class_g_u_i_frame_1afa782c80ec08b38bc1c7155181f804a4" kindref="member">m_panel3</ref><sp/>);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a738374d963938e0a62e9a8c345ad4f10" kindref="member">m_panel4</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxPanel(<sp/><ref refid="class_g_u_i_frame_1afe9d863db4f47e5e3ef6637a4e5c2f22" kindref="member">m_splitter2</ref>,<sp/>wxID_ANY,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxTAB_TRAVERSAL<sp/>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>wxBoxSizer*<sp/>bSizer10;</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer10<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxBoxSizer(<sp/>wxVERTICAL<sp/>);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1ae7e2fe484243591f8d8f74864615dded" kindref="member">m_splitter1</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxSplitterWindow(<sp/><ref refid="class_g_u_i_frame_1a738374d963938e0a62e9a8c345ad4f10" kindref="member">m_panel4</ref>,<sp/>wxID_ANY,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxSP_3D<sp/>);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1ae7e2fe484243591f8d8f74864615dded" kindref="member">m_splitter1</ref>-&gt;Connect(<sp/>wxEVT_IDLE,<sp/>wxIdleEventHandler(<sp/><ref refid="class_g_u_i_frame_1acd4f81331a4805ec3fe95d9ab9c6caa1" kindref="member">GUIFrame::m_splitter1OnIdle</ref><sp/>),<sp/>NULL,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a332c2b34570ddce4d9b239367c132502" kindref="member">m_panel1</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxPanel(<sp/><ref refid="class_g_u_i_frame_1ae7e2fe484243591f8d8f74864615dded" kindref="member">m_splitter1</ref>,<sp/>wxID_ANY,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxTAB_TRAVERSAL<sp/>);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>wxBoxSizer*<sp/>bSizer6;</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer6<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxBoxSizer(<sp/>wxVERTICAL<sp/>);</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" kindref="member">m_TableData</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxDataViewListCtrl(<sp/><ref refid="class_g_u_i_frame_1a332c2b34570ddce4d9b239367c132502" kindref="member">m_panel1</ref>,<sp/>wxID_ANY,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxDV_HORIZ_RULES|wxDV_ROW_LINES|wxDV_VARIABLE_LINE_HEIGHT|wxDV_VERT_RULES|wxNO_BORDER<sp/>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" kindref="member">m_TableData</ref>-&gt;SetFont(<sp/>wxFont(<sp/>9,<sp/>74,<sp/>90,<sp/>90,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;Arial&quot;</highlight><highlight class="normal">)<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" kindref="member">m_TableData</ref>-&gt;SetForegroundColour(<sp/>wxColour(<sp/>0,<sp/>0,<sp/>0<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" kindref="member">m_TableData</ref>-&gt;SetBackgroundColour(<sp/>wxSystemSettings::GetColour(<sp/>wxSYS_COLOUR_WINDOW<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a230303f14bac3741946470f81d8a7c07" kindref="member">m_ColumnDate</ref><sp/>=<sp/><ref refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" kindref="member">m_TableData</ref>-&gt;AppendTextColumn(<sp/>wxT(</highlight><highlight class="stringliteral">&quot;Data&quot;</highlight><highlight class="normal">)<sp/>);</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a99b64129f2b8cf9d9a645be02830b298" kindref="member">m_ColumnWeight</ref><sp/>=<sp/><ref refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" kindref="member">m_TableData</ref>-&gt;AppendTextColumn(<sp/>wxT(</highlight><highlight class="stringliteral">&quot;Waga&quot;</highlight><highlight class="normal">)<sp/>);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer6-&gt;Add(<sp/><ref refid="class_g_u_i_frame_1a58d864e96025cba9fb46a320461e4205" kindref="member">m_TableData</ref>,<sp/>1,<sp/>wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a332c2b34570ddce4d9b239367c132502" kindref="member">m_panel1</ref>-&gt;SetSizer(<sp/>bSizer6<sp/>);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a332c2b34570ddce4d9b239367c132502" kindref="member">m_panel1</ref>-&gt;Layout();</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer6-&gt;Fit(<sp/><ref refid="class_g_u_i_frame_1a332c2b34570ddce4d9b239367c132502" kindref="member">m_panel1</ref><sp/>);</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a84a4073aff66334e308650ab2da932d0" kindref="member">m_panel2</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxPanel(<sp/><ref refid="class_g_u_i_frame_1ae7e2fe484243591f8d8f74864615dded" kindref="member">m_splitter1</ref>,<sp/>wxID_ANY,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxTAB_TRAVERSAL<sp/>);</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>wxBoxSizer*<sp/>bSizer7;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer7<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxBoxSizer(<sp/>wxVERTICAL<sp/>);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1adede8a7af1c20027839a8025852f1358" kindref="member">m_textCtrl2</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxTextCtrl(<sp/><ref refid="class_g_u_i_frame_1a84a4073aff66334e308650ab2da932d0" kindref="member">m_panel2</ref>,<sp/>wxID_ANY,<sp/>wxEmptyString,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxTE_MULTILINE|wxTE_NO_VSCROLL|wxTE_READONLY|wxTE_WORDWRAP<sp/>);</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer7-&gt;Add(<sp/><ref refid="class_g_u_i_frame_1adede8a7af1c20027839a8025852f1358" kindref="member">m_textCtrl2</ref>,<sp/>1,<sp/>wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a84a4073aff66334e308650ab2da932d0" kindref="member">m_panel2</ref>-&gt;SetSizer(<sp/>bSizer7<sp/>);</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a84a4073aff66334e308650ab2da932d0" kindref="member">m_panel2</ref>-&gt;Layout();</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer7-&gt;Fit(<sp/><ref refid="class_g_u_i_frame_1a84a4073aff66334e308650ab2da932d0" kindref="member">m_panel2</ref><sp/>);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1ae7e2fe484243591f8d8f74864615dded" kindref="member">m_splitter1</ref>-&gt;SplitVertically(<sp/><ref refid="class_g_u_i_frame_1a332c2b34570ddce4d9b239367c132502" kindref="member">m_panel1</ref>,<sp/><ref refid="class_g_u_i_frame_1a84a4073aff66334e308650ab2da932d0" kindref="member">m_panel2</ref>,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer10-&gt;Add(<sp/><ref refid="class_g_u_i_frame_1ae7e2fe484243591f8d8f74864615dded" kindref="member">m_splitter1</ref>,<sp/>1,<sp/>wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105"><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a738374d963938e0a62e9a8c345ad4f10" kindref="member">m_panel4</ref>-&gt;SetSizer(<sp/>bSizer10<sp/>);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1a738374d963938e0a62e9a8c345ad4f10" kindref="member">m_panel4</ref>-&gt;Layout();</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer10-&gt;Fit(<sp/><ref refid="class_g_u_i_frame_1a738374d963938e0a62e9a8c345ad4f10" kindref="member">m_panel4</ref><sp/>);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_g_u_i_frame_1afe9d863db4f47e5e3ef6637a4e5c2f22" kindref="member">m_splitter2</ref>-&gt;SplitHorizontally(<sp/><ref refid="class_g_u_i_frame_1afa782c80ec08b38bc1c7155181f804a4" kindref="member">m_panel3</ref>,<sp/><ref refid="class_g_u_i_frame_1a738374d963938e0a62e9a8c345ad4f10" kindref="member">m_panel4</ref>,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer4-&gt;Add(<sp/><ref refid="class_g_u_i_frame_1afe9d863db4f47e5e3ef6637a4e5c2f22" kindref="member">m_splitter2</ref>,<sp/>1,<sp/>wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer1-&gt;Add(<sp/>bSizer4,<sp/>1,<sp/>wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;SetSizer(<sp/>bSizer1<sp/>);</highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Layout();</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Connect<sp/>Events</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Connect(<sp/>wxEVT_CLOSE_WINDOW,<sp/>wxCloseEventHandler(<sp/><ref refid="class_g_u_i_frame_1a6b99e20a320f07b2551dd0797d798e40" kindref="member">GUIFrame::OnClose</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Connect(<sp/><ref refid="_g_u_i_frame_8h_1ad2599a8ea81d49be82ba48d21660e1f9" kindref="member">rb_additem</ref>,<sp/>wxEVT_COMMAND_RIBBONBUTTON_CLICKED,<sp/>wxRibbonButtonBarEventHandler(<sp/><ref refid="class_g_u_i_frame_1a61c2049883d2bd8dbe7ee4bbf23a7210" kindref="member">GUIFrame::OnAddItem</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Connect(<sp/><ref refid="_g_u_i_frame_8h_1ae7ab1f03bf5f320cdfaed99e2b36c194" kindref="member">rb_refresh</ref>,<sp/>wxEVT_COMMAND_RIBBONBUTTON_CLICKED,<sp/>wxRibbonButtonBarEventHandler(<sp/><ref refid="class_g_u_i_frame_1a7d9938c3ae00b4e8d1367b94b24ea326" kindref="member">GUIFrame::OnRefresh</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Connect(<sp/><ref refid="_g_u_i_frame_8h_1a7a3c34c6b8b8d75f4eb85164b2d50301" kindref="member">rb_close</ref>,<sp/>wxEVT_COMMAND_RIBBONBUTTON_CLICKED,<sp/>wxRibbonButtonBarEventHandler(<sp/><ref refid="class_g_u_i_frame_1ab0ffdd17fab85e47117dcb0a19a2eb6d" kindref="member">GUIFrame::OnQuit</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="class_g_u_i_frame_1a1e078f7765a8aa753101fd4e0cc0e0b0" refkind="member"><highlight class="normal"><ref refid="class_g_u_i_frame_1a1e078f7765a8aa753101fd4e0cc0e0b0" kindref="member">GUIFrame::~GUIFrame</ref>()</highlight></codeline>
+<codeline lineno="127"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Disconnect<sp/>Events</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Disconnect(<sp/>wxEVT_CLOSE_WINDOW,<sp/>wxCloseEventHandler(<sp/><ref refid="class_g_u_i_frame_1a6b99e20a320f07b2551dd0797d798e40" kindref="member">GUIFrame::OnClose</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Disconnect(<sp/><ref refid="_g_u_i_frame_8h_1ad2599a8ea81d49be82ba48d21660e1f9" kindref="member">rb_additem</ref>,<sp/>wxEVT_COMMAND_RIBBONBUTTON_CLICKED,<sp/>wxRibbonButtonBarEventHandler(<sp/><ref refid="class_g_u_i_frame_1a61c2049883d2bd8dbe7ee4bbf23a7210" kindref="member">GUIFrame::OnAddItem</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Disconnect(<sp/><ref refid="_g_u_i_frame_8h_1ae7ab1f03bf5f320cdfaed99e2b36c194" kindref="member">rb_refresh</ref>,<sp/>wxEVT_COMMAND_RIBBONBUTTON_CLICKED,<sp/>wxRibbonButtonBarEventHandler(<sp/><ref refid="class_g_u_i_frame_1a7d9938c3ae00b4e8d1367b94b24ea326" kindref="member">GUIFrame::OnRefresh</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Disconnect(<sp/><ref refid="_g_u_i_frame_8h_1a7a3c34c6b8b8d75f4eb85164b2d50301" kindref="member">rb_close</ref>,<sp/>wxEVT_COMMAND_RIBBONBUTTON_CLICKED,<sp/>wxRibbonButtonBarEventHandler(<sp/><ref refid="class_g_u_i_frame_1ab0ffdd17fab85e47117dcb0a19a2eb6d" kindref="member">GUIFrame::OnQuit</ref><sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="class_add_item_frame_1a86096e43c925d13299894b24972bc569" refkind="member"><highlight class="normal"><ref refid="class_add_item_frame_1a86096e43c925d13299894b24972bc569" kindref="member">AddItemFrame::AddItemFrame</ref>(<sp/>wxWindow*<sp/>parent,<sp/>wxWindowID<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxString&amp;<sp/>title,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxPoint&amp;<sp/>pos,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>wxSize&amp;<sp/>size,<sp/></highlight><highlight class="keywordtype">long</highlight><highlight class="normal"><sp/>style<sp/>)<sp/>:<sp/>wxFrame(<sp/>parent,<sp/>id,<sp/>title,<sp/>pos,<sp/>size,<sp/>style<sp/>)</highlight></codeline>
+<codeline lineno="137"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;SetSizeHints(<sp/>wxDefaultSize,<sp/>wxDefaultSize<sp/>);</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;SetBackgroundColour(<sp/>wxColour(<sp/>193,<sp/>208,<sp/>227<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>wxBoxSizer*<sp/>bSizer4;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer4<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxBoxSizer(<sp/>wxVERTICAL<sp/>);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>wxFlexGridSizer*<sp/>fgSizer3;</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>fgSizer3<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxFlexGridSizer(<sp/>2,<sp/>4,<sp/>0,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>fgSizer3-&gt;SetFlexibleDirection(<sp/>wxBOTH<sp/>);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>fgSizer3-&gt;SetNonFlexibleGrowMode(<sp/>wxFLEX_GROWMODE_SPECIFIED<sp/>);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a6a9da7cb41a654ae06ea7e64676db36f" kindref="member">lblWeight</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxStaticText(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>wxID_ANY,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;Waga&quot;</highlight><highlight class="normal">),<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a6a9da7cb41a654ae06ea7e64676db36f" kindref="member">lblWeight</ref>-&gt;Wrap(<sp/>-1<sp/>);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>fgSizer3-&gt;Add(<sp/><ref refid="class_add_item_frame_1a6a9da7cb41a654ae06ea7e64676db36f" kindref="member">lblWeight</ref>,<sp/>0,<sp/>wxALL,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a840b2b66c739c9eb6d34234335435a3d" kindref="member">m_slider2</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxSlider(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>wxID_ANY,<sp/>50,<sp/>0,<sp/>100,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxSL_HORIZONTAL<sp/>);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a840b2b66c739c9eb6d34234335435a3d" kindref="member">m_slider2</ref>-&gt;SetMinSize(<sp/>wxSize(<sp/>300,-1<sp/>)<sp/>);</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>fgSizer3-&gt;Add(<sp/><ref refid="class_add_item_frame_1a840b2b66c739c9eb6d34234335435a3d" kindref="member">m_slider2</ref>,<sp/>0,<sp/>wxALL,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a88e5bac41b035d903073637e97998d50" kindref="member">weightValue</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxTextCtrl(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>wxID_ANY,<sp/>wxEmptyString,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>fgSizer3-&gt;Add(<sp/><ref refid="class_add_item_frame_1a88e5bac41b035d903073637e97998d50" kindref="member">weightValue</ref>,<sp/>0,<sp/>wxALL|wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a772f2c686c3bf03a8d5ff1bfef9ccd81" kindref="member">m_staticText5</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxStaticText(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>wxID_ANY,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;kg&quot;</highlight><highlight class="normal">),<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a772f2c686c3bf03a8d5ff1bfef9ccd81" kindref="member">m_staticText5</ref>-&gt;Wrap(<sp/>-1<sp/>);</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/>fgSizer3-&gt;Add(<sp/><ref refid="class_add_item_frame_1a772f2c686c3bf03a8d5ff1bfef9ccd81" kindref="member">m_staticText5</ref>,<sp/>0,<sp/>wxALL|wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1ad08250f82a948ebff2f65d60c45c7f54" kindref="member">lblDate</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxStaticText(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>wxID_ANY,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;Data&quot;</highlight><highlight class="normal">),<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1ad08250f82a948ebff2f65d60c45c7f54" kindref="member">lblDate</ref>-&gt;Wrap(<sp/>-1<sp/>);</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/>fgSizer3-&gt;Add(<sp/><ref refid="class_add_item_frame_1ad08250f82a948ebff2f65d60c45c7f54" kindref="member">lblDate</ref>,<sp/>0,<sp/>wxALL,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/>fgSizer3-&gt;Add(<sp/>0,<sp/>0,<sp/>1,<sp/>wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a8096f40b89662727687011b68c2ea955" kindref="member">DateItem</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxDatePickerCtrl(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>wxID_ANY,<sp/>wxDefaultDateTime,<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>wxDP_DEFAULT<sp/>);</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/>fgSizer3-&gt;Add(<sp/><ref refid="class_add_item_frame_1a8096f40b89662727687011b68c2ea955" kindref="member">DateItem</ref>,<sp/>0,<sp/>wxALL|wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/>fgSizer3-&gt;Add(<sp/>0,<sp/>0,<sp/>1,<sp/>wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer4-&gt;Add(<sp/>fgSizer3,<sp/>0,<sp/>wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/>wxBoxSizer*<sp/>bSizer5;</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer5<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxBoxSizer(<sp/>wxHORIZONTAL<sp/>);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a35bd911645a80d7082315998cb6cbfb7" kindref="member">ButtonAddItem</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxButton(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>wxID_ANY,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;Dodaj&quot;</highlight><highlight class="normal">),<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer5-&gt;Add(<sp/><ref refid="class_add_item_frame_1a35bd911645a80d7082315998cb6cbfb7" kindref="member">ButtonAddItem</ref>,<sp/>1,<sp/>wxALIGN_CENTER_VERTICAL|wxEXPAND|wxALL,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a29e406c8fa85a1c85e0765d271c6517b" kindref="member">m_button3</ref><sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>wxButton(<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal">,<sp/>wxID_ANY,<sp/>wxT(</highlight><highlight class="stringliteral">&quot;MyButton&quot;</highlight><highlight class="normal">),<sp/>wxDefaultPosition,<sp/>wxDefaultSize,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer5-&gt;Add(<sp/><ref refid="class_add_item_frame_1a29e406c8fa85a1c85e0765d271c6517b" kindref="member">m_button3</ref>,<sp/>1,<sp/>wxALL|wxALIGN_CENTER_VERTICAL|wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/>bSizer4-&gt;Add(<sp/>bSizer5,<sp/>0,<sp/>wxEXPAND,<sp/>5<sp/>);</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;SetSizer(<sp/>bSizer4<sp/>);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Layout();</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/>this-&gt;Centre(<sp/>wxBOTH<sp/>);</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Connect<sp/>Events</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a35bd911645a80d7082315998cb6cbfb7" kindref="member">ButtonAddItem</ref>-&gt;Connect(<sp/>wxEVT_COMMAND_BUTTON_CLICKED,<sp/>wxCommandEventHandler(<sp/><ref refid="class_add_item_frame_1abd99995dfff0641b38134c4ab71be35e" kindref="member">AddItemFrame::OnAddItem</ref><sp/>),<sp/>NULL,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="201"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"></highlight></codeline>
+<codeline lineno="203" refid="class_add_item_frame_1ad1a92909cf7b8c9300e9ac1f69d0813f" refkind="member"><highlight class="normal"><ref refid="class_add_item_frame_1ad1a92909cf7b8c9300e9ac1f69d0813f" kindref="member">AddItemFrame::~AddItemFrame</ref>()</highlight></codeline>
+<codeline lineno="204"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Disconnect<sp/>Events</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_add_item_frame_1a35bd911645a80d7082315998cb6cbfb7" kindref="member">ButtonAddItem</ref>-&gt;Disconnect(<sp/>wxEVT_COMMAND_BUTTON_CLICKED,<sp/>wxCommandEventHandler(<sp/><ref refid="class_add_item_frame_1abd99995dfff0641b38134c4ab71be35e" kindref="member">AddItemFrame::OnAddItem</ref><sp/>),<sp/>NULL,<sp/></highlight><highlight class="keyword">this</highlight><highlight class="normal"><sp/>);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"></highlight></codeline>
+<codeline lineno="208"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="D:/cpp/Projekty/WxWidgets/BMA/GUIFrame.cpp"/>
+  </compounddef>
+</doxygen>
